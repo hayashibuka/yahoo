@@ -1546,35 +1546,219 @@
                                   :children:
                                     - :name: 'link'
                                       :attributes:
-                                        :href: 'https://s.yimg.jp/images/realestate/tmpl2014/promo/2016_jouhoukan/centerbox/css/yjcb_2016jouhoukan.css'
+                                        :href: 'http://i.yimg.jp/images/realestate/centerbox/1405rent/css/yjcb_1405rent.css'
                                         :media: 'all'
                                         :rel:
                                           - stylesheet
-                                        :type: 'text/css'
                                     - :name: 'div'
                                       :attributes:
-                                        :class:
-                                          - yjcb2016jouhoukan
+                                        :id: 'yjcb-1405rent'
                                       :children:
-                                        - :name: 'div'
+                                        - :name: 'p'
                                           :attributes:
                                             :class:
-                                              - headArea
+                                              - cb-title
                                           :children:
                                             - :name: 'a'
                                               :attributes:
+                                                :href: 'http://rent.realestate.yahoo.co.jp/'
+                                        - :name: 'div'
+                                          :attributes:
+                                            :class:
+                                              - cb-element
+                                          :children:
+                                            - :name: 'div'
+                                              :attributes:
                                                 :class:
-                                                  - titleArea
-                                                :href: 'http://realestate.yahoo.co.jp/used/feature/2016_jouhoukan'
+                                                  - cb-left
                                               :children:
                                                 - :name: 'div'
                                                   :attributes:
                                                     :class:
-                                                      - cbTitle
+                                                      - cb-kodawari
+                                                  :children:
+                                                    - :name: 'p'
+                                                    - :name: 'ul'
+                                                      :children:
+                                                        - :name: 'li'
+                                                          :children:
+                                                            - :name: 'a'
+                                                              :attributes:
+                                                                :class:
+                                                                  - widelink
+                                                                :href: 'http://rent.realestate.yahoo.co.jp/search/?lc=03&min_st=5&st_cmt=&cmt_from=0&cmt_to=10&info_open=99&sc_in=r_db_rtop_cb_eki5'
+                                                        - :name: 'li'
+                                                          :children:
+                                                            - :name: 'a'
+                                                              :attributes:
+                                                                :class:
+                                                                  - widelink
+                                                                :href: 'http://rent.realestate.yahoo.co.jp/search/?lc=03&st_cmt=&cmt_from=0&cmt_to=10&no_sd_flg=1&no_km_flg=1&info_open=99&sc_in=r_db_rtop_cb_sr0'
+                                                        - :name: 'li'
+                                                          :children:
+                                                            - :name: 'a'
+                                                              :attributes:
+                                                                :class:
+                                                                  - widelink
+                                                                :href: 'http://rent.realestate.yahoo.co.jp/search/?lc=03&st_cmt=&cmt_from=0&cmt_to=10&info_open=99&po[]=pe&sc_in=r_db_rtop_cb_pet'
+                                                        - :name: 'li'
+                                                          :children:
+                                                            - :name: 'a'
+                                                              :attributes:
+                                                                :class:
+                                                                  - widelink
+                                                                :href: 'http://rent.realestate.yahoo.co.jp/search/?lc=03&st_cmt=&cmt_from=0&cmt_to=10&age=1&info_open=99&sc_in=r_db_rtop_cb_new'
                                                 - :name: 'div'
                                                   :attributes:
                                                     :class:
-                                                      - cbLead
+                                                      - cb-madori
+                                                      - cf
+                                                  :children:
+                                                    - :name: 'p'
+                                                    - :name: 'ul'
+                                                      :children:
+                                                        - :name: 'li'
+                                                          :children:
+                                                            - :name: 'a'
+                                                              :attributes:
+                                                                :class:
+                                                                  - widelink
+                                                                :href: 'http://rent.realestate.yahoo.co.jp/search/?lc=03&st_cmt=&cmt_from=0&cmt_to=10&rl_dtl[]=1&rl_dtl[]=2&info_open=99&sc_in=r_db_rtop_cb_1k'
+                                                        - :name: 'li'
+                                                          :children:
+                                                            - :name: 'a'
+                                                              :attributes:
+                                                                :class:
+                                                                  - widelink
+                                                                :href: 'http://rent.realestate.yahoo.co.jp/search/?lc=03&st_cmt=&cmt_from=0&cmt_to=10&rl_dtl[]=3&info_open=99&sc_in=r_db_rtop_cb_1ldk'
+                                                        - :name: 'li'
+                                                          :children:
+                                                            - :name: 'a'
+                                                              :attributes:
+                                                                :class:
+                                                                  - widelink
+                                                                :href: 'http://rent.realestate.yahoo.co.jp/search/?lc=03&st_cmt=&cmt_from=0&cmt_to=10&rl_dtl[]=5&info_open=99&sc_in=r_db_rtop_cb_2ldk'
+                                                        - :name: 'li'
+                                                          :children:
+                                                            - :name: 'a'
+                                                              :attributes:
+                                                                :class:
+                                                                  - widelink
+                                                                :href: 'http://rent.realestate.yahoo.co.jp/search/?lc=03&st_cmt=&cmt_from=0&cmt_to=10&rl_dtl[]=7&info_open=99&sc_in=r_db_rtop_cb_3ldk'
+                                            - :name: 'div'
+                                              :attributes:
+                                                :class:
+                                                  - cb-right
+                                              :children:
+                                                - :name: 'div'
+                                                  :attributes:
+                                                    :class:
+                                                      - cb-chinryo
+                                                  :children:
+                                                    - :name: 'p'
+                                                    - :name: 'ul'
+                                                      :children:
+                                                        - :name: 'li'
+                                                          :children:
+                                                            - :name: 'a'
+                                                              :attributes:
+                                                                :class:
+                                                                  - widelink
+                                                                :href: 'http://rent.realestate.yahoo.co.jp/search/?lc=03&st_cmt=&cmt_from=0&cmt_to=10&rent_to=50000&info_open=99&sc_in=r_db_rtop_cb_y5'
+                                                        - :name: 'li'
+                                                          :children:
+                                                            - :name: 'a'
+                                                              :attributes:
+                                                                :class:
+                                                                  - widelink
+                                                                :href: 'http://rent.realestate.yahoo.co.jp/search/?lc=03&st_cmt=&cmt_from=0&cmt_to=10&rent_from=50000&rent_to=80000&info_open=99&sc_in=r_db_rtop_cb_y8'
+                                                        - :name: 'li'
+                                                          :children:
+                                                            - :name: 'a'
+                                                              :attributes:
+                                                                :class:
+                                                                  - widelink
+                                                                :href: 'http://rent.realestate.yahoo.co.jp/search/?lc=03&st_cmt=&cmt_from=0&cmt_to=10&rent_from=80000&rent_to=120000&info_open=99&sc_in=r_db_rtop_cb_y12'
+                                                        - :name: 'li'
+                                                          :children:
+                                                            - :name: 'a'
+                                                              :attributes:
+                                                                :class:
+                                                                  - widelink
+                                                                :href: 'http://rent.realestate.yahoo.co.jp/search/?lc=03&st_cmt=&cmt_from=0&cmt_to=10&rent_from=120000&rent_to=150000&info_open=99&sc_in=r_db_rtop_cb_y15'
+                                                - :name: 'div'
+                                                  :attributes:
+                                                    :class:
+                                                      - cb-area
+                                                      - cf
+                                                  :children:
+                                                    - :name: 'p'
+                                                    - :name: 'ul'
+                                                      :attributes:
+                                                        :class:
+                                                          - cb-area-left
+                                                      :children:
+                                                        - :name: 'li'
+                                                          :children:
+                                                            - :name: 'a'
+                                                              :attributes:
+                                                                :class:
+                                                                  - widelink
+                                                                :href: 'http://rent.realestate.yahoo.co.jp/search/?lc=03&pf[]=13&st_cmt=&cmt_from=0&cmt_to=10&info_open=99&sc_in=r_db_rtop_cb_area'
+                                                        - :name: 'li'
+                                                          :children:
+                                                            - :name: 'a'
+                                                              :attributes:
+                                                                :class:
+                                                                  - widelink
+                                                                :href: 'http://rent.realestate.yahoo.co.jp/search/?lc=03&pf[]=14&st_cmt=&cmt_from=0&cmt_to=10&info_open=99&sc_in=r_db_rtop_cb_area'
+                                                        - :name: 'li'
+                                                          :children:
+                                                            - :name: 'a'
+                                                              :attributes:
+                                                                :class:
+                                                                  - widelink
+                                                                :href: 'http://rent.realestate.yahoo.co.jp/search/?lc=03&pf[]=11&st_cmt=&cmt_from=0&cmt_to=10&info_open=99&sc_in=r_db_rtop_cb_area'
+                                                        - :name: 'li'
+                                                          :children:
+                                                            - :name: 'a'
+                                                              :attributes:
+                                                                :class:
+                                                                  - widelink
+                                                                :href: 'http://rent.realestate.yahoo.co.jp/search/?lc=03&pf[]=12&st_cmt=&cmt_from=0&cmt_to=10&info_open=99&sc_in=r_db_rtop_cb_area'
+                                                    - :name: 'ul'
+                                                      :attributes:
+                                                        :class:
+                                                          - cb-area-right
+                                                      :children:
+                                                        - :name: 'li'
+                                                          :children:
+                                                            - :name: 'a'
+                                                              :attributes:
+                                                                :class:
+                                                                  - widelink
+                                                                :href: 'http://rent.realestate.yahoo.co.jp/search/?lc=03&pf[]=08&st_cmt=&cmt_from=0&cmt_to=10&info_open=99&sc_in=r_db_rtop_cb_area'
+                                                        - :name: 'li'
+                                                          :children:
+                                                            - :name: 'a'
+                                                              :attributes:
+                                                                :class:
+                                                                  - widelink
+                                                                :href: 'http://rent.realestate.yahoo.co.jp/search/?lc=03&pf[]=09&st_cmt=&cmt_from=0&cmt_to=10&info_open=99&sc_in=r_db_rtop_cb_area'
+                                                        - :name: 'li'
+                                                          :children:
+                                                            - :name: 'a'
+                                                              :attributes:
+                                                                :class:
+                                                                  - widelink
+                                                                :href: 'http://rent.realestate.yahoo.co.jp/search/?lc=03&pf[]=10&st_cmt=&cmt_from=0&cmt_to=10&info_open=99&sc_in=r_db_rtop_cb_area'
+                                                        - :name: 'li'
+                                                          :children:
+                                                            - :name: 'a'
+                                                              :attributes:
+                                                                :class:
+                                                                  - widelink
+                                                                :href: 'http://rent.realestate.yahoo.co.jp/search/?lc=03&pf[]=19&st_cmt=&cmt_from=0&cmt_to=10&info_open=99&sc_in=r_db_rtop_cb_area'
                             - :name: 'div'
                               :attributes:
                                 :class:
@@ -2355,7 +2539,7 @@
                         - :name: 'img'
                           :attributes:
                             :height: '1'
-                            :src: 'http://rdsig.yahoo.co.jp/realestate/top/imp/RV=1/RE=1476539181/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL2FpLnlpbWcuanAvaW1hZ2VzL2NsZWFyLmdpZg--/RS=^ADAyKeWLWhmpffYg8lr6KeG1TccPXw-'
+                            :src: 'http://rdsig.yahoo.co.jp/realestate/top/imp/RV=1/RE=1476553167/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL2FpLnlpbWcuanAvaW1hZ2VzL2NsZWFyLmdpZg--/RS=^ADAKL4jgyWtYHzK16JehKzjY7tXoxM-'
                             :width: '1'
                     - :name: 'div'
                       :attributes:
@@ -2395,7 +2579,7 @@
                                             - :name: 'a'
                                               :attributes:
                                                 :href: 'http://realestate.yahoo.co.jp/used/feature/2016_jouhoukan'
-                                                :onclick: 'this.href=''http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1475415981/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL3JlYWxlc3RhdGUueWFob28uY28uanAvdXNlZC9mZWF0dXJlLzIwMTZfam91aG91a2Fu/RS=^ADAWNQsyk.VvQDkhmt5fCqedIjb3Qk-'''
+                                                :onclick: 'this.href=''http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1475429967/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL3JlYWxlc3RhdGUueWFob28uY28uanAvdXNlZC9mZWF0dXJlLzIwMTZfam91aG91a2Fu/RS=^ADA1.apGsJo1SkbZoGW.WygWk8deqI-'''
                                               :children:
                                                 - :name: 'img'
                                                   :attributes:
@@ -2411,7 +2595,7 @@
                                             - :name: 'a'
                                               :attributes:
                                                 :href: 'http://realestate.yahoo.co.jp/used/feature/2016_jouhoukan'
-                                                :onclick: 'this.href=''http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1475415981/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL3JlYWxlc3RhdGUueWFob28uY28uanAvdXNlZC9mZWF0dXJlLzIwMTZfam91aG91a2Fu/RS=^ADAWNQsyk.VvQDkhmt5fCqedIjb3Qk-'''
+                                                :onclick: 'this.href=''http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1475429967/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL3JlYWxlc3RhdGUueWFob28uY28uanAvdXNlZC9mZWF0dXJlLzIwMTZfam91aG91a2Fu/RS=^ADA1.apGsJo1SkbZoGW.WygWk8deqI-'''
                                               :children:
                                                 - :name: 'br'
                                     - :name: 'dl'
@@ -2435,7 +2619,7 @@
                                             - :name: 'a'
                                               :attributes:
                                                 :href: 'http://feature.realestate.yahoo.co.jp/daikibo2/main/index.html?lc=03&sc_in=m_daikibo_rtop_t '
-                                                :onclick: 'this.href=''http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1475415981/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL2ZlYXR1cmUucmVhbGVzdGF0ZS55YWhvby5jby5qcC9kYWlraWJvMi9tYWluL2luZGV4Lmh0bWw_bGM9MDMmc2NfaW49bV9kYWlraWJvX3J0b3BfdAA-/RS=^ADA.OUOIamZsdVA01OfoK6B_3ZkKz0-'''
+                                                :onclick: 'this.href=''http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1475429967/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL2ZlYXR1cmUucmVhbGVzdGF0ZS55YWhvby5jby5qcC9kYWlraWJvMi9tYWluL2luZGV4Lmh0bWw_bGM9MDMmc2NfaW49bV9kYWlraWJvX3J0b3BfdAA-/RS=^ADAK84_kfaNV7X8htrl_oOFJbrGUug-'''
                                               :children:
                                                 - :name: 'img'
                                                   :attributes:
@@ -2451,42 +2635,8 @@
                                             - :name: 'a'
                                               :attributes:
                                                 :href: 'http://feature.realestate.yahoo.co.jp/daikibo2/main/index.html?lc=03&sc_in=m_daikibo_rtop_t '
-                                                :onclick: 'this.href=''http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1475415981/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL2ZlYXR1cmUucmVhbGVzdGF0ZS55YWhvby5jby5qcC9kYWlraWJvMi9tYWluL2luZGV4Lmh0bWw_bGM9MDMmc2NfaW49bV9kYWlraWJvX3J0b3BfdAA-/RS=^ADA.OUOIamZsdVA01OfoK6B_3ZkKz0-'''
+                                                :onclick: 'this.href=''http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1475429967/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL2ZlYXR1cmUucmVhbGVzdGF0ZS55YWhvby5jby5qcC9kYWlraWJvMi9tYWluL2luZGV4Lmh0bWw_bGM9MDMmc2NfaW49bV9kYWlraWJvX3J0b3BfdAA-/RS=^ADAK84_kfaNV7X8htrl_oOFJbrGUug-'''
                                               :children:
-                                                - :name: 'br'
-                                    - :name: 'dl'
-                                      :children:
-                                        - :name: 'dt'
-                                          :attributes:
-                                            :class:
-                                              - left
-                                        - :name: 'dd'
-                                          :attributes:
-                                            :class:
-                                              - right
-                                          :children:
-                                            - :name: 'a'
-                                              :attributes:
-                                                :href: 'http://feature.realestate.yahoo.co.jp/pickup2/index.html?lc=03&sc_in=m_pickup2_rtop_right_t '
-                                                :onclick: 'this.href=''http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1475415981/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL2ZlYXR1cmUucmVhbGVzdGF0ZS55YWhvby5jby5qcC9waWNrdXAyL2luZGV4Lmh0bWw_bGM9MDMmc2NfaW49bV9waWNrdXAyX3J0b3BfcmlnaHRfdAA-/RS=^ADALE6LQizcEZ4D.0CtB0ZPFDgA4yA-'''
-                                              :children:
-                                                - :name: 'img'
-                                                  :attributes:
-                                                    :alt: '好物件を逃さない！<br>厳選された物件を一挙にご紹介<br>おすすめの新築マンション特集'
-                                                    :height: '64'
-                                                    :src: 'https://s.yimg.jp/images/realestate/tmpl2014/html/feature/1608syugo/bnr/bnr_1608syugo_64_64.png'
-                                                    :width: '64'
-                                        - :name: 'dd'
-                                          :attributes:
-                                            :class:
-                                              - left
-                                          :children:
-                                            - :name: 'a'
-                                              :attributes:
-                                                :href: 'http://feature.realestate.yahoo.co.jp/pickup2/index.html?lc=03&sc_in=m_pickup2_rtop_right_t '
-                                                :onclick: 'this.href=''http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1475415981/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL2ZlYXR1cmUucmVhbGVzdGF0ZS55YWhvby5jby5qcC9waWNrdXAyL2luZGV4Lmh0bWw_bGM9MDMmc2NfaW49bV9waWNrdXAyX3J0b3BfcmlnaHRfdAA-/RS=^ADALE6LQizcEZ4D.0CtB0ZPFDgA4yA-'''
-                                              :children:
-                                                - :name: 'br'
                                                 - :name: 'br'
                                 - :name: 'ul'
                                   :children:
@@ -2636,7 +2786,7 @@
                                   :children:
                                     - :name: 'a'
                                       :attributes:
-                                        :href: 'http://rdsig.yahoo.co.jp/realestate/top/appli/lp/RV=1/RE=1476539181/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL2NvbnRlbnRzLnJlYWxlc3RhdGUueWFob28uY28uanAvY29tbW9uL3Byb21vL2FwcDIwMTYuaHRtbA--/RS=^ADAiMhcF.QynPcdHnP7Tc8yWY6LPpQ-'
+                                        :href: 'http://rdsig.yahoo.co.jp/realestate/top/appli/lp/RV=1/RE=1476553167/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL2NvbnRlbnRzLnJlYWxlc3RhdGUueWFob28uY28uanAvY29tbW9uL3Byb21vL2FwcDIwMTYuaHRtbA--/RS=^ADAKb.kSOnByStlcFoSd6iw7PnBKO4-'
                                       :children:
                                         - :name: 'img'
                                           :attributes:

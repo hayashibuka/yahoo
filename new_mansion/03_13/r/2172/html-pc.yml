@@ -4919,18 +4919,6 @@
                                   :children:
                                     - :name: 'a'
                                       :attributes:
-                                        :href: 'http://feature.realestate.yahoo.co.jp/pickup2/index.html?lc=03&sc_in=m_pickup2_rtop_right_t'
-                                      :children:
-                                        - :name: 'img'
-                                          :attributes:
-                                            :alt: 'おすすめの新築マンション特集'
-                                            :height: '50'
-                                            :src: 'https://s.yimg.jp/images/realestate/tmpl2014/html/feature/1608syugo/bnr/bnr_1608syugo_278_50.png'
-                                            :width: '278'
-                                - :name: 'li'
-                                  :children:
-                                    - :name: 'a'
-                                      :attributes:
                                         :href: 'http://feature.realestate.yahoo.co.jp/urawa/main/index.html?sc_in=m_urawa_mtop_right_b'
                                       :children:
                                         - :name: 'img'
