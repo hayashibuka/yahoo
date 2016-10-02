@@ -4474,7 +4474,7 @@
                                   :children:
                                     - :name: 'img'
                                       :attributes:
-                                        :alt: '毎週月曜更新'
+                                        :alt: '毎週月曜更新 New!'
                                         :height: '13'
                                         :src: 'http://i.yimg.jp/images/clear.gif'
                                         :width: '89'
@@ -4914,18 +4914,6 @@
                                             :alt: '大規模&タワーマンション特集'
                                             :height: '50'
                                             :src: 'https://s.yimg.jp/images/realestate/centerbox/1606daikibo/bnr/bnr_1606daikibo_278_50.png'
-                                            :width: '278'
-                                - :name: 'li'
-                                  :children:
-                                    - :name: 'a'
-                                      :attributes:
-                                        :href: 'http://feature.realestate.yahoo.co.jp/urawa/main/index.html?sc_in=m_urawa_mtop_right_b'
-                                      :children:
-                                        - :name: 'img'
-                                          :attributes:
-                                            :alt: '浦和マンション特集'
-                                            :height: '50'
-                                            :src: 'https://s.yimg.jp/images/realestate/tmpl2014/feature/1608_urawa_pc/bnr/bnr_urawa_278x50.png'
                                             :width: '278'
                         - :name: 'div'
                           :attributes:
