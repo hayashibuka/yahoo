@@ -27,14 +27,14 @@
             :name: 'description'
         - :name: 'link'
           :attributes:
-            :href: 'http://i.yimg.jp/images/realestate/tmpl/css/used/150622/list.css?ver=2.1.0.10'
+            :href: 'http://i.yimg.jp/images/realestate/tmpl/css/used/150622/list.css?ver=2.1.0.11'
             :media: 'all'
             :rel:
               - stylesheet
             :type: 'text/css'
         - :name: 'link'
           :attributes:
-            :href: 'http://i.yimg.jp/images/realestate/tmpl2014/css/common_v4_3.css?ver=2.1.0.10'
+            :href: 'http://i.yimg.jp/images/realestate/tmpl2014/css/common_v4_3.css?ver=2.1.0.11'
             :media: 'all'
             :rel:
               - stylesheet
@@ -2363,19 +2363,6 @@
                                                               :attributes:
                                                                 :class:
                                                                   - dire
-                                                              :children:
-                                                                - :name: 'span'
-                                                                  :attributes:
-                                                                    :class:
-                                                                      - icon01
-                                                                  :children:
-                                                                    - :name: 'img'
-                                                                      :attributes:
-                                                                        :alt: 'NEW!'
-                                                                        :height: '11'
-                                                                        :src: 'http://i.yimg.jp/i/new2.gif'
-                                                                        :width: '28'
-                                                                - :name: 'br'
                                                             - :name: 'td'
                                                               :attributes:
                                                                 :class:
@@ -3468,7 +3455,7 @@
                                                           :attributes:
                                                             :class:
                                                               - nameBkn
-                                                            :href: 'http://realestate.yahoo.co.jp/land/detail_corp/b0006186890/'
+                                                            :href: 'http://realestate.yahoo.co.jp/land/detail_ag/4m36EmVth9926NOgMqUNk7/'
                                                             :target: '_blank'
                                                     - :name: 'span'
                                                       :attributes:
@@ -3665,7 +3652,7 @@
                                                               :attributes:
                                                                 :class:
                                                                   - check
-                                                                :id: 'checkb0006186890'
+                                                                :id: 'checkb4m36EmVth9926NOgMqUNk7'
                                                               :children:
                                                                 - :name: 'label'
                                                                   :attributes:
@@ -3676,7 +3663,7 @@
                                                                         :id: 'inquiry_checked_5_0'
                                                                         :name: ''
                                                                         :type: 'checkbox'
-                                                                        :value: 'b0006186890'
+                                                                        :value: 'b4m36EmVth9926NOgMqUNk7'
                                                             - :name: 'td'
                                                               :attributes:
                                                                 :class:
@@ -3711,7 +3698,7 @@
                                                                   :attributes:
                                                                     :class:
                                                                       - favBtn
-                                                                    :data-crossid: 'b0006186890'
+                                                                    :data-crossid: 'b4m36EmVth9926NOgMqUNk7'
                                                                     :data-direct: ''
                                                                     :data-ylk: 'slk:add_1'
                                                                     :href: 'javascript:void(0);'
@@ -3719,7 +3706,7 @@
                                                                   :children:
                                                                     - :name: 'span'
                                                                       :attributes:
-                                                                        :data-crossid: 'b0006186890'
+                                                                        :data-crossid: 'b4m36EmVth9926NOgMqUNk7'
                                                                         :data-direct: ''
                                                                         :id: '4m36EmVth9926NOgMqUNk7'
                                                                 - :name: 'span'
@@ -3742,7 +3729,7 @@
                                                                     :class:
                                                                       - detailBtn
                                                                     :data-ylk: 'slk:view_1'
-                                                                    :href: 'http://realestate.yahoo.co.jp/land/detail_corp/b0006186890/'
+                                                                    :href: 'http://realestate.yahoo.co.jp/land/detail_ag/4m36EmVth9926NOgMqUNk7/'
                                                                     :target: '_blank'
                                                             - :name: 'td'
                                                               :attributes:
@@ -3757,7 +3744,7 @@
                                                               :attributes:
                                                                 :id: '4m36EmVth9926NOgMqUNk7_info'
                                                                 :type: 'hidden'
-                                                                :value: '[{"bid":"0006186890","agid":"00002008452","pf":"13","geo":"13101","group":35,"cid":"00010713","frk_div":"9"}]'
+                                                                :value: '[{"bid":"0006144832","agid":"00002008452","pf":"13","geo":"13101","group":35,"cid":"00010713","frk_div":"9"},{"bid":"0006186890","agid":"00002008452","pf":"13","geo":"13101","group":35,"cid":"00010713","frk_div":"9"}]'
                                     - :name: 'em'
                                       :attributes:
                                         :id: 'footer_module'
@@ -4245,57 +4232,32 @@
                                                                                   :attributes:
                                                                                     :class:
                                                                                       - check
-                                                                                    :id: '13101047'
-                                                                                  :children:
-                                                                                    - :name: 'a'
-                                                                                      :attributes:
-                                                                                        :href: 'javascript:void(0);'
-                                                                                      :children:
-                                                                                        - :name: 'img'
-                                                                                          :attributes:
-                                                                                            :alt: 'チェック'
-                                                                                            :height: '13'
-                                                                                            :src: 'http://i.yimg.jp/images/clear.gif'
-                                                                                            :width: '13'
-                                                                                        - :name: 'em'
-                                                                                        - :name: 'span'
-                                                                                          :attributes:
-                                                                                            :class:
-                                                                                              - numb
-                                                                            - :name: 'em'
-                                                                              :attributes:
-                                                                                :id: '13101'
-                                                                              :children:
-                                                                                - :name: 'dd'
-                                                                                  :attributes:
-                                                                                    :class:
-                                                                                      - check
-                                                                                    :id: '13101038'
-                                                                                  :children:
-                                                                                    - :name: 'a'
-                                                                                      :attributes:
-                                                                                        :href: 'javascript:void(0);'
-                                                                                      :children:
-                                                                                        - :name: 'img'
-                                                                                          :attributes:
-                                                                                            :alt: 'チェック'
-                                                                                            :height: '13'
-                                                                                            :src: 'http://i.yimg.jp/images/clear.gif'
-                                                                                            :width: '13'
-                                                                                        - :name: 'em'
-                                                                                        - :name: 'span'
-                                                                                          :attributes:
-                                                                                            :class:
-                                                                                              - numb
-                                                                            - :name: 'em'
-                                                                              :attributes:
-                                                                                :id: '13101'
-                                                                              :children:
-                                                                                - :name: 'dd'
-                                                                                  :attributes:
-                                                                                    :class:
-                                                                                      - check
                                                                                     :id: '13101011'
+                                                                                  :children:
+                                                                                    - :name: 'a'
+                                                                                      :attributes:
+                                                                                        :href: 'javascript:void(0);'
+                                                                                      :children:
+                                                                                        - :name: 'img'
+                                                                                          :attributes:
+                                                                                            :alt: 'チェック'
+                                                                                            :height: '13'
+                                                                                            :src: 'http://i.yimg.jp/images/clear.gif'
+                                                                                            :width: '13'
+                                                                                        - :name: 'em'
+                                                                                        - :name: 'span'
+                                                                                          :attributes:
+                                                                                            :class:
+                                                                                              - numb
+                                                                            - :name: 'em'
+                                                                              :attributes:
+                                                                                :id: '13101'
+                                                                              :children:
+                                                                                - :name: 'dd'
+                                                                                  :attributes:
+                                                                                    :class:
+                                                                                      - check
+                                                                                    :id: '13101047'
                                                                                   :children:
                                                                                     - :name: 'a'
                                                                                       :attributes:
@@ -4371,6 +4333,31 @@
                                                                                     :class:
                                                                                       - check
                                                                                     :id: '13101004'
+                                                                                  :children:
+                                                                                    - :name: 'a'
+                                                                                      :attributes:
+                                                                                        :href: 'javascript:void(0);'
+                                                                                      :children:
+                                                                                        - :name: 'img'
+                                                                                          :attributes:
+                                                                                            :alt: 'チェック'
+                                                                                            :height: '13'
+                                                                                            :src: 'http://i.yimg.jp/images/clear.gif'
+                                                                                            :width: '13'
+                                                                                        - :name: 'em'
+                                                                                        - :name: 'span'
+                                                                                          :attributes:
+                                                                                            :class:
+                                                                                              - numb
+                                                                            - :name: 'em'
+                                                                              :attributes:
+                                                                                :id: '13101'
+                                                                              :children:
+                                                                                - :name: 'dd'
+                                                                                  :attributes:
+                                                                                    :class:
+                                                                                      - check
+                                                                                    :id: '13101038'
                                                                                   :children:
                                                                                     - :name: 'a'
                                                                                       :attributes:
@@ -5456,8 +5443,8 @@
                                       :children:
                                         - :name: 'a'
                                           :attributes:
-                                            :href: 'http://realestate.yahoo.co.jp/magazine/corp_lefthands/20160915-00000001'
-                                            :onclick: 'this.href=''http://rdsig.yahoo.co.jp/realestate/magazine/pickup/house/RV=1/RE=1475809004/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL3JlYWxlc3RhdGUueWFob28uY28uanAvbWFnYXppbmUvY29ycF9sZWZ0aGFuZHMvMjAxNjA5MTUtMDAwMDAwMDE-/RS=^ADAun2CSe_8jzhNol4BtqnCjlVbu0M-'''
+                                            :href: 'http://realestate.yahoo.co.jp/magazine/fuufumanzai/20160926-00000001'
+                                            :onclick: 'this.href=''http://rdsig.yahoo.co.jp/realestate/magazine/pickup/house/RV=1/RE=1476696302/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL3JlYWxlc3RhdGUueWFob28uY28uanAvbWFnYXppbmUvZnV1ZnVtYW56YWkvMjAxNjA5MjYtMDAwMDAwMDE-/RS=^ADAuuLTTW_AcxjUb029r3BdLD8XMJ8-'''
                                           :children:
                                             - :name: 'span'
                                               :attributes:
@@ -5468,7 +5455,7 @@
                                                   :attributes:
                                                     :class:
                                                       - imgLst2
-                                                    :style: 'display: block; background-image: url(https://lpt.c.yimg.jp/im_siggc.LGxST_Z_cc_urNb6Z_WA---x450-y300-q90/amd/20160915-00000001-corp_lefthands-000-view.jpg);'
+                                                    :style: 'display: block; background-image: url(https://lpt.c.yimg.jp/im_siggjSPY7ciq0I3EiNbEnkrTYw---x450-y300-q90/amd/20160926-00000001-fuufumanzai-000-view.jpg);'
                                             - :name: 'div'
                                               :attributes:
                                                 :class:
@@ -5486,8 +5473,8 @@
                                       :children:
                                         - :name: 'a'
                                           :attributes:
-                                            :href: 'http://realestate.yahoo.co.jp/magazine/khayashida/20160915-00000002'
-                                            :onclick: 'this.href=''http://rdsig.yahoo.co.jp/realestate/magazine/pickup/house/RV=1/RE=1475809004/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL3JlYWxlc3RhdGUueWFob28uY28uanAvbWFnYXppbmUva2hheWFzaGlkYS8yMDE2MDkxNS0wMDAwMDAwMg--/RS=^ADAp96IQaEtFZXxtFVZmUmSN2O1ZD0-'''
+                                            :href: 'http://realestate.yahoo.co.jp/magazine/sumaiweb/20160928-00002282'
+                                            :onclick: 'this.href=''http://rdsig.yahoo.co.jp/realestate/magazine/pickup/house/RV=1/RE=1476696302/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL3JlYWxlc3RhdGUueWFob28uY28uanAvbWFnYXppbmUvc3VtYWl3ZWIvMjAxNjA5MjgtMDAwMDIyODI-/RS=^ADA5GCNVeTWNZ0pqV1PUSqQXlNlQ00-'''
                                           :children:
                                             - :name: 'span'
                                               :attributes:
@@ -5498,7 +5485,7 @@
                                                   :attributes:
                                                     :class:
                                                       - imgLst2
-                                                    :style: 'display: block; background-image: url(https://lpt.c.yimg.jp/im_sigg6u0SrhSy_G6pMpEqgyshfQ---x450-y300-q90/amd/20160915-00000002-khayashida-000-view.jpg);'
+                                                    :style: 'display: block; background-image: url(https://lpt.c.yimg.jp/im_siggFYCJMOHrl6CIvLgmSsgcjQ---x450-y300-q90/amd/20160928-00002282-yj_realestate_article-000-view.jpg);'
                                             - :name: 'div'
                                               :attributes:
                                                 :class:
@@ -5516,8 +5503,8 @@
                                       :children:
                                         - :name: 'a'
                                           :attributes:
-                                            :href: 'http://realestate.yahoo.co.jp/magazine/sumaiweb/20160914-00002208'
-                                            :onclick: 'this.href=''http://rdsig.yahoo.co.jp/realestate/magazine/pickup/house/RV=1/RE=1475809004/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL3JlYWxlc3RhdGUueWFob28uY28uanAvbWFnYXppbmUvc3VtYWl3ZWIvMjAxNjA5MTQtMDAwMDIyMDg-/RS=^ADA4MmneFlD3qHBj2V0_j54TTvyCZs-'''
+                                            :href: 'http://realestate.yahoo.co.jp/magazine/fuufumanzai/20160909-00000001'
+                                            :onclick: 'this.href=''http://rdsig.yahoo.co.jp/realestate/magazine/pickup/house/RV=1/RE=1476696302/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL3JlYWxlc3RhdGUueWFob28uY28uanAvbWFnYXppbmUvZnV1ZnVtYW56YWkvMjAxNjA5MDktMDAwMDAwMDE-/RS=^ADAIssQx8mng_4YCaMRFi.4JdsPf4Y-'''
                                           :children:
                                             - :name: 'span'
                                               :attributes:
@@ -5528,7 +5515,7 @@
                                                   :attributes:
                                                     :class:
                                                       - imgLst2
-                                                    :style: 'display: block; background-image: url(https://lpt.c.yimg.jp/im_siggSwR.uxnzVKS3RiODTS0KEw---x450-y300-q90/amd/20160914-00002208-yj_realestate_article-000-view.jpg);'
+                                                    :style: 'display: block; background-image: url(https://lpt.c.yimg.jp/im_siggKxjGUr9_wY6My7K6RQ3Wyg---x450-y300-q90/amd/20160909-00000001-fuufumanzai-000-view.jpg);'
                                             - :name: 'div'
                                               :attributes:
                                                 :class:
@@ -5546,8 +5533,8 @@
                                       :children:
                                         - :name: 'a'
                                           :attributes:
-                                            :href: 'http://realestate.yahoo.co.jp/magazine/fuufumanzai/20160823-00000001'
-                                            :onclick: 'this.href=''http://rdsig.yahoo.co.jp/realestate/magazine/pickup/house/RV=1/RE=1475809004/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL3JlYWxlc3RhdGUueWFob28uY28uanAvbWFnYXppbmUvZnV1ZnVtYW56YWkvMjAxNjA4MjMtMDAwMDAwMDE-/RS=^ADAbNWaNbafLX1AcOCedPeEwHbNRKw-'''
+                                            :href: 'http://realestate.yahoo.co.jp/magazine/corp_communitylab/20160926-00000001'
+                                            :onclick: 'this.href=''http://rdsig.yahoo.co.jp/realestate/magazine/pickup/house/RV=1/RE=1476696302/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL3JlYWxlc3RhdGUueWFob28uY28uanAvbWFnYXppbmUvY29ycF9jb21tdW5pdHlsYWIvMjAxNjA5MjYtMDAwMDAwMDE-/RS=^ADAOdeV4nu72OHv0YweXRBmzZbtTp8-'''
                                           :children:
                                             - :name: 'span'
                                               :attributes:
@@ -5558,7 +5545,7 @@
                                                   :attributes:
                                                     :class:
                                                       - imgLst2
-                                                    :style: 'display: block; background-image: url(https://lpt.c.yimg.jp/im_sigg8YbqK_6LiINSmJMwB.IZpw---x450-y326-q90/amd/20160823-00000001-fuufumanzai-000-view.jpg);'
+                                                    :style: 'display: block; background-image: url(https://lpt.c.yimg.jp/im_siggJTyXEBXjvkr78Saqs3TZvg---x450-y300-q90/amd/20160926-00000001-corp_communitylab-000-view.jpg);'
                                             - :name: 'div'
                                               :attributes:
                                                 :class:
@@ -5576,8 +5563,8 @@
                                       :children:
                                         - :name: 'a'
                                           :attributes:
-                                            :href: 'http://realestate.yahoo.co.jp/magazine/sumaiweb/20160921-00002238'
-                                            :onclick: 'this.href=''http://rdsig.yahoo.co.jp/realestate/magazine/pickup/house/RV=1/RE=1475809004/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL3JlYWxlc3RhdGUueWFob28uY28uanAvbWFnYXppbmUvc3VtYWl3ZWIvMjAxNjA5MjEtMDAwMDIyMzg-/RS=^ADAt0Oq9O0fwYVvEsvSM6ziWvtAppM-'''
+                                            :href: 'http://realestate.yahoo.co.jp/magazine/sumaiweb/20160923-00002258'
+                                            :onclick: 'this.href=''http://rdsig.yahoo.co.jp/realestate/magazine/pickup/house/RV=1/RE=1476696302/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL3JlYWxlc3RhdGUueWFob28uY28uanAvbWFnYXppbmUvc3VtYWl3ZWIvMjAxNjA5MjMtMDAwMDIyNTg-/RS=^ADAmD.PjJQCR9aPY3VmwUuaUby8goo-'''
                                           :children:
                                             - :name: 'span'
                                               :attributes:
@@ -5588,7 +5575,7 @@
                                                   :attributes:
                                                     :class:
                                                       - imgLst2
-                                                    :style: 'display: block; background-image: url(https://lpt.c.yimg.jp/im_siggcPTc38kwYSTFUDNSYR6C7g---x450-y299-q90/amd/20160921-00002238-yj_realestate_article-000-view.jpg);'
+                                                    :style: 'display: block; background-image: url(https://lpt.c.yimg.jp/im_siggS8gR2wiKIVfunY8ETlAAmg---x450-y300-q90/amd/20160923-00002258-yj_realestate_article-000-view.jpg);'
                                             - :name: 'div'
                                               :attributes:
                                                 :class:
@@ -5606,8 +5593,8 @@
                                       :children:
                                         - :name: 'a'
                                           :attributes:
-                                            :href: 'http://realestate.yahoo.co.jp/magazine/roomie/20160914-00002214'
-                                            :onclick: 'this.href=''http://rdsig.yahoo.co.jp/realestate/magazine/pickup/house/RV=1/RE=1475809004/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL3JlYWxlc3RhdGUueWFob28uY28uanAvbWFnYXppbmUvcm9vbWllLzIwMTYwOTE0LTAwMDAyMjE0/RS=^ADAITTmmP4uFHdmbcHcSuXb5RxOj_g-'''
+                                            :href: 'http://realestate.yahoo.co.jp/magazine/sumaiweb/20160923-00002251'
+                                            :onclick: 'this.href=''http://rdsig.yahoo.co.jp/realestate/magazine/pickup/house/RV=1/RE=1476696302/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL3JlYWxlc3RhdGUueWFob28uY28uanAvbWFnYXppbmUvc3VtYWl3ZWIvMjAxNjA5MjMtMDAwMDIyNTE-/RS=^ADAK60oNbTziaZtWNkLjl_nWEKs0Us-'''
                                           :children:
                                             - :name: 'span'
                                               :attributes:
@@ -5618,7 +5605,7 @@
                                                   :attributes:
                                                     :class:
                                                       - imgLst2
-                                                    :style: 'display: block; background-image: url(https://lpt.c.yimg.jp/im_siggA_pfyC3JSXt2CIvV7PzDkA---x450-y338-q90/amd/20160914-00002214-yj_realestate_article-000-view.jpg);'
+                                                    :style: 'display: block; background-image: url(https://lpt.c.yimg.jp/im_sigg_PKYmBQZalgw_NBmOHc7sA---x450-y359-q90/amd/20160923-00002251-yj_realestate_article-000-view.jpg);'
                                             - :name: 'div'
                                               :attributes:
                                                 :class:
@@ -5929,11 +5916,11 @@
                 - :name: 'span'
         - :name: 'script'
           :attributes:
-            :src: '/used/js/com/rest_used_common.js?ver=2.1.0.10'
+            :src: '/used/js/com/rest_used_common.js?ver=2.1.0.11'
             :type: 'text/javascript'
         - :name: 'script'
           :attributes:
-            :src: '/used/2.1.0.10/combo?js/lib/requirejs/require.js&js/search/main.js'
+            :src: '/used/2.1.0.11/combo?js/lib/requirejs/require.js&js/search/main.js'
             :type: 'text/javascript'
         - :name: 'script'
           :attributes:
