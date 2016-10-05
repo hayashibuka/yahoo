@@ -3107,8 +3107,6 @@
                                                                   - tsubo
                                                               :children:
                                                                 - :name: 'em'
-                                                                - :name: 'br'
-                                                                - :name: 'em'
                                                             - :name: 'td'
                                                               :children:
                                                                 - :name: 'a'
@@ -3161,7 +3159,7 @@
                                                               :attributes:
                                                                 :id: '6Z2BoycGfg0HRpSAgS3Y9J_info'
                                                                 :type: 'hidden'
-                                                                :value: '[{"bid":"0006303629","agid":"00002049135","pf":"13","geo":"13101","group":35,"cid":"00015611","frk_div":"9"},{"bid":"0006307916","agid":"00002049135","pf":"13","geo":"13101","group":35,"cid":"00018523","frk_div":"9"},{"bid":"0006367872","agid":"00002049135","pf":"13","geo":"13101","group":35,"cid":"00017329","frk_div":"9"},{"bid":"0006335155","agid":"00002049135","pf":"13","geo":"13101","group":35,"cid":"00013638","frk_div":"9"},{"bid":"0006312323","agid":"00002049135","pf":"13","geo":"13101","group":35,"cid":"00015773","frk_div":"9"}]'
+                                                                :value: '[{"bid":"0006303629","agid":"00002049135","pf":"13","geo":"13101","group":35,"cid":"00015611","frk_div":"9"},{"bid":"0006307916","agid":"00002049135","pf":"13","geo":"13101","group":35,"cid":"00018523","frk_div":"9"},{"bid":"0006335155","agid":"00002049135","pf":"13","geo":"13101","group":35,"cid":"00013638","frk_div":"9"},{"bid":"0006312323","agid":"00002049135","pf":"13","geo":"13101","group":35,"cid":"00015773","frk_div":"9"}]'
                                             - :name: 'li'
                                               :attributes:
                                                 :class:
@@ -3989,7 +3987,32 @@
                                                                                   :attributes:
                                                                                     :class:
                                                                                       - check
-                                                                                    :id: '13101038'
+                                                                                    :id: '13101018'
+                                                                                  :children:
+                                                                                    - :name: 'a'
+                                                                                      :attributes:
+                                                                                        :href: 'javascript:void(0);'
+                                                                                      :children:
+                                                                                        - :name: 'img'
+                                                                                          :attributes:
+                                                                                            :alt: 'チェック'
+                                                                                            :height: '13'
+                                                                                            :src: 'http://i.yimg.jp/images/clear.gif'
+                                                                                            :width: '13'
+                                                                                        - :name: 'em'
+                                                                                        - :name: 'span'
+                                                                                          :attributes:
+                                                                                            :class:
+                                                                                              - numb
+                                                                            - :name: 'em'
+                                                                              :attributes:
+                                                                                :id: '13101'
+                                                                              :children:
+                                                                                - :name: 'dd'
+                                                                                  :attributes:
+                                                                                    :class:
+                                                                                      - check
+                                                                                    :id: '13101019'
                                                                                   :children:
                                                                                     - :name: 'a'
                                                                                       :attributes:
@@ -4039,32 +4062,7 @@
                                                                                   :attributes:
                                                                                     :class:
                                                                                       - check
-                                                                                    :id: '13101018'
-                                                                                  :children:
-                                                                                    - :name: 'a'
-                                                                                      :attributes:
-                                                                                        :href: 'javascript:void(0);'
-                                                                                      :children:
-                                                                                        - :name: 'img'
-                                                                                          :attributes:
-                                                                                            :alt: 'チェック'
-                                                                                            :height: '13'
-                                                                                            :src: 'http://i.yimg.jp/images/clear.gif'
-                                                                                            :width: '13'
-                                                                                        - :name: 'em'
-                                                                                        - :name: 'span'
-                                                                                          :attributes:
-                                                                                            :class:
-                                                                                              - numb
-                                                                            - :name: 'em'
-                                                                              :attributes:
-                                                                                :id: '13101'
-                                                                              :children:
-                                                                                - :name: 'dd'
-                                                                                  :attributes:
-                                                                                    :class:
-                                                                                      - check
-                                                                                    :id: '13101019'
+                                                                                    :id: '13101038'
                                                                                   :children:
                                                                                     - :name: 'a'
                                                                                       :attributes:

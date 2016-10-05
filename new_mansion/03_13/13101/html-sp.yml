@@ -16,7 +16,7 @@
             :name: 'description'
         - :name: 'link'
           :attributes:
-            :href: 'http://ai.yimg.jp/yui/jp/mh/pc/1.3.1/css/std.css'
+            :href: 'http://ai.yimg.jp/yui/jp/mh/pc/1.3.2/css/std.css'
             :media: 'all'
             :rel:
               - stylesheet
@@ -90,8 +90,6 @@
                         :id: 'msthd'
                       :children:
                         - :name: 'div'
-                          :attributes:
-                            :id: 'msthdFifth'
                           :children:
                             - :name: 'div'
                               :attributes:
@@ -99,7 +97,7 @@
                               :children:
                                 - :name: 'div'
                                   :attributes:
-                                    :style: 'display:none;'
+                                    :id: 'msthdUhd'
                                   :children:
                                     - :name: 'div'
                                       :attributes:
@@ -113,7 +111,7 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://ard.yahoo.co.jp/SIG=15855hf3h/M=300927833.301788908.303438165.308131643/D=jp_real/S=2080053604:MHUHD/Y=jp/EXP=1475632590/L=t.waQjE4Mi6D6Dqzi0uM7gFCMTYwLgAAAADPOEvJ/B=4RkQAWRABLo-/J=1475625390590858/SIG=11p17gonl/A=302125375/R=0/*http://csr.yahoo.co.jp/report/volume12/'
+                                                :href: 'http://ard.yahoo.co.jp/SIG=158r005r9/M=300927838.301788913.303442915.308131643/D=jp_real/S=2080053604:MHUHD/Y=jp/EXP=1475696102/L=.dLHPzE4Mi6tgUbxHHhaAgE7MTYwLgAAAACY2S0z/B=wT1cA2RA2c4-/J=1475688902917413/SIG=127gg9tv1/A=302092466/R=0/*http://docs.donation.yahoo.co.jp/report/kumamoto.html'
                                     - :name: 'script'
                                       :attributes:
                                         :language: 'javascript'
@@ -127,23 +125,27 @@
                                               :attributes:
                                                 :alt: ''
                                                 :height: '1'
-                                                :src: 'http://b6.yahoo.co.jp/b?P=t.waQjE4Mi6D6Dqzi0uM7gFCMTYwLgAAAADPOEvJ&T=14jisq9g6%2fX%3d1475625390%2fE%3d2080053604%2fR%3djp_real%2fK%3d5%2fV%3d2.1%2fW%3dH%2fY%3djp%2fF%3d3926920710%2fH%3dYWRjdmVyPTYuNy40%2fQ%3d-1%2fS%3d1%2fJ%3d57F441AE&U=13l0rik56%2fN%3d4RkQAWRABLo-%2fC%3d300927833.301788908.303438165.308131643%2fD%3dMHUHD%2fB%3d302125375'
+                                                :src: 'http://b4.yahoo.co.jp/b?P=.dLHPzE4Mi6tgUbxHHhaAgE7MTYwLgAAAACY2S0z&T=14i36kpqn%2fX%3d1475688902%2fE%3d2080053604%2fR%3djp_real%2fK%3d5%2fV%3d2.1%2fW%3dH%2fY%3djp%2fF%3d472187363%2fH%3dYWRjdmVyPTYuNy40%2fQ%3d-1%2fS%3d1%2fJ%3d57F539C6&U=13likt35r%2fN%3dwT1cA2RA2c4-%2fC%3d300927838.301788913.303442915.308131643%2fD%3dMHUHD%2fB%3d302092466'
                                                 :width: '1'
                                 - :name: 'div'
                                   :attributes:
-                                    :class:
-                                      - compo
+                                    :id: 'msthdShpPr'
                                   :children:
-                                    - :name: 'a'
+                                    - :name: 'div'
                                       :attributes:
-                                        :data-ylk: 'slk:h_promo;pos:0'
-                                        :href: 'http://rdsig.yahoo.co.jp/shopping/mhd/5/RV=1/RU=aHR0cDovL3RvcGljcy5zaG9wcGluZy55YWhvby5jby5qcC9wcm9tb3Rpb24vc29mdGJhbmtoYXdrcy8_c2NfZT15eWxrX21oZF9zdGxfb2xs'
-                                        :id: 'msthdUhdPrLink'
+                                        :class:
+                                          - compo
                                       :children:
-                                        - :name: 'span'
+                                        - :name: 'a'
                                           :attributes:
-                                            :class:
-                                              - noLogin
+                                            :data-ylk: 'slk:h_promo;pos:0'
+                                            :href: 'http://rdsig.yahoo.co.jp/shopping/mhd/5/RV=1/RU=aHR0cDovL3RvcGljcy5zaG9wcGluZy55YWhvby5jby5qcC9wcm9tb3Rpb24vc29mdGJhbmtoYXdrcy8_c2NfZT15eWxrX21oZF9zdGxfb2xs'
+                                            :id: 'msthdUhdPrLink'
+                                          :children:
+                                            - :name: 'span'
+                                              :attributes:
+                                                :class:
+                                                  - noLogin
                                 - :name: 'div'
                                   :attributes:
                                     :id: 'msthdsb'
@@ -154,7 +156,7 @@
                                       :children:
                                         - :name: 'form'
                                           :attributes:
-                                            :action: 'http://ard.yahoo.co.jp/SIG=155tan8st/M=300952429.301820148.303445829.308131609/D=jp_real/S=2080053604:MH/Y=jp/EXP=1475632590/L=t.waQjE4Mi6D6Dqzi0uM7gFCMTYwLgAAAADPOEvJ/B=1BkQAWRABLo-/J=1475625390590858/SIG=11iohau0c/A=302148134/R=0/*http://search.yahoo.co.jp/search'
+                                            :action: 'http://ard.yahoo.co.jp/SIG=1552kdhkn/M=300952429.301820148.303446028.308131609/D=jp_real/S=2080053604:MH/Y=jp/EXP=1475696102/L=.dLHPzE4Mi6tgUbxHHhaAgE7MTYwLgAAAACY2S0z/B=tD1cA2RA2c4-/J=1475688902917413/SIG=11iddai9k/A=302148478/R=0/*http://search.yahoo.co.jp/search'
                                             :name: 'p'
                                           :children:
                                             - :name: 'p'
@@ -1066,7 +1068,7 @@
                                   :attributes:
                                     :alt: ''
                                     :height: '1'
-                                    :src: 'http://b6.yahoo.co.jp/b?P=t.waQjE4Mi6D6Dqzi0uM7gFCMTYwLgAAAADPOEvJ&T=14j1av8qu%2fX%3d1475625390%2fE%3d2080053604%2fR%3djp_real%2fK%3d5%2fV%3d2.1%2fW%3dH%2fY%3djp%2fF%3d1677554095%2fH%3dYWRjdmVyPTYuNy40%2fQ%3d-1%2fS%3d1%2fJ%3d57F441AE&U=126blo872%2fN%3d2RkQAWRABLo-%2fC%3d-2%2fD%3dTN%2fB%3d-2'
+                                    :src: 'http://b4.yahoo.co.jp/b?P=.dLHPzE4Mi6tgUbxHHhaAgE7MTYwLgAAAACY2S0z&T=14j4kve5b%2fX%3d1475688902%2fE%3d2080053604%2fR%3djp_real%2fK%3d5%2fV%3d2.1%2fW%3dH%2fY%3djp%2fF%3d3980299058%2fH%3dYWRjdmVyPTYuNy40%2fQ%3d-1%2fS%3d1%2fJ%3d57F539C6&U=126kf00p0%2fN%3duT1cA2RA2c4-%2fC%3d-2%2fD%3dTN%2fB%3d-2'
                                     :width: '1'
                     - :name: 'noscript'
                       :children:
@@ -2453,7 +2455,7 @@
                                           :attributes:
                                             :alt: ''
                                             :height: '1'
-                                            :src: 'http://b6.yahoo.co.jp/b?P=t.waQjE4Mi6D6Dqzi0uM7gFCMTYwLgAAAADPOEvJ&T=14j0rvbf5%2fX%3d1475625390%2fE%3d2080053604%2fR%3djp_real%2fK%3d5%2fV%3d2.1%2fW%3dH%2fY%3djp%2fF%3d1549573890%2fH%3dYWRjdmVyPTYuNy40%2fQ%3d-1%2fS%3d1%2fJ%3d57F441AE&U=129k33olj%2fN%3d3BkQAWRABLo-%2fC%3d-1%2fD%3dSPSQB%2fB%3d-1'
+                                            :src: 'http://b4.yahoo.co.jp/b?P=.dLHPzE4Mi6tgUbxHHhaAgE7MTYwLgAAAACY2S0z&T=14jk5uj2o%2fX%3d1475688902%2fE%3d2080053604%2fR%3djp_real%2fK%3d5%2fV%3d2.1%2fW%3dH%2fY%3djp%2fF%3d2965289671%2fH%3dYWRjdmVyPTYuNy40%2fQ%3d-1%2fS%3d1%2fJ%3d57F539C6&U=129qtv0qp%2fN%3dvD1cA2RA2c4-%2fC%3d-1%2fD%3dSPSQB%2fB%3d-1'
                                             :width: '1'
                         - :name: 'p'
                           :attributes:
@@ -2493,7 +2495,7 @@
                                       :children:
                                         - :name: 'a'
                                           :attributes:
-                                            :href: 'http://ard.yahoo.co.jp/SIG=158alg2ga/M=300907622.301765827.303431594.316886173/D=jp_real/S=2080053604:LREC2/Y=jp/EXP=1475632590/L=t.waQjE4Mi6D6Dqzi0uM7gFCMTYwLgAAAADPOEvJ/B=4hkQAWRABLo-/J=1475625390590858/SIG=12cfgcf2h/A=302127544/R=2/*http://shopping.yahoo.co.jp/ranking/?sc_e=yjsk_msc_ranking'
+                                            :href: 'http://ard.yahoo.co.jp/SIG=158g1b7kq/M=300907622.301765827.303431594.316886173/D=jp_real/S=2080053604:LREC2/Y=jp/EXP=1475696102/L=.dLHPzE4Mi6tgUbxHHhaAgE7MTYwLgAAAACY2S0z/B=wj1cA2RA2c4-/J=1475688902917413/SIG=12cfgcf2h/A=302127544/R=2/*http://shopping.yahoo.co.jp/ranking/?sc_e=yjsk_msc_ranking'
                                             :target: '_top'
                                           :children:
                                             - :name: 'img'
@@ -2515,7 +2517,7 @@
                                               :attributes:
                                                 :alt: ''
                                                 :height: '1'
-                                                :src: 'http://b6.yahoo.co.jp/b?P=t.waQjE4Mi6D6Dqzi0uM7gFCMTYwLgAAAADPOEvJ&T=14jl5i4hb%2fX%3d1475625390%2fE%3d2080053604%2fR%3djp_real%2fK%3d5%2fV%3d2.1%2fW%3dH%2fY%3djp%2fF%3d1337999025%2fH%3dYWRjdmVyPTYuNy40%2fQ%3d-1%2fS%3d1%2fJ%3d57F441AE&U=13lsml0rj%2fN%3d4hkQAWRABLo-%2fC%3d300907622.301765827.303431594.316886173%2fD%3dLREC2%2fB%3d302127544'
+                                                :src: 'http://b4.yahoo.co.jp/b?P=.dLHPzE4Mi6tgUbxHHhaAgE7MTYwLgAAAACY2S0z&T=14j9i1m38%2fX%3d1475688902%2fE%3d2080053604%2fR%3djp_real%2fK%3d5%2fV%3d2.1%2fW%3dH%2fY%3djp%2fF%3d4140892770%2fH%3dYWRjdmVyPTYuNy40%2fQ%3d-1%2fS%3d1%2fJ%3d57F539C6&U=13la5s1qe%2fN%3dwj1cA2RA2c4-%2fC%3d300907622.301765827.303431594.316886173%2fD%3dLREC2%2fB%3d302127544'
                                                 :width: '1'
                                     - :name: 'script'
                                       :attributes:
@@ -2530,7 +2532,7 @@
                                               :attributes:
                                                 :alt: ''
                                                 :height: '1'
-                                                :src: 'http://b6.yahoo.co.jp/b?P=t.waQjE4Mi6D6Dqzi0uM7gFCMTYwLgAAAADPOEvJ&T=14je2viig%2fX%3d1475625390%2fE%3d2080053604%2fR%3djp_real%2fK%3d5%2fV%3d2.1%2fW%3dH%2fY%3djp%2fF%3d3683773554%2fH%3dYWRjdmVyPTYuNy40%2fQ%3d-1%2fS%3d1%2fJ%3d57F441AE&U=13k336jlr%2fN%3d2BkQAWRABLo-%2fC%3d300830562.301681958.303261802.301291789%2fD%3dLREC%2fB%3d301868614'
+                                                :src: 'http://b4.yahoo.co.jp/b?P=.dLHPzE4Mi6tgUbxHHhaAgE7MTYwLgAAAACY2S0z&T=14jl572ie%2fX%3d1475688902%2fE%3d2080053604%2fR%3djp_real%2fK%3d5%2fV%3d2.1%2fW%3dH%2fY%3djp%2fF%3d1652313654%2fH%3dYWRjdmVyPTYuNy40%2fQ%3d-1%2fS%3d1%2fJ%3d57F539C6&U=13krcopg5%2fN%3duD1cA2RA2c4-%2fC%3d300830562.301681958.303261802.301291789%2fD%3dLREC%2fB%3d301868614'
                                                 :width: '1'
                     - :name: 'div'
                       :attributes:
@@ -2616,7 +2618,7 @@
                                       :attributes:
                                         :alt: ''
                                         :height: '1'
-                                        :src: 'http://b6.yahoo.co.jp/b?P=t.waQjE4Mi6D6Dqzi0uM7gFCMTYwLgAAAADPOEvJ&T=14jtuu0g1%2fX%3d1475625390%2fE%3d2080053604%2fR%3djp_real%2fK%3d5%2fV%3d2.1%2fW%3dH%2fY%3djp%2fF%3d1859070053%2fH%3dYWRjdmVyPTYuNy40%2fQ%3d-1%2fS%3d1%2fJ%3d57F441AE&U=126h4088p%2fN%3d3RkQAWRABLo-%2fC%3d-1%2fD%3dRP%2fB%3d-1'
+                                        :src: 'http://b4.yahoo.co.jp/b?P=.dLHPzE4Mi6tgUbxHHhaAgE7MTYwLgAAAACY2S0z&T=14irti1vp%2fX%3d1475688902%2fE%3d2080053604%2fR%3djp_real%2fK%3d5%2fV%3d2.1%2fW%3dH%2fY%3djp%2fF%3d389386518%2fH%3dYWRjdmVyPTYuNy40%2fQ%3d-1%2fS%3d1%2fJ%3d57F539C6&U=1269m9lkn%2fN%3dvT1cA2RA2c4-%2fC%3d-1%2fD%3dRP%2fB%3d-1'
                                         :width: '1'
                     - :name: 'div'
                       :attributes:
@@ -2635,7 +2637,7 @@
                                   :attributes:
                                     :alt: ''
                                     :height: '1'
-                                    :src: 'http://b6.yahoo.co.jp/b?P=t.waQjE4Mi6D6Dqzi0uM7gFCMTYwLgAAAADPOEvJ&T=14hq6sbm4%2fX%3d1475625390%2fE%3d2080053604%2fR%3djp_real%2fK%3d5%2fV%3d2.1%2fW%3dH%2fY%3djp%2fF%3d95600377%2fH%3dYWRjdmVyPTYuNy40%2fQ%3d-1%2fS%3d1%2fJ%3d57F441AE&U=127n11lo2%2fN%3d2hkQAWRABLo-%2fC%3d-2%2fD%3dSQM%2fB%3d-2'
+                                    :src: 'http://b4.yahoo.co.jp/b?P=.dLHPzE4Mi6tgUbxHHhaAgE7MTYwLgAAAACY2S0z&T=14j39dn51%2fX%3d1475688902%2fE%3d2080053604%2fR%3djp_real%2fK%3d5%2fV%3d2.1%2fW%3dH%2fY%3djp%2fF%3d2194304345%2fH%3dYWRjdmVyPTYuNy40%2fQ%3d-1%2fS%3d1%2fJ%3d57F539C6&U=127ambrnc%2fN%3duj1cA2RA2c4-%2fC%3d-2%2fD%3dSQM%2fB%3d-2'
                                     :width: '1'
             - :name: 'div'
               :attributes:
@@ -2722,7 +2724,7 @@
                                   :attributes:
                                     :alt: ''
                                     :height: '1'
-                                    :src: 'http://b6.yahoo.co.jp/b?P=t.waQjE4Mi6D6Dqzi0uM7gFCMTYwLgAAAADPOEvJ&T=14jdh3i2b%2fX%3d1475625390%2fE%3d2080053604%2fR%3djp_real%2fK%3d5%2fV%3d2.1%2fW%3dH%2fY%3djp%2fF%3d4212698826%2fH%3dYWRjdmVyPTYuNy40%2fQ%3d-1%2fS%3d1%2fJ%3d57F441AE&U=13im7u1ge%2fN%3d2xkQAWRABLo-%2fC%3d300951180.301818803.303441908.302953375%2fD%3dS8%2fB%3d302141184'
+                                    :src: 'http://b4.yahoo.co.jp/b?P=.dLHPzE4Mi6tgUbxHHhaAgE7MTYwLgAAAACY2S0z&T=14is3pggh%2fX%3d1475688902%2fE%3d2080053604%2fR%3djp_real%2fK%3d5%2fV%3d2.1%2fW%3dH%2fY%3djp%2fF%3d693088781%2fH%3dYWRjdmVyPTYuNy40%2fQ%3d-1%2fS%3d1%2fJ%3d57F539C6&U=13i7h3319%2fN%3duz1cA2RA2c4-%2fC%3d300951180.301818803.303441908.302953375%2fD%3dS8%2fB%3d302141184'
                                     :width: '1'
             - :name: 'footer'
               :children:
