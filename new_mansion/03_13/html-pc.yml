@@ -1543,17 +1543,17 @@
                                                       :attributes:
                                                         :href: 'http://realestate.yahoo.co.jp/new/mansion/03/13/area/13211/search/'
                                                 - :name: 'li'
-                                                  :attributes:
-                                                    :class:
-                                                      - zero
                                                   :children:
                                                     - :name: 'input'
                                                       :attributes:
-                                                        :disabled: 'disabled'
                                                         :id: '13212'
                                                         :name: 'geo'
+                                                        :onclick: 'chk_areacount(this,geo,5,''search'');'
                                                         :type: 'checkbox'
                                                         :value: '13212'
+                                                    - :name: 'a'
+                                                      :attributes:
+                                                        :href: 'http://realestate.yahoo.co.jp/new/mansion/03/13/area/13212/search/'
                                             - :name: 'ul'
                                               :children:
                                                 - :name: 'li'

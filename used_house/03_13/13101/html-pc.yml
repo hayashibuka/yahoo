@@ -5141,31 +5141,6 @@
                                                                                   :attributes:
                                                                                     :class:
                                                                                       - check
-                                                                                    :id: '13101038'
-                                                                                  :children:
-                                                                                    - :name: 'a'
-                                                                                      :attributes:
-                                                                                        :href: 'javascript:void(0);'
-                                                                                      :children:
-                                                                                        - :name: 'img'
-                                                                                          :attributes:
-                                                                                            :alt: 'チェック'
-                                                                                            :height: '13'
-                                                                                            :src: 'http://i.yimg.jp/images/clear.gif'
-                                                                                            :width: '13'
-                                                                                        - :name: 'em'
-                                                                                        - :name: 'span'
-                                                                                          :attributes:
-                                                                                            :class:
-                                                                                              - numb
-                                                                            - :name: 'em'
-                                                                              :attributes:
-                                                                                :id: '13101'
-                                                                              :children:
-                                                                                - :name: 'dd'
-                                                                                  :attributes:
-                                                                                    :class:
-                                                                                      - check
                                                                                     :id: '13101030'
                                                                                   :children:
                                                                                     - :name: 'a'
@@ -5191,7 +5166,7 @@
                                                                                   :attributes:
                                                                                     :class:
                                                                                       - check
-                                                                                    :id: '13101004'
+                                                                                    :id: '13101038'
                                                                                   :children:
                                                                                     - :name: 'a'
                                                                                       :attributes:
@@ -5217,6 +5192,31 @@
                                                                                     :class:
                                                                                       - check
                                                                                     :id: '13101011'
+                                                                                  :children:
+                                                                                    - :name: 'a'
+                                                                                      :attributes:
+                                                                                        :href: 'javascript:void(0);'
+                                                                                      :children:
+                                                                                        - :name: 'img'
+                                                                                          :attributes:
+                                                                                            :alt: 'チェック'
+                                                                                            :height: '13'
+                                                                                            :src: 'http://i.yimg.jp/images/clear.gif'
+                                                                                            :width: '13'
+                                                                                        - :name: 'em'
+                                                                                        - :name: 'span'
+                                                                                          :attributes:
+                                                                                            :class:
+                                                                                              - numb
+                                                                            - :name: 'em'
+                                                                              :attributes:
+                                                                                :id: '13101'
+                                                                              :children:
+                                                                                - :name: 'dd'
+                                                                                  :attributes:
+                                                                                    :class:
+                                                                                      - check
+                                                                                    :id: '13101004'
                                                                                   :children:
                                                                                     - :name: 'a'
                                                                                       :attributes:

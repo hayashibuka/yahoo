@@ -3280,15 +3280,15 @@
                                               :attributes:
                                                 :class:
                                                   - 
-                                                  - bkNok
                                               :children:
                                                 - :name: 'input'
                                                   :attributes:
-                                                    :disabled: ''
                                                     :name: 'ln'
                                                     :type: 'checkbox'
                                                     :value: '2394'
-                                                - :name: 'em'
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: 'http://realestate.yahoo.co.jp/used/house/03/13/rail/2394/'
                                                 - :name: 'span'
                                                   :attributes:
                                                     :class:

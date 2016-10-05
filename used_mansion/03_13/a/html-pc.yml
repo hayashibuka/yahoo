@@ -1544,67 +1544,46 @@
                                   :attributes:
                                     :id: 'centerbox'
                                   :children:
-                                    - :name: 'link'
-                                      :attributes:
-                                        :href: 'https://s.yimg.jp/images/realestate/centerbox/1412sakidori/css/yjcb_1412sakidori.css'
-                                        :media: 'all'
-                                        :rel:
-                                          - stylesheet
-                                        :type: 'text/css'
-                                    - :name: 'div'
-                                      :attributes:
-                                        :id: 'yjcbSkdr'
+                                    - :name: 'p'
                                       :children:
-                                        - :name: 'div'
+                                        - :name: 'img'
                                           :attributes:
-                                            :class:
-                                              - skdrMain
-                                          :children:
-                                            - :name: 'a'
-                                              :attributes:
-                                                :href: 'http://new.realestate.yahoo.co.jp/mansion/sakidori/?sc_in=m_sakidori_rtop_cb_3'
-                                        - :name: 'div'
+                                            :alt: ''
+                                            :border: '0'
+                                            :height: '200'
+                                            :name: 'bnr'
+                                            :src: 'https://s.yimg.jp/images/realestate/centerbox/1401sakidori/sakidori_c.jpg'
+                                            :usemap: '#bnrMap'
+                                            :width: '624'
+                                    - :name: 'map'
+                                      :attributes:
+                                        :name: 'bnrMap'
+                                      :children:
+                                        - :name: 'area'
                                           :attributes:
-                                            :class:
-                                              - skdrArea
-                                          :children:
-                                            - :name: 'ul'
-                                              :attributes:
-                                                :class:
-                                                  - yjcb-cf
-                                              :children:
-                                                - :name: 'li'
-                                                  :attributes:
-                                                    :class:
-                                                      - skdrKanto
-                                                  :children:
-                                                    - :name: 'a'
-                                                      :attributes:
-                                                        :href: 'http://new.realestate.yahoo.co.jp/mansion/sakidori/03/?sc_in=m_sakidori_rtop_cb_3'
-                                                - :name: 'li'
-                                                  :attributes:
-                                                    :class:
-                                                      - skdrKinki
-                                                  :children:
-                                                    - :name: 'a'
-                                                      :attributes:
-                                                        :href: 'http://new.realestate.yahoo.co.jp/mansion/sakidori/06/?sc_in=m_sakidori_rtop_cb_3'
-                                                - :name: 'li'
-                                                  :attributes:
-                                                    :class:
-                                                      - skdrTokai
-                                                  :children:
-                                                    - :name: 'a'
-                                                      :attributes:
-                                                        :href: 'http://new.realestate.yahoo.co.jp/mansion/sakidori/05/?sc_in=m_sakidori_rtop_cb_3'
-                                                - :name: 'li'
-                                                  :attributes:
-                                                    :class:
-                                                      - skdrKyushu
-                                                  :children:
-                                                    - :name: 'a'
-                                                      :attributes:
-                                                        :href: 'http://new.realestate.yahoo.co.jp/mansion/sakidori/09/?sc_in=m_sakidori_rtop_cb_3'
+                                            :coords: '0,0,624,151'
+                                            :href: 'http://realestate.yahoo.co.jp/new/mansion/sakidori/?sc_in=m_sakidori_rtop_cb_2'
+                                            :shape: 'rect'
+                                        - :name: 'area'
+                                          :attributes:
+                                            :coords: '5,151,154,193'
+                                            :href: 'http://realestate.yahoo.co.jp/new/mansion/sakidori/03/?sc_in=m_sakidori_rtop_cb_2'
+                                            :shape: 'rect'
+                                        - :name: 'area'
+                                          :attributes:
+                                            :coords: '160,151,309,193'
+                                            :href: 'http://realestate.yahoo.co.jp/new/mansion/sakidori/06/?sc_in=m_sakidori_rtop_cb_2'
+                                            :shape: 'rect'
+                                        - :name: 'area'
+                                          :attributes:
+                                            :coords: '315,151,464,193'
+                                            :href: 'http://realestate.yahoo.co.jp/new/mansion/sakidori/05/?sc_in=m_sakidori_rtop_cb_2'
+                                            :shape: 'rect'
+                                        - :name: 'area'
+                                          :attributes:
+                                            :coords: '470,151,619,193'
+                                            :href: 'http://realestate.yahoo.co.jp/new/mansion/sakidori/09/?sc_in=m_sakidori_rtop_cb_2'
+                                            :shape: 'rect'
                             - :name: 'div'
                               :attributes:
                                 :class:
@@ -1643,7 +1622,7 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://realestate.yahoo.co.jp/magazine/ksano/20161003-00000001'
+                                                :href: 'http://realestate.yahoo.co.jp/magazine/nanapi/20161002-00002299'
                                               :children:
                                                 - :name: 'span'
                                                   :attributes:
@@ -1655,7 +1634,7 @@
                                                         :class:
                                                           - imgLst2
                                                         :data-original: '#'
-                                                        :style: 'display: block; background-image: url(http://amd.c.yimg.jp/im_siggrZ2RzCcFjHw56AIMz6Dahw---x900-y600-q90/amd/20161003-00000001-ksano-000-1-view.jpg);'
+                                                        :style: 'display: block; background-image: url(http://amd.c.yimg.jp/amd/20161002-00002299-yj_realestate_article-000-1-view.jpg);'
                                                 - :name: 'div'
                                                   :attributes:
                                                     :class:
@@ -1673,7 +1652,7 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://realestate.yahoo.co.jp/magazine/roomie/20161003-00002304'
+                                                :href: 'http://realestate.yahoo.co.jp/magazine/sumaiweb/20160930-00002301'
                                               :children:
                                                 - :name: 'span'
                                                   :attributes:
@@ -1685,7 +1664,7 @@
                                                         :class:
                                                           - imgLst2
                                                         :data-original: '#'
-                                                        :style: 'display: block; background-image: url(http://amd.c.yimg.jp/amd/20161003-00002304-yj_realestate_article-000-1-view.jpg);'
+                                                        :style: 'display: block; background-image: url(http://amd.c.yimg.jp/im_siggRxrW5LcCCD4i.1.3WuGCAw---x900-y609-q90/amd/20160930-00002301-yj_realestate_article-000-1-view.jpg);'
                                                 - :name: 'div'
                                                   :attributes:
                                                     :class:
@@ -1703,7 +1682,7 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://realestate.yahoo.co.jp/magazine/sumaiweb/20161002-00002307'
+                                                :href: 'http://realestate.yahoo.co.jp/magazine/sumaiweb/20160928-00002300'
                                               :children:
                                                 - :name: 'span'
                                                   :attributes:
@@ -1715,7 +1694,7 @@
                                                         :class:
                                                           - imgLst2
                                                         :data-original: '#'
-                                                        :style: 'display: block; background-image: url(http://amd.c.yimg.jp/im_siggutoBwE3Sx.Sz4j0..iEzAQ---x900-y600-q90/amd/20161002-00002307-yj_realestate_article-000-1-view.jpg);'
+                                                        :style: 'display: block; background-image: url(http://amd.c.yimg.jp/im_sigg2u81NuE7aqgL53G14k7Wng---x900-y601-q90/amd/20160928-00002300-yj_realestate_article-000-1-view.jpg);'
                                                 - :name: 'div'
                                                   :attributes:
                                                     :class:
@@ -1733,7 +1712,7 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://realestate.yahoo.co.jp/magazine/sumaiweb/20161003-00002305'
+                                                :href: 'http://realestate.yahoo.co.jp/magazine/sumaiweb/20160930-00002295'
                                               :children:
                                                 - :name: 'span'
                                                   :attributes:
@@ -1745,7 +1724,7 @@
                                                         :class:
                                                           - imgLst2
                                                         :data-original: '#'
-                                                        :style: 'display: block; background-image: url(http://amd.c.yimg.jp/im_siggqR.angR_JbzKGiQybxbkeQ---x900-y675-q90/amd/20161003-00002305-yj_realestate_article-000-1-view.jpg);'
+                                                        :style: 'display: block; background-image: url(http://amd.c.yimg.jp/im_siggKRyUTdgn96UwUH6y4HPvog---x900-y632-q90/amd/20160930-00002295-yj_realestate_article-000-1-view.jpg);'
                                                 - :name: 'div'
                                                   :attributes:
                                                     :class:
@@ -1763,7 +1742,7 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://realestate.yahoo.co.jp/magazine/sumaiweb/20161002-00002306'
+                                                :href: 'http://realestate.yahoo.co.jp/magazine/sumaiweb/20160930-00002294'
                                               :children:
                                                 - :name: 'span'
                                                   :attributes:
@@ -1775,7 +1754,7 @@
                                                         :class:
                                                           - imgLst2
                                                         :data-original: '#'
-                                                        :style: 'display: block; background-image: url(http://amd.c.yimg.jp/im_sigg5bHQfqQOyJQR5RPBXWoC8w---x900-y600-q90/amd/20161002-00002306-yj_realestate_article-000-1-view.jpg);'
+                                                        :style: 'display: block; background-image: url(http://amd.c.yimg.jp/amd/20160930-00002294-yj_realestate_article-000-1-view.jpg);'
                                                 - :name: 'div'
                                                   :attributes:
                                                     :class:
@@ -1793,7 +1772,7 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://realestate.yahoo.co.jp/magazine/spiralworks/20160928-00000001'
+                                                :href: 'http://realestate.yahoo.co.jp/magazine/sumaiweb/20161004-00002308'
                                               :children:
                                                 - :name: 'span'
                                                   :attributes:
@@ -1805,7 +1784,7 @@
                                                         :class:
                                                           - imgLst2
                                                         :data-original: '#'
-                                                        :style: 'display: block; background-image: url(http://amd.c.yimg.jp/im_siggKil1cye5PkXYchuyYUk3QQ---x900-y600-q90/amd/20160928-00000001-spiralworks-000-1-view.jpg);'
+                                                        :style: 'display: block; background-image: url(http://amd.c.yimg.jp/im_siggDQMrpwDV2jIHkGHNzI2gwg---x900-y600-q90/amd/20161004-00002308-yj_realestate_article-000-1-view.jpg);'
                                                 - :name: 'div'
                                                   :attributes:
                                                     :class:
@@ -2385,7 +2364,7 @@
                         - :name: 'img'
                           :attributes:
                             :height: '1'
-                            :src: 'http://rdsig.yahoo.co.jp/realestate/top/imp/RV=1/RE=1476725905/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL2FpLnlpbWcuanAvaW1hZ2VzL2NsZWFyLmdpZg--/RS=^ADAcJWvFGEAZ7oKGdGZS8c_AqK9zQg-'
+                            :src: 'http://rdsig.yahoo.co.jp/realestate/top/imp/RV=1/RE=1476835010/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL2FpLnlpbWcuanAvaW1hZ2VzL2NsZWFyLmdpZg--/RS=^ADAK3dNIaYmFW.0jQBXqDoOF8IRc1M-'
                             :width: '1'
                     - :name: 'div'
                       :attributes:
@@ -2410,13 +2389,6 @@
                                           :attributes:
                                             :class:
                                               - left
-                                          :children:
-                                            - :name: 'img'
-                                              :attributes:
-                                                :alt: 'New!'
-                                                :height: '11'
-                                                :src: 'http://i.yimg.jp/i/new2.gif'
-                                                :width: '28'
                                         - :name: 'dd'
                                           :attributes:
                                             :class:
@@ -2425,7 +2397,7 @@
                                             - :name: 'a'
                                               :attributes:
                                                 :href: 'http://realestate.yahoo.co.jp/used/feature/2016_jouhoukan'
-                                                :onclick: 'this.href=''http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1475602705/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL3JlYWxlc3RhdGUueWFob28uY28uanAvdXNlZC9mZWF0dXJlLzIwMTZfam91aG91a2Fu/RS=^ADASnyje5j477pf5We5K2iUVGtA6Os-'''
+                                                :onclick: 'this.href=''http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1475711810/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL3JlYWxlc3RhdGUueWFob28uY28uanAvdXNlZC9mZWF0dXJlLzIwMTZfam91aG91a2Fu/RS=^ADAoFUHQ5mpBZguobM.Ba0F62eXv8k-'''
                                               :children:
                                                 - :name: 'img'
                                                   :attributes:
@@ -2441,7 +2413,7 @@
                                             - :name: 'a'
                                               :attributes:
                                                 :href: 'http://realestate.yahoo.co.jp/used/feature/2016_jouhoukan'
-                                                :onclick: 'this.href=''http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1475602705/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL3JlYWxlc3RhdGUueWFob28uY28uanAvdXNlZC9mZWF0dXJlLzIwMTZfam91aG91a2Fu/RS=^ADASnyje5j477pf5We5K2iUVGtA6Os-'''
+                                                :onclick: 'this.href=''http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1475711810/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL3JlYWxlc3RhdGUueWFob28uY28uanAvdXNlZC9mZWF0dXJlLzIwMTZfam91aG91a2Fu/RS=^ADAoFUHQ5mpBZguobM.Ba0F62eXv8k-'''
                                               :children:
                                                 - :name: 'br'
                                     - :name: 'dl'
@@ -2450,13 +2422,6 @@
                                           :attributes:
                                             :class:
                                               - left
-                                          :children:
-                                            - :name: 'img'
-                                              :attributes:
-                                                :alt: 'New!'
-                                                :height: '11'
-                                                :src: 'http://i.yimg.jp/i/new2.gif'
-                                                :width: '28'
                                         - :name: 'dd'
                                           :attributes:
                                             :class:
@@ -2465,7 +2430,7 @@
                                             - :name: 'a'
                                               :attributes:
                                                 :href: 'http://feature.realestate.yahoo.co.jp/daikibo2/main/index.html?lc=03&sc_in=m_daikibo_rtop_t '
-                                                :onclick: 'this.href=''http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1475602705/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL2ZlYXR1cmUucmVhbGVzdGF0ZS55YWhvby5jby5qcC9kYWlraWJvMi9tYWluL2luZGV4Lmh0bWw_bGM9MDMmc2NfaW49bV9kYWlraWJvX3J0b3BfdAA-/RS=^ADAjzSnhFwsQy6zKdFth2op9BkGoJI-'''
+                                                :onclick: 'this.href=''http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1475711810/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL2ZlYXR1cmUucmVhbGVzdGF0ZS55YWhvby5jby5qcC9kYWlraWJvMi9tYWluL2luZGV4Lmh0bWw_bGM9MDMmc2NfaW49bV9kYWlraWJvX3J0b3BfdAA-/RS=^ADAiQHmTPASwbgpAKnvKFsrZkDJK6Q-'''
                                               :children:
                                                 - :name: 'img'
                                                   :attributes:
@@ -2481,7 +2446,7 @@
                                             - :name: 'a'
                                               :attributes:
                                                 :href: 'http://feature.realestate.yahoo.co.jp/daikibo2/main/index.html?lc=03&sc_in=m_daikibo_rtop_t '
-                                                :onclick: 'this.href=''http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1475602705/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL2ZlYXR1cmUucmVhbGVzdGF0ZS55YWhvby5jby5qcC9kYWlraWJvMi9tYWluL2luZGV4Lmh0bWw_bGM9MDMmc2NfaW49bV9kYWlraWJvX3J0b3BfdAA-/RS=^ADAjzSnhFwsQy6zKdFth2op9BkGoJI-'''
+                                                :onclick: 'this.href=''http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1475711810/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL2ZlYXR1cmUucmVhbGVzdGF0ZS55YWhvby5jby5qcC9kYWlraWJvMi9tYWluL2luZGV4Lmh0bWw_bGM9MDMmc2NfaW49bV9kYWlraWJvX3J0b3BfdAA-/RS=^ADAiQHmTPASwbgpAKnvKFsrZkDJK6Q-'''
                                               :children:
                                                 - :name: 'br'
                                 - :name: 'ul'
@@ -2632,7 +2597,7 @@
                                   :children:
                                     - :name: 'a'
                                       :attributes:
-                                        :href: 'http://rdsig.yahoo.co.jp/realestate/top/appli/lp/RV=1/RE=1476725905/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL2NvbnRlbnRzLnJlYWxlc3RhdGUueWFob28uY28uanAvY29tbW9uL3Byb21vL2FwcDIwMTYuaHRtbA--/RS=^ADArmhQ9o642ORnFB5cHYX8AYHEUYs-'
+                                        :href: 'http://rdsig.yahoo.co.jp/realestate/top/appli/lp/RV=1/RE=1476835010/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL2NvbnRlbnRzLnJlYWxlc3RhdGUueWFob28uY28uanAvY29tbW9uL3Byb21vL2FwcDIwMTYuaHRtbA--/RS=^ADAZLUk86njn6MaF_P5llXOFa4.Gek-'
                                       :children:
                                         - :name: 'img'
                                           :attributes:

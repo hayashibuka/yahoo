@@ -3187,7 +3187,7 @@
                                                           :attributes:
                                                             :class:
                                                               - nameBkn
-                                                            :href: 'http://realestate.yahoo.co.jp/land/detail_corp/b0006254149/'
+                                                            :href: 'http://realestate.yahoo.co.jp/land/detail_ag/4m36EmVth9926NOgMqUNk7/'
                                                             :target: '_blank'
                                                     - :name: 'span'
                                                       :attributes:
@@ -3206,274 +3206,6 @@
                                                           - usedListInqEr
                                                           - alertText
                                                         :id: 'inquiry_error_4'
-                                                        :style: 'display:none;'
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :id: 'usedListBoxCol'
-                                                  :children:
-                                                    - :name: 'div'
-                                                      :attributes:
-                                                        :class:
-                                                          - usedListBoxImg
-                                                          - ko
-                                                      :children:
-                                                        - :name: 'p'
-                                                          :attributes:
-                                                            :class:
-                                                              - usedListBoxImgBox
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :data-ylk: 'slk:img;'
-                                                                :href: 'javascript:void(0);'
-                                                              :children:
-                                                                - :name: 'span'
-                                                                  :attributes:
-                                                                    :class:
-                                                                      - usedListBoxImgWrap
-                                                                  :children:
-                                                                    - :name: 'img'
-                                                                      :attributes:
-                                                                        :alt: '物件画像'
-                                                                        :class:
-                                                                          - usedListBoxThum
-                                                                        :src: 'http://realestate.c.yimg.jp/?s=109&hash=fb.7m5qB9dxPuSyx2ZqupA2VkJU-&prop=realestate&url='
-                                                    - :name: 'div'
-                                                      :attributes:
-                                                        :class:
-                                                          - usedListBoxImg
-                                                          - ko
-                                                      :children:
-                                                        - :name: 'p'
-                                                          :attributes:
-                                                            :class:
-                                                              - usedListBoxImgBox
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :data-ylk: 'slk:img;'
-                                                                :href: 'javascript:void(0);'
-                                                              :children:
-                                                                - :name: 'span'
-                                                                  :attributes:
-                                                                    :class:
-                                                                      - usedListBoxImgWrap
-                                                                  :children:
-                                                                    - :name: 'img'
-                                                                      :attributes:
-                                                                        :alt: '物件画像'
-                                                                        :class:
-                                                                          - usedListBoxThum
-                                                                        :src: 'http://realestate.c.yimg.jp/?s=109&hash=fb.7m5qB9dxPuSyx2ZqupA2VkJU-&prop=realestate&url='
-                                                    - :name: 'dl'
-                                                      :attributes:
-                                                        :class:
-                                                          - usedListBoxDate_ko
-                                                      :children:
-                                                        - :name: 'dt'
-                                                        - :name: 'dd'
-                                                          :attributes:
-                                                            :class:
-                                                              - locationLabel
-                                                        - :name: 'dt'
-                                                        - :name: 'dd'
-                                                          :attributes:
-                                                            :class:
-                                                              - transportLabel
-                                                    - :name: 'table'
-                                                      :attributes:
-                                                        :border: '0'
-                                                        :cellspacing: '0'
-                                                        :class:
-                                                          - usedListBoxDate2
-                                                          - ko
-                                                        :id: 'table_4'
-                                                        :summary: '物件の情報を表示するテーブルです。価格、間取り、最寄り駅からの時間、専有面積、築年数等を確認お問い合わせいただけます。'
-                                                      :children:
-                                                        - :name: 'caption'
-                                                        - :name: 'tr'
-                                                          :children:
-                                                            - :name: 'th'
-                                                              :attributes:
-                                                                :class:
-                                                                  - check
-                                                                :scope: 'col'
-                                                            - :name: 'th'
-                                                              :attributes:
-                                                                :class:
-                                                                  - dire
-                                                                :scope: 'col'
-                                                            - :name: 'th'
-                                                              :attributes:
-                                                                :class:
-                                                                  - area
-                                                                :scope: 'col'
-                                                            - :name: 'th'
-                                                              :attributes:
-                                                                :class:
-                                                                  - pri
-                                                                :scope: 'col'
-                                                            - :name: 'th'
-                                                              :attributes:
-                                                                :class:
-                                                                  - tsubo
-                                                                :scope: 'col'
-                                                            - :name: 'th'
-                                                              :attributes:
-                                                                :class:
-                                                                  - fav
-                                                                :scope: 'col'
-                                                            - :name: 'th'
-                                                              :attributes:
-                                                                :class:
-                                                                  - dat
-                                                                :scope: 'col'
-                                                            - :name: 'th'
-                                                              :attributes:
-                                                                :class:
-                                                                  - img
-                                                                :scope: 'col'
-                                                        - :name: 'tr'
-                                                          :children:
-                                                            - :name: 'td'
-                                                              :attributes:
-                                                                :class:
-                                                                  - check
-                                                                :id: 'checkb0006254149'
-                                                              :children:
-                                                                - :name: 'label'
-                                                                  :attributes:
-                                                                    :for: 'inquiry_checked_4_0'
-                                                                  :children:
-                                                                    - :name: 'input'
-                                                                      :attributes:
-                                                                        :id: 'inquiry_checked_4_0'
-                                                                        :name: ''
-                                                                        :type: 'checkbox'
-                                                                        :value: 'b0006254149'
-                                                            - :name: 'td'
-                                                              :attributes:
-                                                                :class:
-                                                                  - dire
-                                                            - :name: 'td'
-                                                              :attributes:
-                                                                :class:
-                                                                  - area
-                                                                  - landArea
-                                                              :children:
-                                                                - :name: 'sup'
-                                                            - :name: 'td'
-                                                              :attributes:
-                                                                :class:
-                                                                  - pri
-                                                              :children:
-                                                                - :name: 'span'
-                                                                  :attributes:
-                                                                    :class:
-                                                                      - priceLabel
-                                                                  :children:
-                                                                    - :name: 'em'
-                                                            - :name: 'td'
-                                                              :attributes:
-                                                                :class:
-                                                                  - tsubo
-                                                            - :name: 'td'
-                                                              :children:
-                                                                - :name: 'a'
-                                                                  :attributes:
-                                                                    :class:
-                                                                      - favBtn
-                                                                    :data-crossid: 'b0006254149'
-                                                                    :data-direct: ''
-                                                                    :data-ylk: 'slk:add_1'
-                                                                    :href: 'javascript:void(0);'
-                                                                    :id: 'favBtn3u6jmleDc1ayoKuVCKqVtw'
-                                                                  :children:
-                                                                    - :name: 'span'
-                                                                      :attributes:
-                                                                        :data-crossid: 'b0006254149'
-                                                                        :data-direct: ''
-                                                                        :id: '3u6jmleDc1ayoKuVCKqVtw'
-                                                                - :name: 'span'
-                                                                  :attributes:
-                                                                    :class:
-                                                                      - favDone
-                                                                    :id: 'favDone3u6jmleDc1ayoKuVCKqVtw'
-                                                                    :style: 'display:none;'
-                                                                  :children:
-                                                                    - :name: 'span'
-                                                                      :attributes:
-                                                                        :id: '3u6jmleDc1ayoKuVCKqVtw'
-                                                            - :name: 'td'
-                                                              :attributes:
-                                                                :class:
-                                                                  - dat
-                                                              :children:
-                                                                - :name: 'a'
-                                                                  :attributes:
-                                                                    :class:
-                                                                      - detailBtn
-                                                                    :data-ylk: 'slk:view_1'
-                                                                    :href: 'http://realestate.yahoo.co.jp/land/detail_corp/b0006254149/'
-                                                                    :target: '_blank'
-                                                            - :name: 'td'
-                                                              :attributes:
-                                                                :class:
-                                                                  - img
-                                                        - :name: 'tr'
-                                                          :attributes:
-                                                            :class:
-                                                              - log_info
-                                                          :children:
-                                                            - :name: 'input'
-                                                              :attributes:
-                                                                :id: '3u6jmleDc1ayoKuVCKqVtw_info'
-                                                                :type: 'hidden'
-                                                                :value: '[{"bid":"0006254149","agid":"00002036334","pf":"13","geo":"13101","group":35,"cid":"00012449","frk_div":"9"}]'
-                                            - :name: 'li'
-                                              :attributes:
-                                                :class:
-                                                  - usedListBoxWrap
-                                                  - yjrclearfix
-                                              :children:
-                                                - :name: 'p'
-                                                  :attributes:
-                                                    :class:
-                                                      - usedListBoxTit
-                                                  :children:
-                                                    - :name: 'a'
-                                                      :attributes:
-                                                        :class:
-                                                          - switchBox
-                                                        :href: 'javascript:void(0);'
-                                                    - :name: 'span'
-                                                      :attributes:
-                                                        :class:
-                                                          - title
-                                                      :children:
-                                                        - :name: 'a'
-                                                          :attributes:
-                                                            :class:
-                                                              - nameBkn
-                                                            :href: 'http://realestate.yahoo.co.jp/land/detail_ag/4m36EmVth9926NOgMqUNk7/'
-                                                            :target: '_blank'
-                                                    - :name: 'span'
-                                                      :attributes:
-                                                        :class:
-                                                          - btnReq
-                                                        :id: 'inquiry_5'
-                                                      :children:
-                                                        - :name: 'a'
-                                                          :attributes:
-                                                            :data-ylk: 'slk:brochure;'
-                                                            :href: 'javascript:void(0);'
-                                                            :id: '5'
-                                                    - :name: 'span'
-                                                      :attributes:
-                                                        :class:
-                                                          - usedListInqEr
-                                                          - alertText
-                                                        :id: 'inquiry_error_5'
                                                         :style: 'display:none;'
                                                 - :name: 'div'
                                                   :attributes:
@@ -3600,7 +3332,7 @@
                                                         :class:
                                                           - usedListBoxDate2
                                                           - ko
-                                                        :id: 'table_5'
+                                                        :id: 'table_4'
                                                         :summary: '物件の情報を表示するテーブルです。価格、間取り、最寄り駅からの時間、専有面積、築年数等を確認お問い合わせいただけます。'
                                                       :children:
                                                         - :name: 'caption'
@@ -3656,11 +3388,11 @@
                                                               :children:
                                                                 - :name: 'label'
                                                                   :attributes:
-                                                                    :for: 'inquiry_checked_5_0'
+                                                                    :for: 'inquiry_checked_4_0'
                                                                   :children:
                                                                     - :name: 'input'
                                                                       :attributes:
-                                                                        :id: 'inquiry_checked_5_0'
+                                                                        :id: 'inquiry_checked_4_0'
                                                                         :name: ''
                                                                         :type: 'checkbox'
                                                                         :value: 'b4m36EmVth9926NOgMqUNk7'
@@ -4232,7 +3964,7 @@
                                                                                   :attributes:
                                                                                     :class:
                                                                                       - check
-                                                                                    :id: '13101011'
+                                                                                    :id: '13101047'
                                                                                   :children:
                                                                                     - :name: 'a'
                                                                                       :attributes:
@@ -4257,7 +3989,32 @@
                                                                                   :attributes:
                                                                                     :class:
                                                                                       - check
-                                                                                    :id: '13101047'
+                                                                                    :id: '13101038'
+                                                                                  :children:
+                                                                                    - :name: 'a'
+                                                                                      :attributes:
+                                                                                        :href: 'javascript:void(0);'
+                                                                                      :children:
+                                                                                        - :name: 'img'
+                                                                                          :attributes:
+                                                                                            :alt: 'チェック'
+                                                                                            :height: '13'
+                                                                                            :src: 'http://i.yimg.jp/images/clear.gif'
+                                                                                            :width: '13'
+                                                                                        - :name: 'em'
+                                                                                        - :name: 'span'
+                                                                                          :attributes:
+                                                                                            :class:
+                                                                                              - numb
+                                                                            - :name: 'em'
+                                                                              :attributes:
+                                                                                :id: '13101'
+                                                                              :children:
+                                                                                - :name: 'dd'
+                                                                                  :attributes:
+                                                                                    :class:
+                                                                                      - check
+                                                                                    :id: '13101004'
                                                                                   :children:
                                                                                     - :name: 'a'
                                                                                       :attributes:
@@ -4308,56 +4065,6 @@
                                                                                     :class:
                                                                                       - check
                                                                                     :id: '13101019'
-                                                                                  :children:
-                                                                                    - :name: 'a'
-                                                                                      :attributes:
-                                                                                        :href: 'javascript:void(0);'
-                                                                                      :children:
-                                                                                        - :name: 'img'
-                                                                                          :attributes:
-                                                                                            :alt: 'チェック'
-                                                                                            :height: '13'
-                                                                                            :src: 'http://i.yimg.jp/images/clear.gif'
-                                                                                            :width: '13'
-                                                                                        - :name: 'em'
-                                                                                        - :name: 'span'
-                                                                                          :attributes:
-                                                                                            :class:
-                                                                                              - numb
-                                                                            - :name: 'em'
-                                                                              :attributes:
-                                                                                :id: '13101'
-                                                                              :children:
-                                                                                - :name: 'dd'
-                                                                                  :attributes:
-                                                                                    :class:
-                                                                                      - check
-                                                                                    :id: '13101004'
-                                                                                  :children:
-                                                                                    - :name: 'a'
-                                                                                      :attributes:
-                                                                                        :href: 'javascript:void(0);'
-                                                                                      :children:
-                                                                                        - :name: 'img'
-                                                                                          :attributes:
-                                                                                            :alt: 'チェック'
-                                                                                            :height: '13'
-                                                                                            :src: 'http://i.yimg.jp/images/clear.gif'
-                                                                                            :width: '13'
-                                                                                        - :name: 'em'
-                                                                                        - :name: 'span'
-                                                                                          :attributes:
-                                                                                            :class:
-                                                                                              - numb
-                                                                            - :name: 'em'
-                                                                              :attributes:
-                                                                                :id: '13101'
-                                                                              :children:
-                                                                                - :name: 'dd'
-                                                                                  :attributes:
-                                                                                    :class:
-                                                                                      - check
-                                                                                    :id: '13101038'
                                                                                   :children:
                                                                                     - :name: 'a'
                                                                                       :attributes:
@@ -4463,25 +4170,6 @@
                                                                                 :class:
                                                                                   - check
                                                                                 :id: '2199'
-                                                                              :children:
-                                                                                - :name: 'a'
-                                                                                  :attributes:
-                                                                                    :href: 'javascript:void(0);'
-                                                                                  :children:
-                                                                                    - :name: 'img'
-                                                                                      :attributes:
-                                                                                        :alt: 'チェックをはずす'
-                                                                                        :src: 'http://i.yimg.jp/images/clear.gif'
-                                                                                    - :name: 'em'
-                                                                                    - :name: 'span'
-                                                                                      :attributes:
-                                                                                        :class:
-                                                                                          - numb
-                                                                            - :name: 'dd'
-                                                                              :attributes:
-                                                                                :class:
-                                                                                  - check
-                                                                                :id: '2341'
                                                                               :children:
                                                                                 - :name: 'a'
                                                                                   :attributes:
