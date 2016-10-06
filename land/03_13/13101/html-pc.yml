@@ -893,7 +893,7 @@
                                 - :name: 'a'
                                   :attributes:
                                     :data-ylk: 'slk:newman;pos:0'
-                                    :href: 'http://realestate.yahoo.co.jp/new/mansion/'
+                                    :href: 'https://realestate.yahoo.co.jp/new/mansion/'
                             - :name: 'li'
                               :children:
                                 - :name: 'a'
@@ -3987,32 +3987,7 @@
                                                                                   :attributes:
                                                                                     :class:
                                                                                       - check
-                                                                                    :id: '13101018'
-                                                                                  :children:
-                                                                                    - :name: 'a'
-                                                                                      :attributes:
-                                                                                        :href: 'javascript:void(0);'
-                                                                                      :children:
-                                                                                        - :name: 'img'
-                                                                                          :attributes:
-                                                                                            :alt: 'チェック'
-                                                                                            :height: '13'
-                                                                                            :src: 'http://i.yimg.jp/images/clear.gif'
-                                                                                            :width: '13'
-                                                                                        - :name: 'em'
-                                                                                        - :name: 'span'
-                                                                                          :attributes:
-                                                                                            :class:
-                                                                                              - numb
-                                                                            - :name: 'em'
-                                                                              :attributes:
-                                                                                :id: '13101'
-                                                                              :children:
-                                                                                - :name: 'dd'
-                                                                                  :attributes:
-                                                                                    :class:
-                                                                                      - check
-                                                                                    :id: '13101019'
+                                                                                    :id: '13101038'
                                                                                   :children:
                                                                                     - :name: 'a'
                                                                                       :attributes:
@@ -4062,7 +4037,32 @@
                                                                                   :attributes:
                                                                                     :class:
                                                                                       - check
-                                                                                    :id: '13101038'
+                                                                                    :id: '13101018'
+                                                                                  :children:
+                                                                                    - :name: 'a'
+                                                                                      :attributes:
+                                                                                        :href: 'javascript:void(0);'
+                                                                                      :children:
+                                                                                        - :name: 'img'
+                                                                                          :attributes:
+                                                                                            :alt: 'チェック'
+                                                                                            :height: '13'
+                                                                                            :src: 'http://i.yimg.jp/images/clear.gif'
+                                                                                            :width: '13'
+                                                                                        - :name: 'em'
+                                                                                        - :name: 'span'
+                                                                                          :attributes:
+                                                                                            :class:
+                                                                                              - numb
+                                                                            - :name: 'em'
+                                                                              :attributes:
+                                                                                :id: '13101'
+                                                                              :children:
+                                                                                - :name: 'dd'
+                                                                                  :attributes:
+                                                                                    :class:
+                                                                                      - check
+                                                                                    :id: '13101019'
                                                                                   :children:
                                                                                     - :name: 'a'
                                                                                       :attributes:
@@ -5565,10 +5565,10 @@
                             :href: 'http://docs.yahoo.co.jp/docs/info/terms/'
                         - :name: 'a'
                           :attributes:
-                            :href: 'http://realestate.yahoo.co.jp/docs/info/'
+                            :href: 'http://contents.realestate.yahoo.co.jp/common/bizc/index.html'
                         - :name: 'a'
                           :attributes:
-                            :href: 'http://realestate.yahoo.co.jp/docs/disclaimer.html'
+                            :href: 'http://realestate.yahoo.co.jp/disclaimer.html'
                         - :name: 'a'
                           :attributes:
                             :href: 'http://help.yahoo.co.jp/help/jp/realestate/'

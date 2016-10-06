@@ -165,7 +165,7 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
-                                                :href: 'http://ard.yahoo.co.jp/SIG=158m3gt23/M=300927838.301788913.303442915.308131643/D=jp_real/S=2078685925:MHUHD/Y=jp/EXP=1475696149/L=O6IFSjE4Mi6yw7sKowhwTQF0MTYwLgAAAACbpD.e/B=Rs9iA7YWMBI-/J=1475688949862646/SIG=127gg9tv1/A=302092466/R=0/*http://docs.donation.yahoo.co.jp/report/kumamoto.html'
+                                                :href: 'http://ard.yahoo.co.jp/SIG=158dktc46/M=300942518.301808234.303428073.308131643/D=jp_real/S=2078685925:MHUHD/Y=jp/EXP=1475782543/L=jmua1zE4Mi4REBHyiIS1swD2MTYwLgAAAAC5HmdR/B=QVRiA7YWPms-/J=1475775343667661/SIG=11nf4lsfr/A=302123435/R=0/*http://tohoku.yahoo.co.jp/yellmarket/'
                                     - :name: 'script'
                                       :attributes:
                                         :language: 'javascript'
@@ -179,7 +179,7 @@
                                               :attributes:
                                                 :alt: ''
                                                 :height: '1'
-                                                :src: 'http://b4.yahoo.co.jp/b?P=O6IFSjE4Mi6yw7sKowhwTQF0MTYwLgAAAACbpD.e&T=15bd66ff5%2fX%3d1475688949%2fE%3d2078685925%2fR%3djp_real%2fK%3d5%2fV%3d2.1%2fW%3dH%2fY%3djp%2fF%3d2103711772%2fH%3dbWgtbG9naW4tc3JjPXlyZSBhZGN2ZXI9Ni44LjA-%2fQ%3d-1%2fS%3d1%2fJ%3d57F539F5&U=13loq83dd%2fN%3dRs9iA7YWMBI-%2fC%3d300927838.301788913.303442915.308131643%2fD%3dMHUHD%2fB%3d302092466'
+                                                :src: 'http://b4.yahoo.co.jp/b?P=jmua1zE4Mi4REBHyiIS1swD2MTYwLgAAAAC5HmdR&T=15b8in25k%2fX%3d1475775343%2fE%3d2078685925%2fR%3djp_real%2fK%3d5%2fV%3d2.1%2fW%3dH%2fY%3djp%2fF%3d1790237342%2fH%3dbWgtbG9naW4tc3JjPXlyZSBhZGN2ZXI9Ni44LjA-%2fQ%3d-1%2fS%3d1%2fJ%3d57F68B6F&U=13lg91p6r%2fN%3dQVRiA7YWPms-%2fC%3d300942518.301808234.303428073.308131643%2fD%3dMHUHD%2fB%3d302123435'
                                                 :width: '1'
                                 - :name: 'div'
                                   :attributes:
@@ -210,7 +210,7 @@
                                       :children:
                                         - :name: 'form'
                                           :attributes:
-                                            :action: 'http://ard.yahoo.co.jp/SIG=155u1r1f4/M=300952429.301820148.303446028.308131609/D=jp_real/S=2078685925:MH/Y=jp/EXP=1475696149/L=O6IFSjE4Mi6yw7sKowhwTQF0MTYwLgAAAACbpD.e/B=O89iA7YWMBI-/J=1475688949862646/SIG=11iddai9k/A=302148478/R=0/*http://search.yahoo.co.jp/search'
+                                            :action: 'http://ard.yahoo.co.jp/SIG=155ftlpt3/M=300952429.301820148.303446028.308131609/D=jp_real/S=2078685925:MH/Y=jp/EXP=1475782543/L=jmua1zE4Mi4REBHyiIS1swD2MTYwLgAAAAC5HmdR/B=NlRiA7YWPms-/J=1475775343667661/SIG=11iddai9k/A=302148478/R=0/*http://search.yahoo.co.jp/search'
                                             :name: 'p'
                                           :children:
                                             - :name: 'p'
@@ -414,7 +414,7 @@
                                 - :name: 'a'
                                   :attributes:
                                     :data-ylk: 'slk:newman;pos:0'
-                                    :href: 'http://realestate.yahoo.co.jp/new/mansion/'
+                                    :href: 'https://realestate.yahoo.co.jp/new/mansion/'
                             - :name: 'li'
                               :children:
                                 - :name: 'a'
@@ -4996,7 +4996,7 @@
                                   :children:
                                     - :name: 'a'
                                       :attributes:
-                                        :href: 'http://knowledge.realestate.yahoo.co.jp/chiebukuro/'
+                                        :href: 'https://realestate.yahoo.co.jp/knowledge/chiebukuro/'
                                       :children:
                                         - :name: 'span'
                                           :attributes:
@@ -5028,47 +5028,47 @@
                                                   :children:
                                                     - :name: 'a'
                                                       :attributes:
-                                                        :href: 'http://knowledge.realestate.yahoo.co.jp/chiebukuro/list/?query=%E8%80%90%E9%9C%87%E3%83%BB%E5%85%8D%E9%9C%87'
+                                                        :href: 'https://realestate.yahoo.co.jp/knowledge/chiebukuro/list/?query=%E8%80%90%E9%9C%87%E3%83%BB%E5%85%8D%E9%9C%87'
                                                 - :name: 'li'
                                                   :children:
                                                     - :name: 'a'
                                                       :attributes:
-                                                        :href: 'http://knowledge.realestate.yahoo.co.jp/chiebukuro/list/?query=%E9%98%B2%E7%8A%AF'
+                                                        :href: 'https://realestate.yahoo.co.jp/knowledge/chiebukuro/list/?query=%E9%98%B2%E7%8A%AF'
                                                 - :name: 'li'
                                                   :children:
                                                     - :name: 'a'
                                                       :attributes:
-                                                        :href: 'http://knowledge.realestate.yahoo.co.jp/chiebukuro/list/?query=%E6%96%B0%E7%AF%89%E3%81%A8%E4%B8%AD%E5%8F%A4'
+                                                        :href: 'https://realestate.yahoo.co.jp/knowledge/chiebukuro/list/?query=%E6%96%B0%E7%AF%89%E3%81%A8%E4%B8%AD%E5%8F%A4'
                                                 - :name: 'li'
                                                   :children:
                                                     - :name: 'a'
                                                       :attributes:
-                                                        :href: 'http://knowledge.realestate.yahoo.co.jp/chiebukuro/list/?query=%E5%9C%B0%E4%BE%A1'
+                                                        :href: 'https://realestate.yahoo.co.jp/knowledge/chiebukuro/list/?query=%E5%9C%B0%E4%BE%A1'
                                                 - :name: 'li'
                                                   :children:
                                                     - :name: 'a'
                                                       :attributes:
-                                                        :href: 'http://knowledge.realestate.yahoo.co.jp/chiebukuro/list/?query=%E4%BD%8F%E5%AE%85%E3%83%AD%E3%83%BC%E3%83%B3%E9%87%91%E5%88%A9'
+                                                        :href: 'https://realestate.yahoo.co.jp/knowledge/chiebukuro/list/?query=%E4%BD%8F%E5%AE%85%E3%83%AD%E3%83%BC%E3%83%B3%E9%87%91%E5%88%A9'
                                                 - :name: 'li'
                                                   :children:
                                                     - :name: 'a'
                                                       :attributes:
-                                                        :href: 'http://knowledge.realestate.yahoo.co.jp/chiebukuro/list/?query=%E3%83%9E%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%A8%E4%B8%80%E6%88%B8%E5%BB%BA%E3%81%A6+%E3%83%A1%E3%83%AA%E3%83%83%E3%83%88'
+                                                        :href: 'https://realestate.yahoo.co.jp/knowledge/chiebukuro/list/?query=%E3%83%9E%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%A8%E4%B8%80%E6%88%B8%E5%BB%BA%E3%81%A6+%E3%83%A1%E3%83%AA%E3%83%83%E3%83%88'
                                                 - :name: 'li'
                                                   :children:
                                                     - :name: 'a'
                                                       :attributes:
-                                                        :href: 'http://knowledge.realestate.yahoo.co.jp/chiebukuro/list/?query=%E6%96%B0%E7%AF%89%E4%B8%80%E6%88%B8%E5%BB%BA%E3%81%A6+%E8%B2%B7%E3%81%84%E6%99%82'
+                                                        :href: 'https://realestate.yahoo.co.jp/knowledge/chiebukuro/list/?query=%E6%96%B0%E7%AF%89%E4%B8%80%E6%88%B8%E5%BB%BA%E3%81%A6+%E8%B2%B7%E3%81%84%E6%99%82'
                                                 - :name: 'li'
                                                   :children:
                                                     - :name: 'a'
                                                       :attributes:
-                                                        :href: 'http://knowledge.realestate.yahoo.co.jp/chiebukuro/list/?query=%E6%96%B0%E7%AF%89%E4%B8%80%E6%88%B8%E5%BB%BA%E3%81%A6+%E8%AB%B8%E7%B5%8C%E8%B2%BB'
+                                                        :href: 'https://realestate.yahoo.co.jp/knowledge/chiebukuro/list/?query=%E6%96%B0%E7%AF%89%E4%B8%80%E6%88%B8%E5%BB%BA%E3%81%A6+%E8%AB%B8%E7%B5%8C%E8%B2%BB'
                                                 - :name: 'li'
                                                   :children:
                                                     - :name: 'a'
                                                       :attributes:
-                                                        :href: 'http://knowledge.realestate.yahoo.co.jp/chiebukuro/list/?query=%E6%96%B0%E7%AF%89%E4%B8%80%E6%88%B8%E5%BB%BA%E3%81%A6+%E4%BE%A1%E6%A0%BC'
+                                                        :href: 'https://realestate.yahoo.co.jp/knowledge/chiebukuro/list/?query=%E6%96%B0%E7%AF%89%E4%B8%80%E6%88%B8%E5%BB%BA%E3%81%A6+%E4%BE%A1%E6%A0%BC'
                                     - :name: 'p'
                                       :attributes:
                                         :class:
@@ -5076,7 +5076,7 @@
                                       :children:
                                         - :name: 'a'
                                           :attributes:
-                                            :href: 'http://knowledge.realestate.yahoo.co.jp/chiebukuro/list/'
+                                            :href: 'https://realestate.yahoo.co.jp/knowledge/chiebukuro/list/'
                         - :name: 'p'
                           :attributes:
                             :class:
@@ -5099,7 +5099,7 @@
                               :children:
                                 - :name: 'a'
                                   :attributes:
-                                    :href: 'http://ard.yahoo.co.jp/SIG=158sguvdj/M=300946164.301812918.303443301.314543865/D=jp_real/S=2078685925:SPREC/Y=jp/EXP=1475696149/L=O6IFSjE4Mi6yw7sKowhwTQF0MTYwLgAAAACbpD.e/B=Ps9iA7YWMBI-/J=1475688949862646/SIG=1205d5tu9/A=302143397/R=0/*http://www.hosoda.co.jp/growing/lineup/OGKB_B/'
+                                    :href: 'http://ard.yahoo.co.jp/SIG=158j8b8eq/M=300946164.301812918.303443301.314543865/D=jp_real/S=2078685925:SPREC/Y=jp/EXP=1475782543/L=jmua1zE4Mi4REBHyiIS1swD2MTYwLgAAAAC5HmdR/B=OVRiA7YWPms-/J=1475775343667661/SIG=1205d5tu9/A=302143397/R=0/*http://www.hosoda.co.jp/growing/lineup/OGKB_B/'
                                     :target: '_top'
                                   :children:
                                     - :name: 'img'
@@ -5121,7 +5121,7 @@
                                           :attributes:
                                             :alt: ''
                                             :height: '1'
-                                            :src: 'http://b4.yahoo.co.jp/b?P=O6IFSjE4Mi6yw7sKowhwTQF0MTYwLgAAAACbpD.e&T=15b9q2kt5%2fX%3d1475688949%2fE%3d2078685925%2fR%3djp_real%2fK%3d5%2fV%3d2.1%2fW%3dH%2fY%3djp%2fF%3d2934986018%2fH%3dbWgtbG9naW4tc3JjPXlyZSBhZGN2ZXI9Ni44LjA-%2fQ%3d-1%2fS%3d1%2fJ%3d57F539F5&U=13lubj7qm%2fN%3dPs9iA7YWMBI-%2fC%3d300946164.301812918.303443301.314543865%2fD%3dSPREC%2fB%3d302143397'
+                                            :src: 'http://b4.yahoo.co.jp/b?P=jmua1zE4Mi4REBHyiIS1swD2MTYwLgAAAAC5HmdR&T=15arh6378%2fX%3d1475775343%2fE%3d2078685925%2fR%3djp_real%2fK%3d5%2fV%3d2.1%2fW%3dH%2fY%3djp%2fF%3d305263118%2fH%3dbWgtbG9naW4tc3JjPXlyZSBhZGN2ZXI9Ni44LjA-%2fQ%3d-1%2fS%3d1%2fJ%3d57F68B6F&U=13l7mapr1%2fN%3dOVRiA7YWPms-%2fC%3d300946164.301812918.303443301.314543865%2fD%3dSPREC%2fB%3d302143397'
                                             :width: '1'
                         - :name: 'style'
                         - :name: 'div'
@@ -5141,7 +5141,7 @@
                                       :attributes:
                                         :alt: ''
                                         :height: '1'
-                                        :src: 'http://b4.yahoo.co.jp/b?P=O6IFSjE4Mi6yw7sKowhwTQF0MTYwLgAAAACbpD.e&T=15bc0psde%2fX%3d1475688949%2fE%3d2078685925%2fR%3djp_real%2fK%3d5%2fV%3d2.1%2fW%3dH%2fY%3djp%2fF%3d3179768525%2fH%3dbWgtbG9naW4tc3JjPXlyZSBhZGN2ZXI9Ni44LjA-%2fQ%3d-1%2fS%3d1%2fJ%3d57F539F5&U=1267adla0%2fN%3dP89iA7YWMBI-%2fC%3d-1%2fD%3dRP%2fB%3d-1'
+                                        :src: 'http://b4.yahoo.co.jp/b?P=jmua1zE4Mi4REBHyiIS1swD2MTYwLgAAAAC5HmdR&T=15acbq6sq%2fX%3d1475775343%2fE%3d2078685925%2fR%3djp_real%2fK%3d5%2fV%3d2.1%2fW%3dH%2fY%3djp%2fF%3d120574835%2fH%3dbWgtbG9naW4tc3JjPXlyZSBhZGN2ZXI9Ni44LjA-%2fQ%3d-1%2fS%3d1%2fJ%3d57F68B6F&U=126kpbn7f%2fN%3dOlRiA7YWPms-%2fC%3d-1%2fD%3dRP%2fB%3d-1'
                                         :width: '1'
                         - :name: 'div'
                           :attributes:
@@ -5179,7 +5179,7 @@
                                       :attributes:
                                         :alt: ''
                                         :height: '1'
-                                        :src: 'http://b4.yahoo.co.jp/b?P=O6IFSjE4Mi6yw7sKowhwTQF0MTYwLgAAAACbpD.e&T=15bohikh7%2fX%3d1475688949%2fE%3d2078685925%2fR%3djp_real%2fK%3d5%2fV%3d2.1%2fW%3dH%2fY%3djp%2fF%3d1774138621%2fH%3dbWgtbG9naW4tc3JjPXlyZSBhZGN2ZXI9Ni44LjA-%2fQ%3d-1%2fS%3d1%2fJ%3d57F539F5&U=127rjflrs%2fN%3dQM9iA7YWMBI-%2fC%3d-2%2fD%3dSQM%2fB%3d-2'
+                                        :src: 'http://b4.yahoo.co.jp/b?P=jmua1zE4Mi4REBHyiIS1swD2MTYwLgAAAAC5HmdR&T=15amep5al%2fX%3d1475775343%2fE%3d2078685925%2fR%3djp_real%2fK%3d5%2fV%3d2.1%2fW%3dH%2fY%3djp%2fF%3d712911975%2fH%3dbWgtbG9naW4tc3JjPXlyZSBhZGN2ZXI9Ni44LjA-%2fQ%3d-1%2fS%3d1%2fJ%3d57F68B6F&U=1276flnjh%2fN%3dO1RiA7YWPms-%2fC%3d-2%2fD%3dSQM%2fB%3d-2'
                                         :width: '1'
                         - :name: 'div'
                           :attributes:
@@ -5360,7 +5360,7 @@
                                   :attributes:
                                     :alt: ''
                                     :height: '1'
-                                    :src: 'http://b4.yahoo.co.jp/b?P=O6IFSjE4Mi6yw7sKowhwTQF0MTYwLgAAAACbpD.e&T=15bipm2ir%2fX%3d1475688949%2fE%3d2078685925%2fR%3djp_real%2fK%3d5%2fV%3d2.1%2fW%3dH%2fY%3djp%2fF%3d4236653993%2fH%3dbWgtbG9naW4tc3JjPXlyZSBhZGN2ZXI9Ni44LjA-%2fQ%3d-1%2fS%3d1%2fJ%3d57F539F5&U=13jgvr65h%2fN%3dQc9iA7YWMBI-%2fC%3d300844728.301697434.303429661.314940993%2fD%3dSQB%2fB%3d302125242'
+                                    :src: 'http://b4.yahoo.co.jp/b?P=jmua1zE4Mi4REBHyiIS1swD2MTYwLgAAAAC5HmdR&T=15bdilcre%2fX%3d1475775343%2fE%3d2078685925%2fR%3djp_real%2fK%3d5%2fV%3d2.1%2fW%3dH%2fY%3djp%2fF%3d2546246466%2fH%3dbWgtbG9naW4tc3JjPXlyZSBhZGN2ZXI9Ni44LjA-%2fQ%3d-1%2fS%3d1%2fJ%3d57F68B6F&U=13jptsig5%2fN%3dPFRiA7YWPms-%2fC%3d300844728.301697434.303429661.314940993%2fD%3dSQB%2fB%3d302125242'
                                     :width: '1'
                 - :name: 'div'
                   :attributes:
@@ -5484,7 +5484,7 @@
                                   :attributes:
                                     :alt: ''
                                     :height: '1'
-                                    :src: 'http://b4.yahoo.co.jp/b?P=O6IFSjE4Mi6yw7sKowhwTQF0MTYwLgAAAACbpD.e&T=15bp2qlnt%2fX%3d1475688949%2fE%3d2078685925%2fR%3djp_real%2fK%3d5%2fV%3d2.1%2fW%3dH%2fY%3djp%2fF%3d2726079490%2fH%3dbWgtbG9naW4tc3JjPXlyZSBhZGN2ZXI9Ni44LjA-%2fQ%3d-1%2fS%3d1%2fJ%3d57F539F5&U=13irvn89j%2fN%3dQs9iA7YWMBI-%2fC%3d300951180.301818803.303441908.302953375%2fD%3dS8%2fB%3d302141184'
+                                    :src: 'http://b4.yahoo.co.jp/b?P=jmua1zE4Mi4REBHyiIS1swD2MTYwLgAAAAC5HmdR&T=15brrtkn4%2fX%3d1475775343%2fE%3d2078685925%2fR%3djp_real%2fK%3d5%2fV%3d2.1%2fW%3dH%2fY%3djp%2fF%3d1740110914%2fH%3dbWgtbG9naW4tc3JjPXlyZSBhZGN2ZXI9Ni44LjA-%2fQ%3d-1%2fS%3d1%2fJ%3d57F68B6F&U=13ii6ovdr%2fN%3dPVRiA7YWPms-%2fC%3d300951180.301818803.303441908.302953375%2fD%3dS8%2fB%3d302141184'
                                     :width: '1'
                     - :name: 'address'
                       :children:
@@ -5496,10 +5496,10 @@
                             :href: 'http://docs.yahoo.co.jp/docs/info/terms/'
                         - :name: 'a'
                           :attributes:
-                            :href: 'http://realestate.yahoo.co.jp/docs/info/'
+                            :href: 'http://contents.realestate.yahoo.co.jp/common/bizc/index.html'
                         - :name: 'a'
                           :attributes:
-                            :href: 'http://realestate.yahoo.co.jp/docs/disclaimer.html'
+                            :href: 'http://realestate.yahoo.co.jp/disclaimer.html'
                         - :name: 'a'
                           :attributes:
                             :href: 'http://help.yahoo.co.jp/help/jp/realestate/'

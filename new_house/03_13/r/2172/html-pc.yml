@@ -1546,219 +1546,192 @@
                                   :children:
                                     - :name: 'link'
                                       :attributes:
-                                        :href: 'http://i.yimg.jp/images/realestate/centerbox/1405rent/css/yjcb_1405rent.css'
+                                        :href: 'https://s.yimg.jp/images/realestate/centerbox/1606daikibo/css/yjcb_1606daikibo.css'
                                         :media: 'all'
                                         :rel:
                                           - stylesheet
+                                        :type: 'text/css'
                                     - :name: 'div'
                                       :attributes:
-                                        :id: 'yjcb-1405rent'
+                                        :class:
+                                          - yjcb1604daikibo
                                       :children:
-                                        - :name: 'p'
-                                          :attributes:
-                                            :class:
-                                              - cb-title
-                                          :children:
-                                            - :name: 'a'
-                                              :attributes:
-                                                :href: 'http://rent.realestate.yahoo.co.jp/'
                                         - :name: 'div'
                                           :attributes:
                                             :class:
-                                              - cb-element
+                                              - headArea
                                           :children:
-                                            - :name: 'div'
+                                            - :name: 'a'
                                               :attributes:
                                                 :class:
-                                                  - cb-left
+                                                  - titleArea
+                                                :href: 'http://feature.realestate.yahoo.co.jp/daikibo2/main/index.html?lc=03&sc_in=m_daikibo_rtop_cb'
                                               :children:
                                                 - :name: 'div'
                                                   :attributes:
                                                     :class:
-                                                      - cb-kodawari
-                                                  :children:
-                                                    - :name: 'p'
-                                                    - :name: 'ul'
-                                                      :children:
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :class:
-                                                                  - widelink
-                                                                :href: 'http://rent.realestate.yahoo.co.jp/search/?lc=03&min_st=5&st_cmt=&cmt_from=0&cmt_to=10&info_open=99&sc_in=r_db_rtop_cb_eki5'
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :class:
-                                                                  - widelink
-                                                                :href: 'http://rent.realestate.yahoo.co.jp/search/?lc=03&st_cmt=&cmt_from=0&cmt_to=10&no_sd_flg=1&no_km_flg=1&info_open=99&sc_in=r_db_rtop_cb_sr0'
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :class:
-                                                                  - widelink
-                                                                :href: 'http://rent.realestate.yahoo.co.jp/search/?lc=03&st_cmt=&cmt_from=0&cmt_to=10&info_open=99&po[]=pe&sc_in=r_db_rtop_cb_pet'
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :class:
-                                                                  - widelink
-                                                                :href: 'http://rent.realestate.yahoo.co.jp/search/?lc=03&st_cmt=&cmt_from=0&cmt_to=10&age=1&info_open=99&sc_in=r_db_rtop_cb_new'
+                                                      - logo
                                                 - :name: 'div'
                                                   :attributes:
                                                     :class:
-                                                      - cb-madori
-                                                      - cf
+                                                      - cbTitle
+                                                - :name: 'div'
+                                                  :attributes:
+                                                    :class:
+                                                      - cbLead
+                                        - :name: 'div'
+                                          :attributes:
+                                            :class:
+                                              - contentsDaikibo
+                                          :children:
+                                            - :name: 'ul'
+                                              :attributes:
+                                                :class:
+                                                  - listUpper
+                                                  - yjrclearfix
+                                              :children:
+                                                - :name: 'li'
                                                   :children:
-                                                    - :name: 'p'
-                                                    - :name: 'ul'
+                                                    - :name: 'a'
+                                                      :attributes:
+                                                        :href: 'http://feature.realestate.yahoo.co.jp/daikibo2/detail/bukken16.html?lc=03&sc_in=m_daikibo_rtop_cb'
                                                       :children:
-                                                        - :name: 'li'
+                                                        - :name: 'div'
+                                                          :attributes:
+                                                            :class:
+                                                              - cbPhoto
                                                           :children:
-                                                            - :name: 'a'
+                                                            - :name: 'img'
                                                               :attributes:
-                                                                :class:
-                                                                  - widelink
-                                                                :href: 'http://rent.realestate.yahoo.co.jp/search/?lc=03&st_cmt=&cmt_from=0&cmt_to=10&rl_dtl[]=1&rl_dtl[]=2&info_open=99&sc_in=r_db_rtop_cb_1k'
-                                                        - :name: 'li'
+                                                                :alt: ''
+                                                                :height: '75'
+                                                                :src: 'https://s.yimg.jp/images/realestate/centerbox/1606daikibo/img/tokyo_cityterrace_koganeikoen.jpg'
+                                                                :width: '106'
+                                                        - :name: 'div'
+                                                          :attributes:
+                                                            :class:
+                                                              - areaName
+                                                        - :name: 'p'
+                                                          :attributes:
+                                                            :class:
+                                                              - cbNameLong
+                                                - :name: 'li'
+                                                  :children:
+                                                    - :name: 'a'
+                                                      :attributes:
+                                                        :href: 'http://feature.realestate.yahoo.co.jp/daikibo2/detail/bukken23.html?lc=03&sc_in=m_daikibo_rtop_cb'
+                                                      :children:
+                                                        - :name: 'div'
+                                                          :attributes:
+                                                            :class:
+                                                              - cbPhoto
                                                           :children:
-                                                            - :name: 'a'
+                                                            - :name: 'img'
                                                               :attributes:
-                                                                :class:
-                                                                  - widelink
-                                                                :href: 'http://rent.realestate.yahoo.co.jp/search/?lc=03&st_cmt=&cmt_from=0&cmt_to=10&rl_dtl[]=3&info_open=99&sc_in=r_db_rtop_cb_1ldk'
-                                                        - :name: 'li'
+                                                                :alt: ''
+                                                                :height: '75'
+                                                                :src: 'https://s.yimg.jp/images/realestate/centerbox/1606daikibo/img/tokyo_grandmaison_ekotanomori.jpg'
+                                                                :width: '106'
+                                                        - :name: 'div'
+                                                          :attributes:
+                                                            :class:
+                                                              - areaName
+                                                        - :name: 'p'
+                                                          :attributes:
+                                                            :class:
+                                                              - cbNameLong
+                                                - :name: 'li'
+                                                  :children:
+                                                    - :name: 'a'
+                                                      :attributes:
+                                                        :href: 'http://feature.realestate.yahoo.co.jp/daikibo2/detail/bukken25.html?lc=03&sc_in=m_daikibo_rtop_cb'
+                                                      :children:
+                                                        - :name: 'div'
+                                                          :attributes:
+                                                            :class:
+                                                              - cbPhoto
                                                           :children:
-                                                            - :name: 'a'
+                                                            - :name: 'img'
                                                               :attributes:
-                                                                :class:
-                                                                  - widelink
-                                                                :href: 'http://rent.realestate.yahoo.co.jp/search/?lc=03&st_cmt=&cmt_from=0&cmt_to=10&rl_dtl[]=5&info_open=99&sc_in=r_db_rtop_cb_2ldk'
-                                                        - :name: 'li'
+                                                                :alt: ''
+                                                                :height: '75'
+                                                                :src: 'https://s.yimg.jp/images/realestate/centerbox/1606daikibo/img/tokyo_skyforest.jpg'
+                                                                :width: '106'
+                                                        - :name: 'div'
+                                                          :attributes:
+                                                            :class:
+                                                              - areaName
+                                                        - :name: 'p'
+                                                          :attributes:
+                                                            :class:
+                                                              - cbNameLong
                                                           :children:
-                                                            - :name: 'a'
+                                                            - :name: 'span'
+                                                - :name: 'li'
+                                                  :children:
+                                                    - :name: 'a'
+                                                      :attributes:
+                                                        :href: 'http://feature.realestate.yahoo.co.jp/daikibo2/detail/bukken26.html?lc=03&sc_in=m_daikibo_rtop_cb'
+                                                      :children:
+                                                        - :name: 'div'
+                                                          :attributes:
+                                                            :class:
+                                                              - cbPhoto
+                                                          :children:
+                                                            - :name: 'img'
                                                               :attributes:
-                                                                :class:
-                                                                  - widelink
-                                                                :href: 'http://rent.realestate.yahoo.co.jp/search/?lc=03&st_cmt=&cmt_from=0&cmt_to=10&rl_dtl[]=7&info_open=99&sc_in=r_db_rtop_cb_3ldk'
+                                                                :alt: ''
+                                                                :height: '75'
+                                                                :src: 'https://s.yimg.jp/images/realestate/centerbox/1606daikibo/img/tokyo_branzcity_setagaya.jpg'
+                                                                :width: '106'
+                                                        - :name: 'div'
+                                                          :attributes:
+                                                            :class:
+                                                              - areaName
+                                                        - :name: 'p'
+                                                          :attributes:
+                                                            :class:
+                                                              - cbNameLong
+                                                - :name: 'li'
+                                                  :children:
+                                                    - :name: 'a'
+                                                      :attributes:
+                                                        :href: 'http://feature.realestate.yahoo.co.jp/daikibo2/detail/bukken28.html?lc=03&sc_in=m_daikibo_rtop_cb'
+                                                      :children:
+                                                        - :name: 'div'
+                                                          :attributes:
+                                                            :class:
+                                                              - cbPhoto
+                                                          :children:
+                                                            - :name: 'img'
+                                                              :attributes:
+                                                                :alt: ''
+                                                                :height: '75'
+                                                                :src: 'https://s.yimg.jp/images/realestate/centerbox/1606daikibo/img/tokyo_thegrandmillenia.jpg'
+                                                                :width: '106'
+                                                        - :name: 'div'
+                                                          :attributes:
+                                                            :class:
+                                                              - areaName
+                                                        - :name: 'p'
+                                                          :attributes:
+                                                            :class:
+                                                              - cbNameLong
+                                                          :children:
+                                                            - :name: 'span'
+                                            - :name: 'ul'
+                                              :attributes:
+                                                :class:
+                                                  - listLower
+                                                  - yjrclearfix
                                             - :name: 'div'
                                               :attributes:
                                                 :class:
-                                                  - cb-right
+                                                  - linkToTop
                                               :children:
-                                                - :name: 'div'
+                                                - :name: 'a'
                                                   :attributes:
-                                                    :class:
-                                                      - cb-chinryo
-                                                  :children:
-                                                    - :name: 'p'
-                                                    - :name: 'ul'
-                                                      :children:
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :class:
-                                                                  - widelink
-                                                                :href: 'http://rent.realestate.yahoo.co.jp/search/?lc=03&st_cmt=&cmt_from=0&cmt_to=10&rent_to=50000&info_open=99&sc_in=r_db_rtop_cb_y5'
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :class:
-                                                                  - widelink
-                                                                :href: 'http://rent.realestate.yahoo.co.jp/search/?lc=03&st_cmt=&cmt_from=0&cmt_to=10&rent_from=50000&rent_to=80000&info_open=99&sc_in=r_db_rtop_cb_y8'
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :class:
-                                                                  - widelink
-                                                                :href: 'http://rent.realestate.yahoo.co.jp/search/?lc=03&st_cmt=&cmt_from=0&cmt_to=10&rent_from=80000&rent_to=120000&info_open=99&sc_in=r_db_rtop_cb_y12'
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :class:
-                                                                  - widelink
-                                                                :href: 'http://rent.realestate.yahoo.co.jp/search/?lc=03&st_cmt=&cmt_from=0&cmt_to=10&rent_from=120000&rent_to=150000&info_open=99&sc_in=r_db_rtop_cb_y15'
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :class:
-                                                      - cb-area
-                                                      - cf
-                                                  :children:
-                                                    - :name: 'p'
-                                                    - :name: 'ul'
-                                                      :attributes:
-                                                        :class:
-                                                          - cb-area-left
-                                                      :children:
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :class:
-                                                                  - widelink
-                                                                :href: 'http://rent.realestate.yahoo.co.jp/search/?lc=03&pf[]=13&st_cmt=&cmt_from=0&cmt_to=10&info_open=99&sc_in=r_db_rtop_cb_area'
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :class:
-                                                                  - widelink
-                                                                :href: 'http://rent.realestate.yahoo.co.jp/search/?lc=03&pf[]=14&st_cmt=&cmt_from=0&cmt_to=10&info_open=99&sc_in=r_db_rtop_cb_area'
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :class:
-                                                                  - widelink
-                                                                :href: 'http://rent.realestate.yahoo.co.jp/search/?lc=03&pf[]=11&st_cmt=&cmt_from=0&cmt_to=10&info_open=99&sc_in=r_db_rtop_cb_area'
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :class:
-                                                                  - widelink
-                                                                :href: 'http://rent.realestate.yahoo.co.jp/search/?lc=03&pf[]=12&st_cmt=&cmt_from=0&cmt_to=10&info_open=99&sc_in=r_db_rtop_cb_area'
-                                                    - :name: 'ul'
-                                                      :attributes:
-                                                        :class:
-                                                          - cb-area-right
-                                                      :children:
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :class:
-                                                                  - widelink
-                                                                :href: 'http://rent.realestate.yahoo.co.jp/search/?lc=03&pf[]=08&st_cmt=&cmt_from=0&cmt_to=10&info_open=99&sc_in=r_db_rtop_cb_area'
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :class:
-                                                                  - widelink
-                                                                :href: 'http://rent.realestate.yahoo.co.jp/search/?lc=03&pf[]=09&st_cmt=&cmt_from=0&cmt_to=10&info_open=99&sc_in=r_db_rtop_cb_area'
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :class:
-                                                                  - widelink
-                                                                :href: 'http://rent.realestate.yahoo.co.jp/search/?lc=03&pf[]=10&st_cmt=&cmt_from=0&cmt_to=10&info_open=99&sc_in=r_db_rtop_cb_area'
-                                                        - :name: 'li'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :class:
-                                                                  - widelink
-                                                                :href: 'http://rent.realestate.yahoo.co.jp/search/?lc=03&pf[]=19&st_cmt=&cmt_from=0&cmt_to=10&info_open=99&sc_in=r_db_rtop_cb_area'
+                                                    :href: 'http://feature.realestate.yahoo.co.jp/daikibo2/main/index.html?lc=03&sc_in=m_daikibo_rtop_cb'
                             - :name: 'div'
                               :attributes:
                                 :class:
@@ -1797,6 +1770,156 @@
                                           :children:
                                             - :name: 'a'
                                               :attributes:
+                                                :href: 'http://realestate.yahoo.co.jp/magazine/corp_reexbrain/20161005-00000001'
+                                              :children:
+                                                - :name: 'span'
+                                                  :attributes:
+                                                    :class:
+                                                      - thumb
+                                                  :children:
+                                                    - :name: 'div'
+                                                      :attributes:
+                                                        :class:
+                                                          - imgLst2
+                                                        :data-original: '#'
+                                                        :style: 'display: block; background-image: url(http://amd.c.yimg.jp/amd/20161005-00000001-corp_reexbrain-000-1-view.jpg);'
+                                                - :name: 'div'
+                                                  :attributes:
+                                                    :class:
+                                                      - textArea
+                                                  :children:
+                                                    - :name: 'p'
+                                                      :attributes:
+                                                        :class:
+                                                          - head1
+                                                    - :name: 'p'
+                                                      :attributes:
+                                                        :class:
+                                                          - headSub1
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: 'http://realestate.yahoo.co.jp/magazine/sumaiweb/20161006-00002320'
+                                              :children:
+                                                - :name: 'span'
+                                                  :attributes:
+                                                    :class:
+                                                      - thumb
+                                                  :children:
+                                                    - :name: 'div'
+                                                      :attributes:
+                                                        :class:
+                                                          - imgLst2
+                                                        :data-original: '#'
+                                                        :style: 'display: block; background-image: url(http://amd.c.yimg.jp/im_siggH4o9yGIlexcSyZk4n537WQ---x900-y450-q90/amd/20161006-00002320-yj_realestate_article-000-1-view.jpg);'
+                                                - :name: 'div'
+                                                  :attributes:
+                                                    :class:
+                                                      - textArea
+                                                  :children:
+                                                    - :name: 'p'
+                                                      :attributes:
+                                                        :class:
+                                                          - head1
+                                                    - :name: 'p'
+                                                      :attributes:
+                                                        :class:
+                                                          - headSub1
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: 'http://realestate.yahoo.co.jp/magazine/sumaiweb/20161005-00002322'
+                                              :children:
+                                                - :name: 'span'
+                                                  :attributes:
+                                                    :class:
+                                                      - thumb
+                                                  :children:
+                                                    - :name: 'div'
+                                                      :attributes:
+                                                        :class:
+                                                          - imgLst2
+                                                        :data-original: '#'
+                                                        :style: 'display: block; background-image: url(http://amd.c.yimg.jp/im_siggcEEPqZbRq8MGdak4uIR7wQ---x900-y675-q90/amd/20161005-00002322-yj_realestate_article-000-1-view.jpg);'
+                                                - :name: 'div'
+                                                  :attributes:
+                                                    :class:
+                                                      - textArea
+                                                  :children:
+                                                    - :name: 'p'
+                                                      :attributes:
+                                                        :class:
+                                                          - head1
+                                                    - :name: 'p'
+                                                      :attributes:
+                                                        :class:
+                                                          - headSub1
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: 'http://realestate.yahoo.co.jp/magazine/suvaco/20161005-00002324'
+                                              :children:
+                                                - :name: 'span'
+                                                  :attributes:
+                                                    :class:
+                                                      - thumb
+                                                  :children:
+                                                    - :name: 'div'
+                                                      :attributes:
+                                                        :class:
+                                                          - imgLst2
+                                                        :data-original: '#'
+                                                        :style: 'display: block; background-image: url(http://amd.c.yimg.jp/im_siggr_IoFkd3.hhx3JLU80y76Q---x900-y595-q90/amd/20161005-00002324-yj_realestate_article-000-1-view.jpg);'
+                                                - :name: 'div'
+                                                  :attributes:
+                                                    :class:
+                                                      - textArea
+                                                  :children:
+                                                    - :name: 'p'
+                                                      :attributes:
+                                                        :class:
+                                                          - head1
+                                                    - :name: 'p'
+                                                      :attributes:
+                                                        :class:
+                                                          - headSub1
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
+                                                :href: 'http://realestate.yahoo.co.jp/magazine/suvaco/20161004-00002325'
+                                              :children:
+                                                - :name: 'span'
+                                                  :attributes:
+                                                    :class:
+                                                      - thumb
+                                                  :children:
+                                                    - :name: 'div'
+                                                      :attributes:
+                                                        :class:
+                                                          - imgLst2
+                                                        :data-original: '#'
+                                                        :style: 'display: block; background-image: url(http://amd.c.yimg.jp/amd/20161004-00002325-yj_realestate_article-000-1-view.jpg);'
+                                                - :name: 'div'
+                                                  :attributes:
+                                                    :class:
+                                                      - textArea
+                                                  :children:
+                                                    - :name: 'p'
+                                                      :attributes:
+                                                        :class:
+                                                          - head1
+                                                    - :name: 'p'
+                                                      :attributes:
+                                                        :class:
+                                                          - headSub1
+                                        - :name: 'li'
+                                          :children:
+                                            - :name: 'a'
+                                              :attributes:
                                                 :href: 'http://realestate.yahoo.co.jp/magazine/suvaco/20161004-00002319'
                                               :children:
                                                 - :name: 'span'
@@ -1810,156 +1933,6 @@
                                                           - imgLst2
                                                         :data-original: '#'
                                                         :style: 'display: block; background-image: url(http://amd.c.yimg.jp/amd/20161004-00002319-yj_realestate_article-000-1-view.jpg);'
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :class:
-                                                      - textArea
-                                                  :children:
-                                                    - :name: 'p'
-                                                      :attributes:
-                                                        :class:
-                                                          - head1
-                                                    - :name: 'p'
-                                                      :attributes:
-                                                        :class:
-                                                          - headSub1
-                                        - :name: 'li'
-                                          :children:
-                                            - :name: 'a'
-                                              :attributes:
-                                                :href: 'http://realestate.yahoo.co.jp/magazine/sumaiweb/20161004-00002316'
-                                              :children:
-                                                - :name: 'span'
-                                                  :attributes:
-                                                    :class:
-                                                      - thumb
-                                                  :children:
-                                                    - :name: 'div'
-                                                      :attributes:
-                                                        :class:
-                                                          - imgLst2
-                                                        :data-original: '#'
-                                                        :style: 'display: block; background-image: url(http://amd.c.yimg.jp/im_siggkqdweVZYUOq6REBarTyXyQ---x900-y600-q90/amd/20161004-00002316-yj_realestate_article-000-1-view.jpg);'
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :class:
-                                                      - textArea
-                                                  :children:
-                                                    - :name: 'p'
-                                                      :attributes:
-                                                        :class:
-                                                          - head1
-                                                    - :name: 'p'
-                                                      :attributes:
-                                                        :class:
-                                                          - headSub1
-                                        - :name: 'li'
-                                          :children:
-                                            - :name: 'a'
-                                              :attributes:
-                                                :href: 'http://realestate.yahoo.co.jp/magazine/sumaiweb/20161004-00002317'
-                                              :children:
-                                                - :name: 'span'
-                                                  :attributes:
-                                                    :class:
-                                                      - thumb
-                                                  :children:
-                                                    - :name: 'div'
-                                                      :attributes:
-                                                        :class:
-                                                          - imgLst2
-                                                        :data-original: '#'
-                                                        :style: 'display: block; background-image: url(http://amd.c.yimg.jp/im_siggpqNJOoxTbQqRmfe_3bI97A---x900-y600-q90/amd/20161004-00002317-yj_realestate_article-000-1-view.jpg);'
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :class:
-                                                      - textArea
-                                                  :children:
-                                                    - :name: 'p'
-                                                      :attributes:
-                                                        :class:
-                                                          - head1
-                                                    - :name: 'p'
-                                                      :attributes:
-                                                        :class:
-                                                          - headSub1
-                                        - :name: 'li'
-                                          :children:
-                                            - :name: 'a'
-                                              :attributes:
-                                                :href: 'http://realestate.yahoo.co.jp/magazine/nanapi/20161002-00002299'
-                                              :children:
-                                                - :name: 'span'
-                                                  :attributes:
-                                                    :class:
-                                                      - thumb
-                                                  :children:
-                                                    - :name: 'div'
-                                                      :attributes:
-                                                        :class:
-                                                          - imgLst2
-                                                        :data-original: '#'
-                                                        :style: 'display: block; background-image: url(http://amd.c.yimg.jp/amd/20161002-00002299-yj_realestate_article-000-1-view.jpg);'
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :class:
-                                                      - textArea
-                                                  :children:
-                                                    - :name: 'p'
-                                                      :attributes:
-                                                        :class:
-                                                          - head1
-                                                    - :name: 'p'
-                                                      :attributes:
-                                                        :class:
-                                                          - headSub1
-                                        - :name: 'li'
-                                          :children:
-                                            - :name: 'a'
-                                              :attributes:
-                                                :href: 'http://realestate.yahoo.co.jp/magazine/sumaiweb/20160930-00002301'
-                                              :children:
-                                                - :name: 'span'
-                                                  :attributes:
-                                                    :class:
-                                                      - thumb
-                                                  :children:
-                                                    - :name: 'div'
-                                                      :attributes:
-                                                        :class:
-                                                          - imgLst2
-                                                        :data-original: '#'
-                                                        :style: 'display: block; background-image: url(http://amd.c.yimg.jp/im_siggRxrW5LcCCD4i.1.3WuGCAw---x900-y609-q90/amd/20160930-00002301-yj_realestate_article-000-1-view.jpg);'
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :class:
-                                                      - textArea
-                                                  :children:
-                                                    - :name: 'p'
-                                                      :attributes:
-                                                        :class:
-                                                          - head1
-                                                    - :name: 'p'
-                                                      :attributes:
-                                                        :class:
-                                                          - headSub1
-                                        - :name: 'li'
-                                          :children:
-                                            - :name: 'a'
-                                              :attributes:
-                                                :href: 'http://realestate.yahoo.co.jp/magazine/sumaiweb/20160928-00002300'
-                                              :children:
-                                                - :name: 'span'
-                                                  :attributes:
-                                                    :class:
-                                                      - thumb
-                                                  :children:
-                                                    - :name: 'div'
-                                                      :attributes:
-                                                        :class:
-                                                          - imgLst2
-                                                        :data-original: '#'
-                                                        :style: 'display: block; background-image: url(http://amd.c.yimg.jp/im_sigg2u81NuE7aqgL53G14k7Wng---x900-y601-q90/amd/20160928-00002300-yj_realestate_article-000-1-view.jpg);'
                                                 - :name: 'div'
                                                   :attributes:
                                                     :class:
@@ -2539,7 +2512,7 @@
                         - :name: 'img'
                           :attributes:
                             :height: '1'
-                            :src: 'http://rdsig.yahoo.co.jp/realestate/top/imp/RV=1/RE=1476898555/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL2FpLnlpbWcuanAvaW1hZ2VzL2NsZWFyLmdpZg--/RS=^ADAfU2i_CBRcpa0v4TcOJDinuUcDwQ-'
+                            :src: 'http://rdsig.yahoo.co.jp/realestate/top/imp/RV=1/RE=1476984949/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL2FpLnlpbWcuanAvaW1hZ2VzL2NsZWFyLmdpZg--/RS=^ADAw7v6PiudT0WdF23..Lg.FC.ymsY-'
                             :width: '1'
                     - :name: 'div'
                       :attributes:
@@ -2572,7 +2545,7 @@
                                             - :name: 'a'
                                               :attributes:
                                                 :href: 'http://realestate.yahoo.co.jp/used/feature/2016_jouhoukan'
-                                                :onclick: 'this.href=''http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1475775355/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL3JlYWxlc3RhdGUueWFob28uY28uanAvdXNlZC9mZWF0dXJlLzIwMTZfam91aG91a2Fu/RS=^ADAGltksG7YXx3kjcwKG.rEn6i8p8w-'''
+                                                :onclick: 'this.href=''http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1475861749/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL3JlYWxlc3RhdGUueWFob28uY28uanAvdXNlZC9mZWF0dXJlLzIwMTZfam91aG91a2Fu/RS=^ADAnYiG2MgIRfEL0fLrcFPTiuRlNqU-'''
                                               :children:
                                                 - :name: 'img'
                                                   :attributes:
@@ -2588,7 +2561,7 @@
                                             - :name: 'a'
                                               :attributes:
                                                 :href: 'http://realestate.yahoo.co.jp/used/feature/2016_jouhoukan'
-                                                :onclick: 'this.href=''http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1475775355/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL3JlYWxlc3RhdGUueWFob28uY28uanAvdXNlZC9mZWF0dXJlLzIwMTZfam91aG91a2Fu/RS=^ADAGltksG7YXx3kjcwKG.rEn6i8p8w-'''
+                                                :onclick: 'this.href=''http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1475861749/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL3JlYWxlc3RhdGUueWFob28uY28uanAvdXNlZC9mZWF0dXJlLzIwMTZfam91aG91a2Fu/RS=^ADAnYiG2MgIRfEL0fLrcFPTiuRlNqU-'''
                                               :children:
                                                 - :name: 'br'
                                     - :name: 'dl'
@@ -2605,7 +2578,7 @@
                                             - :name: 'a'
                                               :attributes:
                                                 :href: 'http://feature.realestate.yahoo.co.jp/daikibo2/main/index.html?lc=03&sc_in=m_daikibo_rtop_t '
-                                                :onclick: 'this.href=''http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1475775355/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL2ZlYXR1cmUucmVhbGVzdGF0ZS55YWhvby5jby5qcC9kYWlraWJvMi9tYWluL2luZGV4Lmh0bWw_bGM9MDMmc2NfaW49bV9kYWlraWJvX3J0b3BfdAA-/RS=^ADA8o1sx4l2PMfsBeaOyTPGL5FGYd8-'''
+                                                :onclick: 'this.href=''http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1475861749/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL2ZlYXR1cmUucmVhbGVzdGF0ZS55YWhvby5jby5qcC9kYWlraWJvMi9tYWluL2luZGV4Lmh0bWw_bGM9MDMmc2NfaW49bV9kYWlraWJvX3J0b3BfdAA-/RS=^ADAgjHRjkW_LudQT9D1CWDmV_nV67E-'''
                                               :children:
                                                 - :name: 'img'
                                                   :attributes:
@@ -2621,7 +2594,7 @@
                                             - :name: 'a'
                                               :attributes:
                                                 :href: 'http://feature.realestate.yahoo.co.jp/daikibo2/main/index.html?lc=03&sc_in=m_daikibo_rtop_t '
-                                                :onclick: 'this.href=''http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1475775355/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL2ZlYXR1cmUucmVhbGVzdGF0ZS55YWhvby5jby5qcC9kYWlraWJvMi9tYWluL2luZGV4Lmh0bWw_bGM9MDMmc2NfaW49bV9kYWlraWJvX3J0b3BfdAA-/RS=^ADA8o1sx4l2PMfsBeaOyTPGL5FGYd8-'''
+                                                :onclick: 'this.href=''http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1475861749/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL2ZlYXR1cmUucmVhbGVzdGF0ZS55YWhvby5jby5qcC9kYWlraWJvMi9tYWluL2luZGV4Lmh0bWw_bGM9MDMmc2NfaW49bV9kYWlraWJvX3J0b3BfdAA-/RS=^ADAgjHRjkW_LudQT9D1CWDmV_nV67E-'''
                                               :children:
                                                 - :name: 'br'
                                 - :name: 'ul'
@@ -2772,7 +2745,7 @@
                                   :children:
                                     - :name: 'a'
                                       :attributes:
-                                        :href: 'http://rdsig.yahoo.co.jp/realestate/top/appli/lp/RV=1/RE=1476898555/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL2NvbnRlbnRzLnJlYWxlc3RhdGUueWFob28uY28uanAvY29tbW9uL3Byb21vL2FwcDIwMTYuaHRtbA--/RS=^ADAGTHAcwFHefu7v0moPLtiMNKlFHA-'
+                                        :href: 'http://rdsig.yahoo.co.jp/realestate/top/appli/lp/RV=1/RE=1476984949/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL2NvbnRlbnRzLnJlYWxlc3RhdGUueWFob28uY28uanAvY29tbW9uL3Byb21vL2FwcDIwMTYuaHRtbA--/RS=^ADAj7cb6e8exTelehKTp_ZBIyPMev0-'
                                       :children:
                                         - :name: 'img'
                                           :attributes:

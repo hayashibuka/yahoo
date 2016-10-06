@@ -217,7 +217,7 @@
                                 - :name: 'a'
                                   :attributes:
                                     :data-ylk: 'slk:newman;pos:0'
-                                    :href: 'http://realestate.yahoo.co.jp/new/mansion/'
+                                    :href: 'https://realestate.yahoo.co.jp/new/mansion/'
                             - :name: 'li'
                               :children:
                                 - :name: 'em'
@@ -4623,7 +4623,7 @@
                                   :children:
                                     - :name: 'a'
                                       :attributes:
-                                        :href: 'http://knowledge.realestate.yahoo.co.jp/chiebukuro/'
+                                        :href: 'https://realestate.yahoo.co.jp/knowledge/chiebukuro/'
                                       :children:
                                         - :name: 'span'
                                           :attributes:
@@ -4655,42 +4655,42 @@
                                                   :children:
                                                     - :name: 'a'
                                                       :attributes:
-                                                        :href: 'http://knowledge.realestate.yahoo.co.jp/chiebukuro/list/?query=%E4%B8%AD%E5%8F%A4%E3%83%9E%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%B3+%E3%83%AA%E3%83%95%E3%82%A9%E3%83%BC%E3%83%A0'
+                                                        :href: 'https://realestate.yahoo.co.jp/knowledge/chiebukuro/list/?query=%E4%B8%AD%E5%8F%A4%E3%83%9E%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%B3+%E3%83%AA%E3%83%95%E3%82%A9%E3%83%BC%E3%83%A0'
                                                 - :name: 'li'
                                                   :children:
                                                     - :name: 'a'
                                                       :attributes:
-                                                        :href: 'http://knowledge.realestate.yahoo.co.jp/chiebukuro/list/?query=%E4%B8%AD%E5%8F%A4+%E4%BD%8F%E5%AE%85%E3%83%AD%E3%83%BC%E3%83%B3'
+                                                        :href: 'https://realestate.yahoo.co.jp/knowledge/chiebukuro/list/?query=%E4%B8%AD%E5%8F%A4+%E4%BD%8F%E5%AE%85%E3%83%AD%E3%83%BC%E3%83%B3'
                                                 - :name: 'li'
                                                   :children:
                                                     - :name: 'a'
                                                       :attributes:
-                                                        :href: 'http://knowledge.realestate.yahoo.co.jp/chiebukuro/list/?query=%E4%BD%8F%E5%AE%85%E3%83%AD%E3%83%BC%E3%83%B3%E9%87%91%E5%88%A9'
+                                                        :href: 'https://realestate.yahoo.co.jp/knowledge/chiebukuro/list/?query=%E4%BD%8F%E5%AE%85%E3%83%AD%E3%83%BC%E3%83%B3%E9%87%91%E5%88%A9'
                                                 - :name: 'li'
                                                   :children:
                                                     - :name: 'a'
                                                       :attributes:
-                                                        :href: 'http://knowledge.realestate.yahoo.co.jp/chiebukuro/list/?query=%E4%B8%AD%E5%8F%A4+%E7%AF%89%E5%B9%B4%E6%95%B0'
+                                                        :href: 'https://realestate.yahoo.co.jp/knowledge/chiebukuro/list/?query=%E4%B8%AD%E5%8F%A4+%E7%AF%89%E5%B9%B4%E6%95%B0'
                                                 - :name: 'li'
                                                   :children:
                                                     - :name: 'a'
                                                       :attributes:
-                                                        :href: 'http://knowledge.realestate.yahoo.co.jp/chiebukuro/list/?query=%E4%B8%AD%E5%8F%A4%E3%83%9E%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%B3+%E8%80%90%E9%9C%87'
+                                                        :href: 'https://realestate.yahoo.co.jp/knowledge/chiebukuro/list/?query=%E4%B8%AD%E5%8F%A4%E3%83%9E%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%B3+%E8%80%90%E9%9C%87'
                                                 - :name: 'li'
                                                   :children:
                                                     - :name: 'a'
                                                       :attributes:
-                                                        :href: 'http://knowledge.realestate.yahoo.co.jp/chiebukuro/list/?query=%E4%B8%AD%E5%8F%A4%E3%83%9E%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%B3+%E8%B3%BC%E5%85%A5%E6%B3%A8%E6%84%8F%E7%82%B9'
+                                                        :href: 'https://realestate.yahoo.co.jp/knowledge/chiebukuro/list/?query=%E4%B8%AD%E5%8F%A4%E3%83%9E%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%B3+%E8%B3%BC%E5%85%A5%E6%B3%A8%E6%84%8F%E7%82%B9'
                                                 - :name: 'li'
                                                   :children:
                                                     - :name: 'a'
                                                       :attributes:
-                                                        :href: 'http://knowledge.realestate.yahoo.co.jp/chiebukuro/list/?query=%E4%B8%AD%E5%8F%A4%E3%83%9E%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%B3+%E8%AB%B8%E8%B2%BB%E7%94%A8'
+                                                        :href: 'https://realestate.yahoo.co.jp/knowledge/chiebukuro/list/?query=%E4%B8%AD%E5%8F%A4%E3%83%9E%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%B3+%E8%AB%B8%E8%B2%BB%E7%94%A8'
                                                 - :name: 'li'
                                                   :children:
                                                     - :name: 'a'
                                                       :attributes:
-                                                        :href: 'http://knowledge.realestate.yahoo.co.jp/chiebukuro/list/?query=%E4%B8%AD%E5%8F%A4%E3%83%9E%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%B3+%E7%9B%B8%E5%A0%B4'
+                                                        :href: 'https://realestate.yahoo.co.jp/knowledge/chiebukuro/list/?query=%E4%B8%AD%E5%8F%A4%E3%83%9E%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%B3+%E7%9B%B8%E5%A0%B4'
                                     - :name: 'p'
                                       :attributes:
                                         :class:
@@ -4698,7 +4698,7 @@
                                       :children:
                                         - :name: 'a'
                                           :attributes:
-                                            :href: 'http://knowledge.realestate.yahoo.co.jp/chiebukuro/list/'
+                                            :href: 'https://realestate.yahoo.co.jp/knowledge/chiebukuro/list/'
                         - :name: 'p'
                           :attributes:
                             :class:
@@ -4983,10 +4983,10 @@
                             :href: 'http://docs.yahoo.co.jp/docs/info/terms/'
                         - :name: 'a'
                           :attributes:
-                            :href: 'http://realestate.yahoo.co.jp/docs/info/'
+                            :href: 'http://contents.realestate.yahoo.co.jp/common/bizc/index.html'
                         - :name: 'a'
                           :attributes:
-                            :href: 'http://realestate.yahoo.co.jp/docs/disclaimer.html'
+                            :href: 'http://realestate.yahoo.co.jp/disclaimer.html'
                         - :name: 'a'
                           :attributes:
                             :href: 'http://help.yahoo.co.jp/help/jp/realestate/'

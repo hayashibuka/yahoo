@@ -1685,7 +1685,7 @@
                                 - :name: 'a'
                                   :attributes:
                                     :data-ylk: 'slk:newman;pos:0'
-                                    :href: 'http://realestate.yahoo.co.jp/new/mansion/'
+                                    :href: 'https://realestate.yahoo.co.jp/new/mansion/'
                             - :name: 'li'
                               :children:
                                 - :name: 'a'
@@ -4873,7 +4873,7 @@
                                                                                   :attributes:
                                                                                     :class:
                                                                                       - check
-                                                                                    :id: '13101004'
+                                                                                    :id: '13101038'
                                                                                   :children:
                                                                                     - :name: 'a'
                                                                                       :attributes:
@@ -4923,7 +4923,7 @@
                                                                                   :attributes:
                                                                                     :class:
                                                                                       - check
-                                                                                    :id: '13101038'
+                                                                                    :id: '13101004'
                                                                                   :children:
                                                                                     - :name: 'a'
                                                                                       :attributes:
@@ -7093,10 +7093,10 @@
                             :href: 'http://docs.yahoo.co.jp/docs/info/terms/'
                         - :name: 'a'
                           :attributes:
-                            :href: 'http://realestate.yahoo.co.jp/docs/info/'
+                            :href: 'http://contents.realestate.yahoo.co.jp/common/bizc/index.html'
                         - :name: 'a'
                           :attributes:
-                            :href: 'http://realestate.yahoo.co.jp/docs/disclaimer.html'
+                            :href: 'http://realestate.yahoo.co.jp/disclaimer.html'
                         - :name: 'a'
                           :attributes:
                             :href: 'http://help.yahoo.co.jp/help/jp/realestate/'
