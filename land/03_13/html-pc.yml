@@ -3246,15 +3246,15 @@
                                               :attributes:
                                                 :class:
                                                   - reset
-                                                  - bkNok
                                               :children:
                                                 - :name: 'input'
                                                   :attributes:
-                                                    :disabled: ''
                                                     :name: 'ln'
                                                     :type: 'checkbox'
                                                     :value: '2357'
-                                                - :name: 'em'
+                                                - :name: 'a'
+                                                  :attributes:
+                                                    :href: 'http://realestate.yahoo.co.jp/land/03/13/rail/2357/'
                                                 - :name: 'span'
                                                   :attributes:
                                                     :class:
