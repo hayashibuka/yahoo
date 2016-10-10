@@ -1,2757 +1,437 @@
-- :name: 'html'
+---
+:name: html
+:children:
+- :name: head
+  :count: 1
   :children:
-    - :name: 'head'
+  - :name: meta
+    :count: 1
+    :attributes:
+      :charset: utf-8
+  - :name: title
+    :count: 1
+  - :name: meta
+    :count: 2
+    :attributes:
+      :content: "新築マンション,分譲マンション,新築分譲マンション,マンション購入,買う,物件情報,ヤフー不動産,yahoo!"
+      :name: keywords
+  - :name: meta
+    :count: 4
+    :attributes:
+      :content: Yahoo!不動産 新築マンション情報 - マンション（新築マンション・分譲マンション）を探すなら
+      :property: og:title
+  - :name: link
+    :count: 1
+    :attributes:
+      :media: all
+      :rel: stylesheet
+      :type: text/css
+  - :name: link
+    :count: 4
+    :attributes:
+      :rel: stylesheet
+  - :name: link
+    :count: 1
+    :attributes:
+      :media: all
+      :rel: stylesheet
+      :type: text/css
+- :name: body
+  :count: 1
+  :children:
+  - :name: div
+    :count: 1
+    :attributes:
+      :id: wrapper
+    :children:
+    - :name: header
+      :count: 1
       :children:
-        - :name: 'meta'
+      - :name: div
+        :count: 1
+        :attributes:
+          :class: header
+        :children:
+        - :name: div
+          :count: 2
           :attributes:
-            :charset: 'utf-8'
-        - :name: 'title'
-        - :name: 'meta'
-          :attributes:
-            :content: '新築マンション,分譲マンション,新築分譲マンション,マンション購入,買う,物件情報,ヤフー不動産,yahoo!'
-            :name: 'keywords'
-        - :name: 'meta'
-          :attributes:
-            :content: 'Yahoo!不動産は新築マンション物件を多数掲載中！全国の豊富なマンション物件情報をエリア、価格、間取りなどの条件から絞込んで検索可能です。販売開始前の新築マンション情報もいち早く掲載！最新の新築マンション販売情報を毎日更新しています。'
-            :name: 'description'
-        - :name: 'meta'
-          :attributes:
-            :content: 'Yahoo!不動産 新築マンション情報 - マンション（新築マンション・分譲マンション）を探すなら'
-            :property: 'og:title'
-        - :name: 'meta'
-          :attributes:
-            :content: 'https://realestate.yahoo.co.jp/new/mansion/'
-            :property: 'og:url'
-        - :name: 'meta'
-          :attributes:
-            :content: 'https://s.yimg.jp/images/realestate/tmpl/images/common/ogp_estate.png'
-            :property: 'og:image'
-        - :name: 'meta'
-          :attributes:
-            :content: '新築（分譲）マンションの最新物件情報を地図,地域,路線,不動産会社,キーワードで検索できます。豊富な画像と間取り図で、あなたのマンション購入をサポート！新居の購入検討をするなら、Yahoo!不動産 新築（分譲）マンション情報'
-            :property: 'og:description'
-        - :name: 'link'
-          :attributes:
-            :href: 'https://s.yimg.jp/yui/jp/mh/pc/1.3.2/css/std.css'
-            :media: 'all'
-            :rel:
-              - stylesheet
-            :type: 'text/css'
-        - :name: 'link'
-          :attributes:
-            :href: 'https://s.yimg.jp/images/realestate/tmpl2014/css/common_v4_3.css'
-            :rel:
-              - stylesheet
-        - :name: 'link'
-          :attributes:
-            :href: 'https://s.yimg.jp/images/realestate/tmpl2014/css/new_mansion_common.css'
-            :rel:
-              - stylesheet
-        - :name: 'link'
-          :attributes:
-            :href: 'https://s.yimg.jp/images/realestate/tmpl2014/css/new_mansion.css'
-            :rel:
-              - stylesheet
-        - :name: 'link'
-          :attributes:
-            :href: 'https://s.yimg.jp/images/realestate/tmpl/css/new/new_rest_suggest.css'
-            :media: 'all'
-            :rel:
-              - stylesheet
-            :type: 'text/css'
-        - :name: 'link'
-          :attributes:
-            :href: 'https://realestate.yahoo.co.jp/new/mansion/'
-            :rel:
-              - canonical
-    - :name: 'body'
-      :children:
-        - :name: 'div'
-          :attributes:
-            :id: 'wrapper'
+            :id: msthd
           :children:
-            - :name: 'header'
-              :children:
-                - :name: 'div'
-                  :attributes:
-                    :class:
-                      - header
-                  :children:
-                    - :name: 'div'
-                      :attributes:
-                        :id: 'msthd'
-                      :children:
-                        - :name: 'div'
-                          :children:
-                            - :name: 'div'
-                              :attributes:
-                                :id: 'msthdtp'
-                              :children:
-                                - :name: 'div'
-                                  :attributes:
-                                    :id: 'msthdUhd'
-                                  :children:
-                                    - :name: 'div'
-                                      :attributes:
-                                        :class:
-                                          - compo
-                                      :children:
-                                        - :name: 'p'
-                                          :attributes:
-                                            :class:
-                                              - txt
-                                          :children:
-                                            - :name: 'a'
-                                              :attributes:
-                                                :href: 'https://ard.yahoo.co.jp/SIG=158vs0f9r/M=300927833.301788908.303438165.308131643/D=jp_real/S=2080441773:MHUHD/Y=jp/EXP=1476041683/L=ppI0DDE4Mi4M5zsrpWeFzXEjMTYwLgAAAAAPCBKa/B=P2mkBmRADiQ-/J=1476034483113161/SIG=11p17gonl/A=302125375/R=0/*http://csr.yahoo.co.jp/report/volume12/'
-                                    - :name: 'script'
-                                      :attributes:
-                                        :language: 'javascript'
-                                    - :name: 'noscript'
-                                      :children:
-                                        - :name: 'div'
-                                          :attributes:
-                                            :style: 'position:absolute;'
-                                          :children:
-                                            - :name: 'img'
-                                              :attributes:
-                                                :alt: ''
-                                                :height: '1'
-                                                :src: 'https://b3.yahoo.co.jp/b?P=ppI0DDE4Mi4M5zsrpWeFzXEjMTYwLgAAAAAPCBKa&T=1525nr3v2%2fX%3d1476034483%2fE%3d2080441773%2fR%3djp_real%2fK%3d5%2fV%3d2.1%2fW%3dH%2fY%3djp%2fF%3d161016600%2fH%3dc2VjdXJlPXRydWUgYWRjdmVyPTYuOC4w%2fQ%3d-1%2fS%3d1%2fJ%3d57FA7FB3&U=13loicq6l%2fN%3dP2mkBmRADiQ-%2fC%3d300927833.301788908.303438165.308131643%2fD%3dMHUHD%2fB%3d302125375'
-                                                :width: '1'
-                                - :name: 'div'
-                                  :attributes:
-                                    :id: 'msthdShpPr'
-                                  :children:
-                                    - :name: 'div'
-                                      :attributes:
-                                        :class:
-                                          - compo
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :data-ylk: 'slk:h_promo;pos:0'
-                                            :href: 'http://rdsig.yahoo.co.jp/shopping/mhd/5/RV=1/RU=aHR0cDovL3RvcGljcy5zaG9wcGluZy55YWhvby5jby5qcC9wcm9tb3Rpb24vc29mdGJhbmtoYXdrcy8_c2NfZT15eWxrX21oZF9zdGxfb2xs'
-                                            :id: 'msthdUhdPrLink'
-                                          :children:
-                                            - :name: 'span'
-                                              :attributes:
-                                                :class:
-                                                  - noLogin
-                                - :name: 'div'
-                                  :attributes:
-                                    :id: 'msthdsb'
-                                  :children:
-                                    - :name: 'div'
-                                      :attributes:
-                                        :id: 'msthdsrch'
-                                      :children:
-                                        - :name: 'form'
-                                          :attributes:
-                                            :action: 'https://ard.yahoo.co.jp/SIG=155s0g3vb/M=300952429.301820148.303446169.308131609/D=jp_real/S=2080441773:MH/Y=jp/EXP=1476041683/L=ppI0DDE4Mi4M5zsrpWeFzXEjMTYwLgAAAAAPCBKa/B=NWmkBmRADiQ-/J=1476034483113161/SIG=11ikccb9u/A=302148764/R=0/*http://search.yahoo.co.jp/search'
-                                            :name: 'p'
-                                          :children:
-                                            - :name: 'p'
-                                              :children:
-                                                - :name: 'label'
-                                                  :attributes:
-                                                    :class:
-                                                      - offLeft
-                                                    :for: 'msthdsbox'
-                                                    :id: 'msthdslb'
-                                                    :title: 'キーワード：'
-                                                - :name: 'input'
-                                                  :attributes:
-                                                    :id: 'msthdsbox'
-                                                    :name: 'p'
-                                                    :placeholder: 'ウェブ検索'
-                                                    :type: 'text'
-                                                    :value: ''
-                                                - :name: 'button'
-                                                  :attributes:
-                                                    :id: 'msthdsbt'
-                                                    :title: '検索'
-                                                    :type: 'submit'
-                                                - :name: 'input'
-                                                  :attributes:
-                                                    :id: 'msthdei'
-                                                    :name: 'ei'
-                                                    :type: 'hidden'
-                                                    :value: 'UTF-8'
-                                                - :name: 'input'
-                                                  :attributes:
-                                                    :name: 'fr'
-                                                    :type: 'hidden'
-                                                    :value: 'ush'
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - logo
-                              :children:
-                                - :name: 'a'
-                                  :attributes:
-                                    :data-ylk: 'slk:h_srvtop;pos:0'
-                                    :href: 'http://realestate.yahoo.co.jp'
-                                    :id: 'msthdLogo'
-                                  :children:
-                                    - :name: 'img'
-                                      :attributes:
-                                        :alt: 'Yahoo!不動産'
-                                        :height: '34'
-                                        :src: 'https://s.yimg.jp/c/logo/f/2.0/realestate_r_34_2x.png'
-                                        :width: '196'
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - msthdtxt
-                              :children:
-                                - :name: 'p'
-                                  :children:
-                                    - :name: 'a'
-                                      :attributes:
-                                        :class:
-                                          - b
-                                        :data-ylk: 'slk:h_regyid;pos:0'
-                                        :href: 'https://account.edit.yahoo.co.jp/registration?.intl=jp&.done=https%3a%2f%2frealestate.yahoo.co.jp%2fnew%2fmansion%2f&.src=realestate'
-                                        :id: 'msthdReg'
-                                - :name: 'p'
-                                  :children:
-                                    - :name: 'a'
-                                      :attributes:
-                                        :class:
-                                          - b
-                                        :data-ylk: 'slk:h_login;pos:0'
-                                        :href: 'https://login.yahoo.co.jp/config/login?.src=realestate&lg=jp&.intl=jp&.done=https%3a%2f%2frealestate.yahoo.co.jp%2fnew%2fmansion%2f'
-                                        :id: 'msthdLogin'
-                                    - :name: 'span'
-                                      :attributes:
-                                        :id: 'msthdPrBox'
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - msthdlink
-                              :children:
-                                - :name: 'ul'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - ytop
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :data-ylk: 'slk:h_ytop;pos:0'
-                                            :href: 'http://rdsig.yahoo.co.jp/mh/click/ytop/RV=1/RU=aHR0cDovL3d3dy55YWhvby5jby5qcC8-'
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - help
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :data-ylk: 'slk:h_hlp;pos:0'
-                                            :href: 'http://www.yahoo-help.jp/app/home/service/realestate/'
-                                            :id: 'msthdHelp'
-                    - :name: 'script'
-                      :attributes:
-                        :src: 'https://s.yimg.jp/images/ds/rapid/ult.js'
-                        :type: 'text/javascript'
-                    - :name: 'script'
-                      :attributes:
-                        :src: 'https://s.yimg.jp/images/security/pf/pcore-1.0.1.min.js'
-                        :type: 'text/javascript'
-                    - :name: 'script'
-                      :attributes:
-                        :src: 'https://s.yimg.jp/images/security/pf/yjsecure.js'
-                        :type: 'text/javascript'
-                    - :name: 'script'
-                      :attributes:
-                        :type: 'text/javascript'
-                    - :name: 'div'
-                      :attributes:
-                        :id: 'yjrNavi_1504'
-                      :children:
-                        - :name: 'div'
-                          :attributes:
-                            :id: 'h_nav'
-                          :children:
-                            - :name: 'ul'
-                              :attributes:
-                                :class:
-                                  - yjrclearfix
-                                :id: 'yjrNaviMenu'
-                              :children:
-                                - :name: 'li'
-                                  :children:
-                                    - :name: 'a'
-                                      :attributes:
-                                        :data-ylk: 'slk:top;pos:0'
-                                        :href: 'http://realestate.yahoo.co.jp/'
-                                - :name: 'li'
-                                  :attributes:
-                                    :class:
-                                      - rent
-                                    :id: 'gnaviRent'
-                                  :children:
-                                    - :name: 'a'
-                                      :attributes:
-                                        :data-ylk: 'slk:rent;pos:0'
-                                        :href: 'http://realestate.yahoo.co.jp/rent/'
-                                    - :name: 'div'
-                                      :attributes:
-                                        :id: 'rentBiz'
-                                        :style: 'display:none;'
-                                      :children:
-                                        - :name: 'ul'
-                                          :children:
-                                            - :name: 'li'
-                                              :children:
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :data-ylk: 'slk:rent;pos:0'
-                                                    :href: 'http://realestate.yahoo.co.jp/rent/'
-                                            - :name: 'li'
-                                              :children:
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :data-ylk: 'slk:rentoff;pos:0'
-                                                    :href: 'http://realestate.yahoo.co.jp/rent/biz/office/'
-                                            - :name: 'li'
-                                              :children:
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :data-ylk: 'slk:rentshop;pos:0'
-                                                    :href: 'http://realestate.yahoo.co.jp/rent/biz/shop/'
-                                            - :name: 'li'
-                                              :children:
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :data-ylk: 'slk:rentpark;pos:0'
-                                                    :href: 'http://realestate.yahoo.co.jp/rent/biz/parking/'
-                                            - :name: 'li'
-                                              :children:
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :data-ylk: 'slk:rentothr;pos:0'
-                                                    :href: 'http://realestate.yahoo.co.jp/rent/biz/other/'
-                                - :name: 'li'
-                                  :children:
-                                    - :name: 'em'
-                                      :attributes:
-                                        :class:
-                                          - current
-                                - :name: 'li'
-                                  :children:
-                                    - :name: 'a'
-                                      :attributes:
-                                        :data-ylk: 'slk:usedman;pos:0'
-                                        :href: 'http://realestate.yahoo.co.jp/used/mansion/'
-                                - :name: 'li'
-                                  :children:
-                                    - :name: 'a'
-                                      :attributes:
-                                        :data-ylk: 'slk:newhou;pos:0'
-                                        :href: 'http://realestate.yahoo.co.jp/new/house/'
-                                - :name: 'li'
-                                  :children:
-                                    - :name: 'a'
-                                      :attributes:
-                                        :data-ylk: 'slk:usedhou;pos:0'
-                                        :href: 'http://realestate.yahoo.co.jp/used/house/'
-                                - :name: 'li'
-                                  :children:
-                                    - :name: 'a'
-                                      :attributes:
-                                        :data-ylk: 'slk:housing;pos:0'
-                                        :href: 'http://realestate.yahoo.co.jp/housing/'
-                                - :name: 'li'
-                                  :children:
-                                    - :name: 'a'
-                                      :attributes:
-                                        :data-ylk: 'slk:land;pos:0'
-                                        :href: 'http://realestate.yahoo.co.jp/land/'
-                                - :name: 'li'
-                                  :children:
-                                    - :name: 'a'
-                                      :attributes:
-                                        :data-ylk: 'slk:sellreal;pos:0'
-                                        :href: 'http://sell.realestate.yahoo.co.jp/'
-                                - :name: 'li'
-                                  :children:
-                                    - :name: 'a'
-                                      :attributes:
-                                        :data-ylk: 'slk:magazine;pos:0'
-                                        :href: 'http://realestate.yahoo.co.jp/magazine/'
-                                - :name: 'li'
-                                  :attributes:
-                                    :class:
-                                      - direct
-                                  :children:
-                                    - :name: 'a'
-                                      :attributes:
-                                        :data-ylk: 'slk:direct;pos:0'
-                                        :href: 'https://realestate.yahoo.co.jp/direct'
-                        - :name: 'div'
-                          :attributes:
-                            :class:
-                              - yjrNaviSubWrap
-                            :id: 'menu'
-                          :children:
-                            - :name: 'div'
-                              :attributes:
-                                :id: 'yjrNaviSub'
-                              :children:
-                                - :name: 'ul'
-                                  :attributes:
-                                    :id: 'yjrNaviUser'
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - menuL
-                                      :children:
-                                        - :name: 'span'
-                                          :attributes:
-                                            :class:
-                                              - menuLA
-                                              - myHozon
-                                            :id: 'searchCondition_disabled'
-                                          :children:
-                                            - :name: 'br'
-                                            - :name: 'em'
-                                              :attributes:
-                                                :class:
-                                                  - count
-                                                  - zero
-                                        - :name: 'a'
-                                          :attributes:
-                                            :class:
-                                              - menuLA
-                                              - myHozon
-                                            :data-ylk: 'slk:save;pos:0'
-                                            :href: 'javascript:void(0);'
-                                            :id: 'searchCondition'
-                                            :style: 'display:none;'
-                                          :children:
-                                            - :name: 'br'
-                                            - :name: 'em'
-                                              :attributes:
-                                                :class:
-                                                  - count
-                                                  - zero
-                                                :id: 'countSearchCondition'
-                                        - :name: 'div'
-                                          :attributes:
-                                            :class:
-                                              - yjrNaviUserMod
-                                              - fav
-                                            :id: 'expandSearchCondition'
-                                            :style: 'display:none;opacity:0.0;'
-                                          :children:
-                                            - :name: 'div'
-                                              :attributes:
-                                                :class:
-                                                  - yjrNaviUserModWrap
-                                              :children:
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :id: 'listAreaSearchCondition_none'
-                                                    :style: 'display:none;margin-top:10px;'
-                                                - :name: 'ul'
-                                                  :attributes:
-                                                    :class:
-                                                      - yjrNaviUserModMenuRec2
-                                                    :id: 'listAreaSearchCondition'
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :class:
-                                                      - pagingArea
-                                                    :id: 'pagingAreaSearchCondition'
-                                                  :children:
-                                                    - :name: 'p'
-                                                      :attributes:
-                                                        :class:
-                                                          - pagingMax
-                                                      :children:
-                                                        - :name: 'br'
-                                                    - :name: 'ul'
-                                                      :attributes:
-                                                        :class:
-                                                          - paging
-                                                        :id: 'pagingSearchCondition'
-                                        - :name: 'div'
-                                          :attributes:
-                                            :class:
-                                              - yjrNaviUserPop
-                                            :id: 'savedPopSearchCondition'
-                                            :style: 'display:none;'
-                                          :children:
-                                            - :name: 'div'
-                                              :attributes:
-                                                :class:
-                                                  - yjrNaviUserPopWrap
-                                              :children:
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :class:
-                                                      - yjrNaviUserPopWrapBody
-                                                  :children:
-                                                    - :name: 'p'
-                                                      :attributes:
-                                                        :class:
-                                                          - titl
-                                                      :children:
-                                                        - :name: 'br'
-                                                    - :name: 'p'
-                                                    - :name: 'p'
-                                                      :attributes:
-                                                        :class:
-                                                          - close
-                                                        :id: 'closeSavedPopSearchCondition'
-                                                      :children:
-                                                        - :name: 'a'
-                                                          :attributes:
-                                                            :href: 'javascript:void(0);'
-                                        - :name: 'div'
-                                          :attributes:
-                                            :class:
-                                              - yjrNaviUserPop
-                                            :id: 'overLimitPopSearchCondition'
-                                            :style: 'display:none;'
-                                          :children:
-                                            - :name: 'div'
-                                              :attributes:
-                                                :class:
-                                                  - yjrNaviUserPopWrap
-                                              :children:
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :class:
-                                                      - yjrNaviUserPopWrapBody
-                                                  :children:
-                                                    - :name: 'p'
-                                                      :attributes:
-                                                        :class:
-                                                          - titl
-                                                      :children:
-                                                        - :name: 'br'
-                                                    - :name: 'p'
-                                                    - :name: 'p'
-                                                      :attributes:
-                                                        :class:
-                                                          - close
-                                                        :id: 'closeOverLimitPopSearchCondition'
-                                                      :children:
-                                                        - :name: 'a'
-                                                          :attributes:
-                                                            :href: 'javascript:void(0);'
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - menuL
-                                      :children:
-                                        - :name: 'span'
-                                          :attributes:
-                                            :class:
-                                              - menuLA
-                                              - myMita
-                                            :id: 'historyBuilding_disabled'
-                                        - :name: 'a'
-                                          :attributes:
-                                            :class:
-                                              - menuLA
-                                              - myMita
-                                            :data-ylk: 'slk:saw;pos:0'
-                                            :href: 'javascript:void(0);'
-                                            :id: 'historyBuilding'
-                                            :style: 'display:none;'
-                                        - :name: 'div'
-                                          :attributes:
-                                            :class:
-                                              - yjrNaviUserMod
-                                              - fav
-                                            :id: 'expandHistoryBuilding'
-                                            :style: 'opacity:0.0;display:none;'
-                                          :children:
-                                            - :name: 'div'
-                                              :attributes:
-                                                :class:
-                                                  - yjrNaviUserModWrap
-                                              :children:
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :class:
-                                                      - LoadingPopW
-                                                    :id: 'loadingHistoryBuilding'
-                                                    :style: 'display: block'
-                                                  :children:
-                                                    - :name: 'p'
-                                                      :attributes:
-                                                        :class:
-                                                          - ref
-                                                      :children:
-                                                        - :name: 'img'
-                                                          :attributes:
-                                                            :alt: '読み込み中'
-                                                            :height: '51'
-                                                            :src: 'https://s.yimg.jp/images/realestate/tmpl/images/common/loading_white.gif'
-                                                            :width: '51'
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :id: 'listAreaHistoryBuilding_none'
-                                                    :style: 'display:none;padding-left:20px;margin-top:10px;'
-                                                - :name: 'ul'
-                                                  :attributes:
-                                                    :class:
-                                                      - yjrNaviUserModProp
-                                                    :id: 'listAreaHistoryBuilding'
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :class:
-                                                      - pagingArea
-                                                    :id: 'pagingAreaHistoryBuilding'
-                                                  :children:
-                                                    - :name: 'ul'
-                                                      :attributes:
-                                                        :class:
-                                                          - paging
-                                                        :id: 'pagingHistoryBuilding'
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - menuL
-                                          - NaviUserEnd
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :class:
-                                              - menuLA
-                                              - fav
-                                              - myFav
-                                            :data-ylk: 'slk:favor;pos:0'
-                                            :href: 'http://personal.realestate.yahoo.co.jp/BuyFavoriteBuilding'
-                                            :id: 'favoriteBuilding'
-                                          :children:
-                                            - :name: 'em'
-                                              :attributes:
-                                                :class:
-                                                  - count
-                                                  - zero
-                                                :id: 'countFavoriteBuilding'
-                                        - :name: 'div'
-                                          :attributes:
-                                            :class:
-                                              - yjrNaviUserPop
-                                            :id: 'savedPopFavoriteBuilding'
-                                            :style: 'display:none;'
-                                          :children:
-                                            - :name: 'div'
-                                              :attributes:
-                                                :class:
-                                                  - yjrNaviUserPopWrap
-                                              :children:
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :class:
-                                                      - yjrNaviUserPopWrapBody
-                                                  :children:
-                                                    - :name: 'p'
-                                                      :attributes:
-                                                        :class:
-                                                          - titl
-                                                      :children:
-                                                        - :name: 'br'
-                                                    - :name: 'p'
-                                                    - :name: 'p'
-                                                      :attributes:
-                                                        :class:
-                                                          - close
-                                                        :id: 'closeSavedPopFavoriteBuilding'
-                                                      :children:
-                                                        - :name: 'a'
-                                                          :attributes:
-                                                            :href: 'javascript:void(0);'
-                                        - :name: 'div'
-                                          :attributes:
-                                            :class:
-                                              - yjrNaviUserPop
-                                            :id: 'overLimitPopFavoriteBuilding'
-                                            :style: 'display:none;'
-                                          :children:
-                                            - :name: 'div'
-                                              :attributes:
-                                                :class:
-                                                  - yjrNaviUserPopWrap
-                                              :children:
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :class:
-                                                      - yjrNaviUserPopWrapBody
-                                                  :children:
-                                                    - :name: 'p'
-                                                      :attributes:
-                                                        :class:
-                                                          - titl
-                                                      :children:
-                                                        - :name: 'br'
-                                                    - :name: 'p'
-                                                    - :name: 'p'
-                                                      :attributes:
-                                                        :class:
-                                                          - close
-                                                        :id: 'closeOverLimitPopFavoriteBuilding'
-                                                      :children:
-                                                        - :name: 'a'
-                                                          :attributes:
-                                                            :href: 'javascript:void(0);'
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - green
-                                :id: 'yjrNaviF'
-                                :style: 'display:none;position:fixed;'
-                              :children:
-                                - :name: 'div'
-                                  :attributes:
-                                    :class:
-                                      - yjrclearfix
-                                    :id: 'yjrNaviFWrap'
-                                  :children:
-                                    - :name: 'p'
-                                      :attributes:
-                                        :class:
-                                          - yjrNaviFT
-                                        :id: 'yjrNaviFT_title'
-                                    - :name: 'ul'
-                                      :attributes:
-                                        :class:
-                                          - yjrNaviUser
-                                      :children:
-                                        - :name: 'li'
-                                          :attributes:
-                                            :class:
-                                              - NaviUser01
-                                          :children:
-                                            - :name: 'span'
-                                              :attributes:
-                                                :class:
-                                                  - yjrNaviUserBtn
-                                                  - myHozon
-                                                :id: 'searchConditionPTBar_disabled'
-                                              :children:
-                                                - :name: 'br'
-                                                - :name: 'em'
-                                                  :attributes:
-                                                    :class:
-                                                      - count
-                                                      - zero
-                                            - :name: 'a'
-                                              :attributes:
-                                                :class:
-                                                  - yjrNaviUserBtn
-                                                  - myHozon
-                                                :data-ylk: 'slk:save;pos:0'
-                                                :href: 'javascript:void(0);'
-                                                :id: 'searchConditionPTBar'
-                                                :style: 'display:none;'
-                                              :children:
-                                                - :name: 'br'
-                                                - :name: 'em'
-                                                  :attributes:
-                                                    :class:
-                                                      - count
-                                                      - zero
-                                                    :id: 'countSearchConditionPTBar'
-                                            - :name: 'div'
-                                              :attributes:
-                                                :class:
-                                                  - yjrNaviUserMod
-                                                  - fav
-                                                :id: 'expandSearchConditionPTBar'
-                                                :style: 'display:none;opacity:0.0;'
-                                              :children:
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :class:
-                                                      - yjrNaviUserModWrap
-                                                    :id: 'mainSearchConditionPTBar'
-                                                  :children:
-                                                    - :name: 'div'
-                                                      :attributes:
-                                                        :id: 'listAreaSearchConditionPTBar_none'
-                                                        :style: 'display:none;padding-left:20px;margin-top:10px;'
-                                                    - :name: 'ul'
-                                                      :attributes:
-                                                        :class:
-                                                          - yjrNaviUserModMenuRec2
-                                                        :id: 'listAreaSearchConditionPTBar'
-                                                    - :name: 'div'
-                                                      :attributes:
-                                                        :class:
-                                                          - pagingArea
-                                                        :id: 'pagingAreaSearchConditionPTBar'
-                                                      :children:
-                                                        - :name: 'p'
-                                                          :attributes:
-                                                            :class:
-                                                              - pagingMax
-                                                          :children:
-                                                            - :name: 'br'
-                                                        - :name: 'ul'
-                                                          :attributes:
-                                                            :class:
-                                                              - paging
-                                                            :id: 'pagingSearchConditionPTBar'
-                                            - :name: 'div'
-                                              :attributes:
-                                                :class:
-                                                  - yjrNaviUserPop
-                                                :id: 'savedPopSearchConditionPTBar'
-                                                :style: 'display:none;'
-                                              :children:
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :class:
-                                                      - yjrNaviUserPopWrap
-                                                  :children:
-                                                    - :name: 'div'
-                                                      :attributes:
-                                                        :class:
-                                                          - yjrNaviUserPopWrapBody
-                                                      :children:
-                                                        - :name: 'p'
-                                                          :attributes:
-                                                            :class:
-                                                              - titl
-                                                          :children:
-                                                            - :name: 'br'
-                                                        - :name: 'p'
-                                                        - :name: 'p'
-                                                          :attributes:
-                                                            :class:
-                                                              - close
-                                                            :id: 'closeSavedPopSearchConditionPTBar'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: 'javascript:void(0);'
-                                            - :name: 'div'
-                                              :attributes:
-                                                :class:
-                                                  - yjrNaviUserPop
-                                                :id: 'overLimitPopSearchConditionPTBar'
-                                                :style: 'display:none;'
-                                              :children:
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :class:
-                                                      - yjrNaviUserPopWrap
-                                                  :children:
-                                                    - :name: 'div'
-                                                      :attributes:
-                                                        :class:
-                                                          - yjrNaviUserPopWrapBody
-                                                      :children:
-                                                        - :name: 'p'
-                                                          :attributes:
-                                                            :class:
-                                                              - titl
-                                                          :children:
-                                                            - :name: 'br'
-                                                        - :name: 'p'
-                                                        - :name: 'p'
-                                                          :attributes:
-                                                            :class:
-                                                              - close
-                                                            :id: 'closeOverLimitPopSearchConditionPTBar'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: 'javascript:void(0);'
-                                        - :name: 'li'
-                                          :attributes:
-                                            :class:
-                                              - NaviUser02
-                                          :children:
-                                            - :name: 'span'
-                                              :attributes:
-                                                :class:
-                                                  - yjrNaviUserBtn
-                                                  - myMita
-                                                :id: 'historyBuildingPTBar_disabled'
-                                            - :name: 'a'
-                                              :attributes:
-                                                :class:
-                                                  - yjrNaviUserBtn
-                                                  - myMita
-                                                :data-ylk: 'slk:saw;pos:0'
-                                                :href: 'javascript:void(0);'
-                                                :id: 'historyBuildingPTBar'
-                                                :style: 'display:none;'
-                                            - :name: 'div'
-                                              :attributes:
-                                                :class:
-                                                  - yjrNaviUserMod
-                                                  - fav
-                                                :id: 'expandHistoryBuildingPTBar'
-                                                :style: 'display:none;opacity:0.0;'
-                                              :children:
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :class:
-                                                      - yjrNaviUserModWrap
-                                                  :children:
-                                                    - :name: 'div'
-                                                      :attributes:
-                                                        :class:
-                                                          - LoadingPopW
-                                                        :id: 'loadingHistoryBuildingPTBar'
-                                                        :style: 'display: block'
-                                                      :children:
-                                                        - :name: 'p'
-                                                          :attributes:
-                                                            :class:
-                                                              - ref
-                                                          :children:
-                                                            - :name: 'img'
-                                                              :attributes:
-                                                                :alt: '読み込み中'
-                                                                :height: '51'
-                                                                :src: 'https://s.yimg.jp/images/realestate/tmpl/images/common/loading_white.gif'
-                                                                :width: '51'
-                                                    - :name: 'div'
-                                                      :attributes:
-                                                        :id: 'listAreaHistoryBuildingPTBar_none'
-                                                        :style: 'display:none;padding-left:20px;margin-top:10px;'
-                                                    - :name: 'ul'
-                                                      :attributes:
-                                                        :class:
-                                                          - yjrNaviUserModProp
-                                                        :id: 'listAreaHistoryBuildingPTBar'
-                                                        :style: 'overflow:hidden;'
-                                                    - :name: 'div'
-                                                      :attributes:
-                                                        :class:
-                                                          - pagingArea
-                                                        :id: 'pagingAreaHistoryBuildingPTBar'
-                                                      :children:
-                                                        - :name: 'ul'
-                                                          :attributes:
-                                                            :class:
-                                                              - paging
-                                                            :id: 'pagingHistoryBuildingPTBar'
-                                        - :name: 'li'
-                                          :attributes:
-                                            :class:
-                                              - NaviUserEnd
-                                          :children:
-                                            - :name: 'a'
-                                              :attributes:
-                                                :class:
-                                                  - yjrNaviUserBtn
-                                                  - fav
-                                                  - myFav
-                                                :data-ylk: 'slk:favor;pos:0'
-                                                :href: 'http://personal.realestate.yahoo.co.jp/BuyFavoriteBuilding'
-                                              :children:
-                                                - :name: 'em'
-                                                  :attributes:
-                                                    :class:
-                                                      - count
-                                                      - zero
-                                                    :id: 'countFavoriteBuildingPTBar'
-                                            - :name: 'div'
-                                              :attributes:
-                                                :class:
-                                                  - yjrNaviUserPop
-                                                :id: 'savedPopFavoriteBuildingPTBar'
-                                                :style: 'display:none;'
-                                              :children:
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :class:
-                                                      - yjrNaviUserPopWrap
-                                                  :children:
-                                                    - :name: 'div'
-                                                      :attributes:
-                                                        :class:
-                                                          - yjrNaviUserPopWrapBody
-                                                      :children:
-                                                        - :name: 'p'
-                                                          :attributes:
-                                                            :class:
-                                                              - titl
-                                                          :children:
-                                                            - :name: 'br'
-                                                        - :name: 'p'
-                                                        - :name: 'p'
-                                                          :attributes:
-                                                            :class:
-                                                              - close
-                                                            :id: 'closeSavedPopFavoriteBuildingPTBar'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: 'javascript:void(0);'
-                                            - :name: 'div'
-                                              :attributes:
-                                                :class:
-                                                  - yjrNaviUserPop
-                                                :id: 'overLimitPopFavoriteBuildingPTBar'
-                                                :style: 'display:none;'
-                                              :children:
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :class:
-                                                      - yjrNaviUserPopWrap
-                                                  :children:
-                                                    - :name: 'div'
-                                                      :attributes:
-                                                        :class:
-                                                          - yjrNaviUserPopWrapBody
-                                                      :children:
-                                                        - :name: 'p'
-                                                          :attributes:
-                                                            :class:
-                                                              - titl
-                                                          :children:
-                                                            - :name: 'br'
-                                                        - :name: 'p'
-                                                        - :name: 'p'
-                                                          :attributes:
-                                                            :class:
-                                                              - close
-                                                            :id: 'closeOverLimitPopFavoriteBuildingPTBar'
-                                                          :children:
-                                                            - :name: 'a'
-                                                              :attributes:
-                                                                :href: 'javascript:void(0);'
-                    - :name: 'div'
-                      :attributes:
-                        :class:
-                          - popupAlert
-                        :id: 'popupAlertId'
-                        :style: 'display:none;'
-            - :name: 'div'
+          - :name: div
+            :count: 1
+            :children:
+            - :name: div
+              :count: 1
               :attributes:
-                :class:
-                  - contents
+                :id: msthdtp
               :children:
-                - :name: 'div'
+              - :name: div
+                :count: 3
+                :attributes:
+                  :id: msthdUhd
+                :children:
+                - :name: div
+                  :count: 1
                   :attributes:
-                    :class:
-                      - main
-                    :role: 'main'
+                    :class: compo
                   :children:
-                    - :name: 'section'
-                      :children:
-                        - :name: 'noscript'
-                          :children:
-                            - :name: 'p'
-                              :attributes:
-                                :class:
-                                  - alert
-                              :children:
-                                - :name: 'br'
-                                - :name: 'a'
-                                  :attributes:
-                                    :href: 'http://www.yahoo-help.jp/app/answers/detail/p/533/a_id/43867'
-                                    :target: 'help'
-                        - :name: 'div'
-                          :attributes:
-                            :class:
-                              - mainTtl
-                              - cf
-                          :children:
-                            - :name: 'h1'
-                              :attributes:
-                                :class:
-                                  - ttl
-                            - :name: 'p'
-                              :attributes:
-                                :class:
-                                  - num
-                        - :name: 'div'
-                          :attributes:
-                            :class:
-                              - searchBox
-                          :children:
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - searchKw
-                              :children:
-                                - :name: 'div'
-                                  :attributes:
-                                    :class:
-                                      - searchForm
-                                  :children:
-                                    - :name: 'div'
-                                      :attributes:
-                                        :class:
-                                          - ult_tracked_mods
-                                        :id: 'key_srch'
-                                      :children:
-                                        - :name: 'div'
-                                          :attributes:
-                                            :class:
-                                              - ttl
-                                        - :name: 'form'
-                                          :attributes:
-                                            :action: 'https://realestate.yahoo.co.jp/new/mansion/kwsearch/'
-                                            :method: 'get'
-                                            :name: 'Keyword'
-                                            :onsubmit: 'return SubmitKeywordAll(''mtop00_in_t_keyword_t_2'');'
-                                          :children:
-                                            - :name: 'input'
-                                              :attributes:
-                                                :id: 'SuggestID'
-                                                :name: 'SuggestID'
-                                                :type: 'hidden'
-                                                :value: 'dta'
-                                            - :name: 'input'
-                                              :attributes:
-                                                :name: 'p_und_flg'
-                                                :type: 'hidden'
-                                                :value: '1'
-                                            - :name: 'input'
-                                              :attributes:
-                                                :name: '_submit'
-                                                :type: 'hidden'
-                                                :value: 'keyword'
-                                            - :name: 'input'
-                                              :attributes:
-                                                :id: 'h_build_type'
-                                                :name: 'h_build_type'
-                                                :type: 'hidden'
-                                                :value: '1'
-                                            - :name: 'input'
-                                              :attributes:
-                                                :name: 'stype'
-                                                :type: 'hidden'
-                                                :value: '00'
-                                            - :name: 'input'
-                                              :attributes:
-                                                :autocomplete: 'off'
-                                                :class:
-                                                  - searchInp
-                                                :id: 'dta'
-                                                :maxlength: '100'
-                                                :name: 'p'
-                                                :onblur: 'clearSuggest(500);'
-                                                :onkeyup: 'initSuggestNewMan(''all'');'
-                                                :placeholder: '物件名、路線名、駅名などを入力'
-                                                :type: 'text'
-                                                :value: ''
-                                            - :name: 'select'
-                                              :attributes:
-                                                :class:
-                                                  - searchArea
-                                                :id: 'lc'
-                                                :name: 'lc'
-                                              :children:
-                                                - :name: 'option'
-                                                  :attributes:
-                                                    :value: '01'
-                                                - :name: 'option'
-                                                  :attributes:
-                                                    :value: '02'
-                                                - :name: 'option'
-                                                  :attributes:
-                                                    :selected: ''
-                                                    :value: '03'
-                                                - :name: 'option'
-                                                  :attributes:
-                                                    :value: '04'
-                                                - :name: 'option'
-                                                  :attributes:
-                                                    :value: '05'
-                                                - :name: 'option'
-                                                  :attributes:
-                                                    :value: '06'
-                                                - :name: 'option'
-                                                  :attributes:
-                                                    :value: '07'
-                                                - :name: 'option'
-                                                  :attributes:
-                                                    :value: '08'
-                                                - :name: 'option'
-                                                  :attributes:
-                                                    :value: '09'
-                                            - :name: 'div'
-                                              :attributes:
-                                                :id: 'choice'
-                                                :style: 'display:none;'
-                                            - :name: 'input'
-                                              :attributes:
-                                                :class:
-                                                  - searchBtn
-                                                :type: 'submit'
-                                                :value: '検索'
-                        - :name: 'div'
-                          :attributes:
-                            :class:
-                              - ult_tracked_mods
-                            :id: 'area'
-                          :children:
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - preSelect
-                                  - cf
-                              :children:
-                                - :name: 'div'
-                                  :attributes:
-                                    :class:
-                                      - mapArea
-                                      - jp
-                                  :children:
-                                    - :name: 'h2'
-                                    - :name: 'ul'
-                                      :attributes:
-                                        :class:
-                                          - mapBtn
-                                      :children:
-                                        - :name: 'li'
-                                          :attributes:
-                                            :class:
-                                              - i1
-                                          :children:
-                                            - :name: 'a'
-                                              :attributes:
-                                                :href: 'https://realestate.yahoo.co.jp/new/mansion/01/?sc_in=mtop00_in_f_areatop_t01_2'
-                                        - :name: 'li'
-                                          :attributes:
-                                            :class:
-                                              - i2
-                                          :children:
-                                            - :name: 'a'
-                                              :attributes:
-                                                :href: 'https://realestate.yahoo.co.jp/new/mansion/02/?sc_in=mtop00_in_f_areatop_t02_2'
-                                        - :name: 'li'
-                                          :attributes:
-                                            :class:
-                                              - i3
-                                          :children:
-                                            - :name: 'a'
-                                              :attributes:
-                                                :href: 'https://realestate.yahoo.co.jp/new/mansion/03/?sc_in=mtop00_in_f_areatop_t03_2'
-                                        - :name: 'li'
-                                          :attributes:
-                                            :class:
-                                              - i4
-                                          :children:
-                                            - :name: 'a'
-                                              :attributes:
-                                                :href: 'https://realestate.yahoo.co.jp/new/mansion/04/?sc_in=mtop00_in_f_areatop_t04_2'
-                                        - :name: 'li'
-                                          :attributes:
-                                            :class:
-                                              - i5
-                                          :children:
-                                            - :name: 'a'
-                                              :attributes:
-                                                :href: 'https://realestate.yahoo.co.jp/new/mansion/05/?sc_in=mtop00_in_f_areatop_t05_2'
-                                        - :name: 'li'
-                                          :attributes:
-                                            :class:
-                                              - i6
-                                          :children:
-                                            - :name: 'a'
-                                              :attributes:
-                                                :href: 'https://realestate.yahoo.co.jp/new/mansion/06/?sc_in=mtop00_in_f_areatop_t06_2'
-                                        - :name: 'li'
-                                          :attributes:
-                                            :class:
-                                              - i7
-                                          :children:
-                                            - :name: 'a'
-                                              :attributes:
-                                                :href: 'https://realestate.yahoo.co.jp/new/mansion/07/?sc_in=mtop00_in_f_areatop_t07_2'
-                                        - :name: 'li'
-                                          :attributes:
-                                            :class:
-                                              - i8
-                                          :children:
-                                            - :name: 'a'
-                                              :attributes:
-                                                :href: 'https://realestate.yahoo.co.jp/new/mansion/08/?sc_in=mtop00_in_f_areatop_t08_2'
-                                        - :name: 'li'
-                                          :attributes:
-                                            :class:
-                                              - i9
-                                          :children:
-                                            - :name: 'a'
-                                              :attributes:
-                                                :href: 'https://realestate.yahoo.co.jp/new/mansion/09/?sc_in=mtop00_in_f_areatop_t09_2'
-                                - :name: 'div'
-                                  :attributes:
-                                    :class:
-                                      - preList
-                                  :children:
-                                    - :name: 'ul'
-                                      :children:
-                                        - :name: 'li'
-                                          :attributes:
-                                            :class:
-                                              - i1
-                                          :children:
-                                            - :name: 'p'
-                                              :children:
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :href: 'https://realestate.yahoo.co.jp/new/mansion/01/01/?sc_in=mtop00_in_t_area_t_p01_2'
-                                        - :name: 'li'
-                                          :attributes:
-                                            :class:
-                                              - i2
-                                          :children:
-                                            - :name: 'p'
-                                            - :name: 'p'
-                                              :children:
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :href: 'https://realestate.yahoo.co.jp/new/mansion/02/02/?sc_in=mtop00_in_t_area_t_p02_2'
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :href: 'https://realestate.yahoo.co.jp/new/mansion/02/03/?sc_in=mtop00_in_t_area_t_p03_2'
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :href: 'https://realestate.yahoo.co.jp/new/mansion/02/04/?sc_in=mtop00_in_t_area_t_p04_2'
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :href: 'https://realestate.yahoo.co.jp/new/mansion/02/05/?sc_in=mtop00_in_t_area_t_p05_2'
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :href: 'https://realestate.yahoo.co.jp/new/mansion/02/06/?sc_in=mtop00_in_t_area_t_p06_2'
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :href: 'https://realestate.yahoo.co.jp/new/mansion/02/07/?sc_in=mtop00_in_t_area_t_p07_2'
-                                        - :name: 'li'
-                                          :attributes:
-                                            :class:
-                                              - i3
-                                          :children:
-                                            - :name: 'p'
-                                            - :name: 'p'
-                                              :children:
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :href: 'https://realestate.yahoo.co.jp/new/mansion/03/13/?sc_in=mtop00_in_t_area_t_p13_2'
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :href: 'https://realestate.yahoo.co.jp/new/mansion/03/14/?sc_in=mtop00_in_t_area_t_p14_2'
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :href: 'https://realestate.yahoo.co.jp/new/mansion/03/11/?sc_in=mtop00_in_t_area_t_p11_2'
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :href: 'https://realestate.yahoo.co.jp/new/mansion/03/12/?sc_in=mtop00_in_t_area_t_p12_2'
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :href: 'https://realestate.yahoo.co.jp/new/mansion/03/08/?sc_in=mtop00_in_t_area_t_p08_2'
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :href: 'https://realestate.yahoo.co.jp/new/mansion/03/09/?sc_in=mtop00_in_t_area_t_p09_2'
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :href: 'https://realestate.yahoo.co.jp/new/mansion/03/10/?sc_in=mtop00_in_t_area_t_p10_2'
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :href: 'https://realestate.yahoo.co.jp/new/mansion/03/19/?sc_in=mtop00_in_t_area_t_p19_2'
-                                        - :name: 'li'
-                                          :attributes:
-                                            :class:
-                                              - i4
-                                          :children:
-                                            - :name: 'p'
-                                            - :name: 'p'
-                                              :children:
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :href: 'https://realestate.yahoo.co.jp/new/mansion/04/15/?sc_in=mtop00_in_t_area_t_p15_2'
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :href: 'https://realestate.yahoo.co.jp/new/mansion/04/20/?sc_in=mtop00_in_t_area_t_p20_2'
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :href: 'https://realestate.yahoo.co.jp/new/mansion/04/16/?sc_in=mtop00_in_t_area_t_p16_2'
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :href: 'https://realestate.yahoo.co.jp/new/mansion/04/17/?sc_in=mtop00_in_t_area_t_p17_2'
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :href: 'https://realestate.yahoo.co.jp/new/mansion/04/18/?sc_in=mtop00_in_t_area_t_p18_2'
-                                        - :name: 'li'
-                                          :attributes:
-                                            :class:
-                                              - i5
-                                          :children:
-                                            - :name: 'p'
-                                            - :name: 'p'
-                                              :children:
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :href: 'https://realestate.yahoo.co.jp/new/mansion/05/23/?sc_in=mtop00_in_t_area_t_p23_2'
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :href: 'https://realestate.yahoo.co.jp/new/mansion/05/21/?sc_in=mtop00_in_t_area_t_p21_2'
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :href: 'https://realestate.yahoo.co.jp/new/mansion/05/22/?sc_in=mtop00_in_t_area_t_p22_2'
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :href: 'https://realestate.yahoo.co.jp/new/mansion/05/24/?sc_in=mtop00_in_t_area_t_p24_2'
-                                        - :name: 'li'
-                                          :attributes:
-                                            :class:
-                                              - i6
-                                          :children:
-                                            - :name: 'p'
-                                            - :name: 'p'
-                                              :children:
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :href: 'https://realestate.yahoo.co.jp/new/mansion/06/27/?sc_in=mtop00_in_t_area_t_p27_2'
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :href: 'https://realestate.yahoo.co.jp/new/mansion/06/28/?sc_in=mtop00_in_t_area_t_p28_2'
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :href: 'https://realestate.yahoo.co.jp/new/mansion/06/26/?sc_in=mtop00_in_t_area_t_p26_2'
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :href: 'https://realestate.yahoo.co.jp/new/mansion/06/25/?sc_in=mtop00_in_t_area_t_p25_2'
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :href: 'https://realestate.yahoo.co.jp/new/mansion/06/29/?sc_in=mtop00_in_t_area_t_p29_2'
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :href: 'https://realestate.yahoo.co.jp/new/mansion/06/30/?sc_in=mtop00_in_t_area_t_p30_2'
-                                        - :name: 'li'
-                                          :attributes:
-                                            :class:
-                                              - i7
-                                          :children:
-                                            - :name: 'p'
-                                            - :name: 'p'
-                                              :children:
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :href: 'https://realestate.yahoo.co.jp/new/mansion/07/31/?sc_in=mtop00_in_t_area_t_p31_2'
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :href: 'https://realestate.yahoo.co.jp/new/mansion/07/32/?sc_in=mtop00_in_t_area_t_p32_2'
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :href: 'https://realestate.yahoo.co.jp/new/mansion/07/33/?sc_in=mtop00_in_t_area_t_p33_2'
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :href: 'https://realestate.yahoo.co.jp/new/mansion/07/34/?sc_in=mtop00_in_t_area_t_p34_2'
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :href: 'https://realestate.yahoo.co.jp/new/mansion/07/35/?sc_in=mtop00_in_t_area_t_p35_2'
-                                        - :name: 'li'
-                                          :attributes:
-                                            :class:
-                                              - i8
-                                          :children:
-                                            - :name: 'p'
-                                            - :name: 'p'
-                                              :children:
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :href: 'https://realestate.yahoo.co.jp/new/mansion/08/36/?sc_in=mtop00_in_t_area_t_p36_2'
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :href: 'https://realestate.yahoo.co.jp/new/mansion/08/37/?sc_in=mtop00_in_t_area_t_p37_2'
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :href: 'https://realestate.yahoo.co.jp/new/mansion/08/38/?sc_in=mtop00_in_t_area_t_p38_2'
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :href: 'https://realestate.yahoo.co.jp/new/mansion/08/39/?sc_in=mtop00_in_t_area_t_p39_2'
-                                        - :name: 'li'
-                                          :attributes:
-                                            :class:
-                                              - i9
-                                          :children:
-                                            - :name: 'p'
-                                            - :name: 'p'
-                                              :children:
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :href: 'https://realestate.yahoo.co.jp/new/mansion/09/40/?sc_in=mtop00_in_t_area_t_p40_2'
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :href: 'https://realestate.yahoo.co.jp/new/mansion/09/41/?sc_in=mtop00_in_t_area_t_p41_2'
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :href: 'https://realestate.yahoo.co.jp/new/mansion/09/42/?sc_in=mtop00_in_t_area_t_p42_2'
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :href: 'https://realestate.yahoo.co.jp/new/mansion/09/43/?sc_in=mtop00_in_t_area_t_p43_2'
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :href: 'https://realestate.yahoo.co.jp/new/mansion/09/44/?sc_in=mtop00_in_t_area_t_p44_2'
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :href: 'https://realestate.yahoo.co.jp/new/mansion/09/45/?sc_in=mtop00_in_t_area_t_p45_2'
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :href: 'https://realestate.yahoo.co.jp/new/mansion/09/46/?sc_in=mtop00_in_t_area_t_p46_2'
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :href: 'https://realestate.yahoo.co.jp/new/mansion/09/47/?sc_in=mtop00_in_t_area_t_p47_2'
-                        - :name: 'div'
-                          :attributes:
-                            :class:
-                              - ult_tracked_mods
-                            :id: 'the_srch'
-                          :children:
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - themeList
-                              :children:
-                                - :name: 'h2'
-                                - :name: 'ul'
-                                  :attributes:
-                                    :class:
-                                      - cf
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - i1
-                                      :children:
-                                        - :name: 'div'
-                                          :attributes:
-                                            :class:
-                                              - cf
-                                          :children:
-                                            - :name: 'p'
-                                              :attributes:
-                                                :class:
-                                                  - img
-                                              :children:
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :href: 'https://realestate.yahoo.co.jp/new/mansion/themelist/03/?sc_in=mtop00_in_b_m-theme_n03_2'
-                                                  :children:
-                                                    - :name: 'img'
-                                                      :attributes:
-                                                        :alt: '大規模マンション'
-                                                        :src: 'https://s.yimg.jp/images/realestate/tmpl2014/img/new_mansion/img_theme_big_03.png'
-                                            - :name: 'div'
-                                              :attributes:
-                                                :class:
-                                                  - txt
-                                                  - cf
-                                              :children:
-                                                - :name: 'p'
-                                                  :attributes:
-                                                    :class:
-                                                      - ttl
-                                                  :children:
-                                                    - :name: 'a'
-                                                      :attributes:
-                                                        :href: 'https://realestate.yahoo.co.jp/new/mansion/themelist/03/'
-                                                - :name: 'p'
-                                                  :attributes:
-                                                    :class:
-                                                      - read
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - i2
-                                      :children:
-                                        - :name: 'div'
-                                          :attributes:
-                                            :class:
-                                              - cf
-                                          :children:
-                                            - :name: 'p'
-                                              :attributes:
-                                                :class:
-                                                  - img
-                                              :children:
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :href: 'https://realestate.yahoo.co.jp/new/mansion/themelist/04/?sc_in=mtop00_in_b_m-theme_n04_2'
-                                                  :children:
-                                                    - :name: 'img'
-                                                      :attributes:
-                                                        :alt: 'タワーマンション'
-                                                        :src: 'https://s.yimg.jp/images/realestate/tmpl2014/img/new_mansion/img_theme_big_04.png'
-                                            - :name: 'div'
-                                              :attributes:
-                                                :class:
-                                                  - txt
-                                                  - cf
-                                              :children:
-                                                - :name: 'p'
-                                                  :attributes:
-                                                    :class:
-                                                      - ttl
-                                                  :children:
-                                                    - :name: 'a'
-                                                      :attributes:
-                                                        :href: 'https://realestate.yahoo.co.jp/new/mansion/themelist/04/?sc_in=mtop00_in_b_m-theme_n04_2'
-                                                - :name: 'p'
-                                                  :attributes:
-                                                    :class:
-                                                      - read
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - i3
-                                      :children:
-                                        - :name: 'div'
-                                          :attributes:
-                                            :class:
-                                              - cf
-                                          :children:
-                                            - :name: 'p'
-                                              :attributes:
-                                                :class:
-                                                  - img
-                                              :children:
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :href: 'https://realestate.yahoo.co.jp/new/mansion/themelist/01/?sc_in=mtop00_in_b_m-theme_n01_2'
-                                                  :children:
-                                                    - :name: 'img'
-                                                      :attributes:
-                                                        :alt: '駅から徒歩5分以内！'
-                                                        :src: 'https://s.yimg.jp/images/realestate/tmpl2014/img/new_mansion/img_theme_big_01.png'
-                                            - :name: 'div'
-                                              :attributes:
-                                                :class:
-                                                  - txt
-                                                  - cf
-                                              :children:
-                                                - :name: 'p'
-                                                  :attributes:
-                                                    :class:
-                                                      - ttl
-                                                  :children:
-                                                    - :name: 'a'
-                                                      :attributes:
-                                                        :href: 'https://realestate.yahoo.co.jp/new/mansion/themelist/01/?sc_in=mtop00_in_b_m-theme_n01_2'
-                                                - :name: 'p'
-                                                  :attributes:
-                                                    :class:
-                                                      - read
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - i4
-                                      :children:
-                                        - :name: 'div'
-                                          :attributes:
-                                            :class:
-                                              - cf
-                                          :children:
-                                            - :name: 'p'
-                                              :attributes:
-                                                :class:
-                                                  - img
-                                              :children:
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :href: 'https://realestate.yahoo.co.jp/new/mansion/themelist/09/?sc_in=mtop00_in_b_m-theme_n09_2'
-                                                  :children:
-                                                    - :name: 'img'
-                                                      :attributes:
-                                                        :alt: 'これから発売される物件'
-                                                        :src: 'https://s.yimg.jp/images/realestate/tmpl2014/img/new_mansion/img_theme_big_09.png'
-                                            - :name: 'div'
-                                              :attributes:
-                                                :class:
-                                                  - txt
-                                                  - cf
-                                              :children:
-                                                - :name: 'p'
-                                                  :attributes:
-                                                    :class:
-                                                      - ttl
-                                                  :children:
-                                                    - :name: 'a'
-                                                      :attributes:
-                                                        :href: 'https://realestate.yahoo.co.jp/new/mansion/themelist/09/?sc_in=mtop00_in_b_m-theme_n09_2'
-                                                - :name: 'p'
-                                                  :attributes:
-                                                    :class:
-                                                      - read
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - i5
-                                      :children:
-                                        - :name: 'div'
-                                          :attributes:
-                                            :class:
-                                              - cf
-                                          :children:
-                                            - :name: 'p'
-                                              :attributes:
-                                                :class:
-                                                  - img
-                                              :children:
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :href: 'https://realestate.yahoo.co.jp/new/mansion/themelist/14/?sc_in=mtop00_in_b_m-theme_n14_2'
-                                                  :children:
-                                                    - :name: 'img'
-                                                      :attributes:
-                                                        :alt: 'シングル、DINKS向け'
-                                                        :src: 'https://s.yimg.jp/images/realestate/tmpl2014/img/new_mansion/img_theme_big_14.png'
-                                            - :name: 'div'
-                                              :attributes:
-                                                :class:
-                                                  - txt
-                                                  - cf
-                                              :children:
-                                                - :name: 'p'
-                                                  :attributes:
-                                                    :class:
-                                                      - ttl
-                                                  :children:
-                                                    - :name: 'a'
-                                                      :attributes:
-                                                        :href: 'https://realestate.yahoo.co.jp/new/mansion/themelist/14/?sc_in=mtop00_in_b_m-theme_n14_2'
-                                                - :name: 'p'
-                                                  :attributes:
-                                                    :class:
-                                                      - read
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - i6
-                                      :children:
-                                        - :name: 'div'
-                                          :attributes:
-                                            :class:
-                                              - cf
-                                          :children:
-                                            - :name: 'p'
-                                              :attributes:
-                                                :class:
-                                                  - img
-                                              :children:
-                                                - :name: 'a'
-                                                  :attributes:
-                                                    :href: 'https://realestate.yahoo.co.jp/new/mansion/themelist/13/?sc_in=mtop00_in_b_m-theme_n13_2'
-                                                  :children:
-                                                    - :name: 'img'
-                                                      :attributes:
-                                                        :alt: 'ハイグレードマンション'
-                                                        :src: 'https://s.yimg.jp/images/realestate/tmpl2014/img/new_mansion/img_theme_big_13.png'
-                                            - :name: 'div'
-                                              :attributes:
-                                                :class:
-                                                  - txt
-                                                  - cf
-                                              :children:
-                                                - :name: 'p'
-                                                  :attributes:
-                                                    :class:
-                                                      - ttl
-                                                  :children:
-                                                    - :name: 'a'
-                                                      :attributes:
-                                                        :href: 'https://realestate.yahoo.co.jp/new/mansion/themelist/13/?sc_in=mtop00_in_b_m-theme_n13_2'
-                                                - :name: 'p'
-                                                  :attributes:
-                                                    :class:
-                                                      - read
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - i7
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: 'https://realestate.yahoo.co.jp/new/mansion/theme/?sc_in=mtop00_in_t_m-theme_other_2'
-                        - :name: 'div'
-                          :attributes:
-                            :class:
-                              - recoSation
-                              - ult_tracked_mods
-                            :id: 'fcs_area'
-                          :children:
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - ttlArea
-                                  - cf
-                              :children:
-                                - :name: 'h2'
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - item
-                                  - ult_tracked_mods
-                                :id: 'fcs_area'
-                              :children:
-                                - :name: 'ol'
-                                  :attributes:
-                                    :class:
-                                      - cf
-                                  :children:
-                                    - :name: 'li'
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: 'https://realestate.yahoo.co.jp/new/mansion/areasearch/13113/?lc=03&sc_in=mtop00_focus_area'
-                                    - :name: 'li'
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: 'https://realestate.yahoo.co.jp/new/mansion/areasearch/13104/?lc=03&sc_in=mtop00_focus_area'
-                                    - :name: 'li'
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: 'https://realestate.yahoo.co.jp/new/mansion/areasearch/13103/?lc=03&sc_in=mtop00_focus_area'
-                                    - :name: 'li'
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: 'https://realestate.yahoo.co.jp/new/mansion/areasearch/13110/?lc=03&sc_in=mtop00_focus_area'
-                                    - :name: 'li'
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: 'https://realestate.yahoo.co.jp/new/mansion/areasearch/141/?lc=03&sc_in=mtop00_focus_area'
-                                    - :name: 'li'
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: 'https://realestate.yahoo.co.jp/new/mansion/areasearch/142/?lc=03&sc_in=mtop00_focus_area'
-                                    - :name: 'li'
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: 'https://realestate.yahoo.co.jp/new/mansion/areasearch/011/?lc=01&sc_in=mtop00_focus_area'
-                                    - :name: 'li'
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: 'https://realestate.yahoo.co.jp/new/mansion/areasearch/271/?lc=06&sc_in=mtop00_focus_area'
-                                    - :name: 'li'
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: 'https://realestate.yahoo.co.jp/new/mansion/areasearch/231/?lc=05&sc_in=mtop00_focus_area'
-                                    - :name: 'li'
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: 'https://realestate.yahoo.co.jp/new/mansion/areasearch/261/?lc=06&sc_in=mtop00_focus_area'
-                                    - :name: 'li'
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: 'https://realestate.yahoo.co.jp/new/mansion/areasearch/402/?lc=09&sc_in=mtop00_focus_area'
-                                    - :name: 'li'
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: 'https://realestate.yahoo.co.jp/new/mansion/areasearch/041/?lc=02&sc_in=mtop00_focus_area'
-                        - :name: 'div'
-                          :attributes:
-                            :class:
-                              - ult_tracked_mods
-                            :id: 'useful'
-                          :children:
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - subTorisetsu
-                              :children:
-                                - :name: 'h2'
-                                  :attributes:
-                                    :class:
-                                      - subTitle
-                                - :name: 'div'
-                                  :attributes:
-                                    :class:
-                                      - teacherArea
-                                  :children:
-                                    - :name: 'ul'
-                                      :attributes:
-                                        :class:
-                                          - subListThumb
-                                      :children:
-                                        - :name: 'li'
-                                          :children:
-                                            - :name: 'a'
-                                              :attributes:
-                                                :href: 'http://realestate.yahoo.co.jp/knowledge/chiebukuro/?sc_in=mtopmtop00_chiebukuro'
-                                              :children:
-                                                - :name: 'span'
-                                                  :attributes:
-                                                    :class:
-                                                      - thumb
-                                                  :children:
-                                                    - :name: 'div'
-                                                      :attributes:
-                                                        :class:
-                                                          - imgLst2
-                                                        :data-original: '#'
-                                                        :style: 'display: block; background-image: url(https://s.yimg.jp/images/realestate/tmpl/images/other/consult_sumai/sumai_74.png);'
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :class:
-                                                      - textArea
-                                                  :children:
-                                                    - :name: 'p'
-                                                      :attributes:
-                                                        :class:
-                                                          - head1
-                                                    - :name: 'p'
-                                                      :attributes:
-                                                        :class:
-                                                          - lead
-                                    - :name: 'dl'
-                                      :attributes:
-                                        :class:
-                                          - subListTxtGrn
-                                      :children:
-                                        - :name: 'dt'
-                                          :attributes:
-                                            :class:
-                                              - titleQ
-                                        - :name: 'dd'
-                                          :children:
-                                            - :name: 'ul'
-                                              :attributes:
-                                                :class:
-                                                  - keywd
-                                              :children:
-                                                - :name: 'li'
-                                                  :children:
-                                                    - :name: 'a'
-                                                      :attributes:
-                                                        :href: 'http://realestate.yahoo.co.jp/knowledge/chiebukuro/list/?query=%E6%96%B0%E7%AF%89%E3%83%9E%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%B3%E3%80%80%E8%B2%B7%E3%81%84%E6%99%82&sc_in=mtop00_chiebukuro'
-                                                - :name: 'li'
-                                                  :children:
-                                                    - :name: 'a'
-                                                      :attributes:
-                                                        :href: 'http://realestate.yahoo.co.jp/knowledge/chiebukuro/list/?query=%E9%96%93%E5%8F%96%E3%82%8A&sc_in=mtop00_chiebukuro'
-                                                - :name: 'li'
-                                                  :children:
-                                                    - :name: 'a'
-                                                      :attributes:
-                                                        :href: 'http://realestate.yahoo.co.jp/knowledge/chiebukuro/list/?query=%E6%96%B0%E7%AF%89%E3%83%9E%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%B3+%E8%AB%B8%E7%B5%8C%E8%B2%BB&sc_in=mtop00_chiebukuro'
-                                                - :name: 'li'
-                                                  :children:
-                                                    - :name: 'a'
-                                                      :attributes:
-                                                        :href: 'http://realestate.yahoo.co.jp/knowledge/chiebukuro/list/?query=%E6%96%B0%E7%AF%89%E3%81%A8%E4%B8%AD%E5%8F%A4&sc_in=mtop00_chiebukuro'
-                                                - :name: 'li'
-                                                  :children:
-                                                    - :name: 'a'
-                                                      :attributes:
-                                                        :href: 'http://realestate.yahoo.co.jp/knowledge/chiebukuro/list/?query=%E4%BD%8F%E5%AE%85%E3%83%AD%E3%83%BC%E3%83%B3%E9%87%91%E5%88%A9&sc_in=mtop00_chiebukuro'
-                                                - :name: 'li'
-                                                  :children:
-                                                    - :name: 'a'
-                                                      :attributes:
-                                                        :href: 'http://realestate.yahoo.co.jp/knowledge/chiebukuro/list/?query=%E8%80%90%E9%9C%87%E3%83%BB%E5%85%8D%E9%9C%87&sc_in=mtop00_chiebukuro'
-                                                - :name: 'li'
-                                                  :children:
-                                                    - :name: 'a'
-                                                      :attributes:
-                                                        :href: 'http://realestate.yahoo.co.jp/knowledge/chiebukuro/list/?query=%E9%98%B2%E7%8A%AF&sc_in=mtop00_chiebukuro'
-                                        - :name: 'dd'
-                                          :attributes:
-                                            :class:
-                                              - toAll
-                                          :children:
-                                            - :name: 'a'
-                                              :attributes:
-                                                :class:
-                                                  - iconArwRht
-                                                :href: 'http://realestate.yahoo.co.jp/knowledge/chiebukuro/list/?sc_in=mtop00_chiebukuro'
-                        - :name: 'div'
-                          :attributes:
-                            :class:
-                              - ult_tracked_mods
-                            :id: 'mag_pkup'
-                          :children:
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - magazineArea
-                              :children:
-                                - :name: 'div'
-                                  :attributes:
-                                    :class:
-                                      - subPickup
-                                  :children:
-                                    - :name: 'h2'
-                                      :attributes:
-                                        :class:
-                                          - subTitle
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: 'http://realestate.yahoo.co.jp/magazine/'
-                                          :children:
-                                            - :name: 'span'
-                                              :attributes:
-                                                :class:
-                                                  - logo
-                                        - :name: 'span'
-                                          :attributes:
-                                            :class:
-                                              - text
-                                    - :name: 'ul'
-                                      :attributes:
-                                        :class:
-                                          - subListThumb
-                                      :children:
-                                        - :name: 'li'
-                                          :children:
-                                            - :name: 'a'
-                                              :attributes:
-                                                :href: 'http://realestate.yahoo.co.jp/magazine/suvaco/20161005-00002324'
-                                                :onclick: 'this.href=''http://rdsig.yahoo.co.jp/realestate/magazine/pickup/mansion/RV=1/RE=1477015270/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL3JlYWxlc3RhdGUueWFob28uY28uanAvbWFnYXppbmUvc3V2YWNvLzIwMTYxMDA1LTAwMDAyMzI0/RS=^ADAdufxj8G_LIKiHPVN2H6XwDcFYac-'''
-                                              :children:
-                                                - :name: 'span'
-                                                  :attributes:
-                                                    :class:
-                                                      - thumb
-                                                  :children:
-                                                    - :name: 'div'
-                                                      :attributes:
-                                                        :class:
-                                                          - imgLst2
-                                                        :style: 'display: block; background-image: url(https://lpt.c.yimg.jp/im_siggaN.394nyohJoVhASytwPhg---x450-y298-q90/amd/20161005-00002324-yj_realestate_article-000-view.jpg);'
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :class:
-                                                      - textArea
-                                                  :children:
-                                                    - :name: 'p'
-                                                      :attributes:
-                                                        :class:
-                                                          - head1
-                                                    - :name: 'p'
-                                                      :attributes:
-                                                        :class:
-                                                          - headSub1
-                                        - :name: 'li'
-                                          :children:
-                                            - :name: 'a'
-                                              :attributes:
-                                                :href: 'http://realestate.yahoo.co.jp/magazine/sumaiweb/20161004-00002308'
-                                                :onclick: 'this.href=''http://rdsig.yahoo.co.jp/realestate/magazine/pickup/mansion/RV=1/RE=1477015270/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL3JlYWxlc3RhdGUueWFob28uY28uanAvbWFnYXppbmUvc3VtYWl3ZWIvMjAxNjEwMDQtMDAwMDIzMDg-/RS=^ADAvRLHBEBrtA_3U7YBUmysw6yJzzw-'''
-                                              :children:
-                                                - :name: 'span'
-                                                  :attributes:
-                                                    :class:
-                                                      - thumb
-                                                  :children:
-                                                    - :name: 'div'
-                                                      :attributes:
-                                                        :class:
-                                                          - imgLst2
-                                                        :style: 'display: block; background-image: url(https://lpt.c.yimg.jp/im_siggS7OFwqsgsjYKPXVFErTpjg---x450-y300-q90/amd/20161004-00002308-yj_realestate_article-000-view.jpg);'
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :class:
-                                                      - textArea
-                                                  :children:
-                                                    - :name: 'p'
-                                                      :attributes:
-                                                        :class:
-                                                          - head1
-                                                    - :name: 'p'
-                                                      :attributes:
-                                                        :class:
-                                                          - headSub1
-                                        - :name: 'li'
-                                          :children:
-                                            - :name: 'a'
-                                              :attributes:
-                                                :href: 'http://realestate.yahoo.co.jp/magazine/corp_reexbrain/20161005-00000001'
-                                                :onclick: 'this.href=''http://rdsig.yahoo.co.jp/realestate/magazine/pickup/mansion/RV=1/RE=1477015270/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL3JlYWxlc3RhdGUueWFob28uY28uanAvbWFnYXppbmUvY29ycF9yZWV4YnJhaW4vMjAxNjEwMDUtMDAwMDAwMDE-/RS=^ADAcuG.Svru_B_Y1lkiCb0l0GjG_UM-'''
-                                              :children:
-                                                - :name: 'span'
-                                                  :attributes:
-                                                    :class:
-                                                      - thumb
-                                                  :children:
-                                                    - :name: 'div'
-                                                      :attributes:
-                                                        :class:
-                                                          - imgLst2
-                                                        :style: 'display: block; background-image: url(https://lpt.c.yimg.jp/im_siggYfHw54zw4IiPzQRLAo8LRA---x450-y300-q90/amd/20161005-00000001-corp_reexbrain-000-view.jpg);'
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :class:
-                                                      - textArea
-                                                  :children:
-                                                    - :name: 'p'
-                                                      :attributes:
-                                                        :class:
-                                                          - head1
-                                                    - :name: 'p'
-                                                      :attributes:
-                                                        :class:
-                                                          - headSub1
-                                        - :name: 'li'
-                                          :children:
-                                            - :name: 'a'
-                                              :attributes:
-                                                :href: 'http://realestate.yahoo.co.jp/magazine/sumaiweb/20161004-00002316'
-                                                :onclick: 'this.href=''http://rdsig.yahoo.co.jp/realestate/magazine/pickup/mansion/RV=1/RE=1477015270/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL3JlYWxlc3RhdGUueWFob28uY28uanAvbWFnYXppbmUvc3VtYWl3ZWIvMjAxNjEwMDQtMDAwMDIzMTY-/RS=^ADAgPxyCDC6xrR_skFojD3oz37rdlo-'''
-                                              :children:
-                                                - :name: 'span'
-                                                  :attributes:
-                                                    :class:
-                                                      - thumb
-                                                  :children:
-                                                    - :name: 'div'
-                                                      :attributes:
-                                                        :class:
-                                                          - imgLst2
-                                                        :style: 'display: block; background-image: url(https://lpt.c.yimg.jp/im_siggwTJSpozhXSGxi8I3EC.LKA---x450-y300-q90/amd/20161004-00002316-yj_realestate_article-000-view.jpg);'
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :class:
-                                                      - textArea
-                                                  :children:
-                                                    - :name: 'p'
-                                                      :attributes:
-                                                        :class:
-                                                          - head1
-                                                    - :name: 'p'
-                                                      :attributes:
-                                                        :class:
-                                                          - headSub1
-                                        - :name: 'li'
-                                          :children:
-                                            - :name: 'a'
-                                              :attributes:
-                                                :href: 'http://realestate.yahoo.co.jp/magazine/sumaiweb/20160928-00002282'
-                                                :onclick: 'this.href=''http://rdsig.yahoo.co.jp/realestate/magazine/pickup/mansion/RV=1/RE=1477015270/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL3JlYWxlc3RhdGUueWFob28uY28uanAvbWFnYXppbmUvc3VtYWl3ZWIvMjAxNjA5MjgtMDAwMDIyODI-/RS=^ADAEFc.xzOBQfOmOe4K0eOpr0SrhJw-'''
-                                              :children:
-                                                - :name: 'span'
-                                                  :attributes:
-                                                    :class:
-                                                      - thumb
-                                                  :children:
-                                                    - :name: 'div'
-                                                      :attributes:
-                                                        :class:
-                                                          - imgLst2
-                                                        :style: 'display: block; background-image: url(https://lpt.c.yimg.jp/im_siggFYCJMOHrl6CIvLgmSsgcjQ---x450-y300-q90/amd/20160928-00002282-yj_realestate_article-000-view.jpg);'
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :class:
-                                                      - textArea
-                                                  :children:
-                                                    - :name: 'p'
-                                                      :attributes:
-                                                        :class:
-                                                          - head1
-                                                    - :name: 'p'
-                                                      :attributes:
-                                                        :class:
-                                                          - headSub1
-                                        - :name: 'li'
-                                          :children:
-                                            - :name: 'a'
-                                              :attributes:
-                                                :href: 'http://realestate.yahoo.co.jp/magazine/fuufumanzai/20160926-00000001'
-                                                :onclick: 'this.href=''http://rdsig.yahoo.co.jp/realestate/magazine/pickup/mansion/RV=1/RE=1477015270/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL3JlYWxlc3RhdGUueWFob28uY28uanAvbWFnYXppbmUvZnV1ZnVtYW56YWkvMjAxNjA5MjYtMDAwMDAwMDE-/RS=^ADATvQiDmxCMcdjO4SIgqHgWIIzQJY-'''
-                                              :children:
-                                                - :name: 'span'
-                                                  :attributes:
-                                                    :class:
-                                                      - thumb
-                                                  :children:
-                                                    - :name: 'div'
-                                                      :attributes:
-                                                        :class:
-                                                          - imgLst2
-                                                        :style: 'display: block; background-image: url(https://lpt.c.yimg.jp/im_siggjSPY7ciq0I3EiNbEnkrTYw---x450-y300-q90/amd/20160926-00000001-fuufumanzai-000-view.jpg);'
-                                                - :name: 'div'
-                                                  :attributes:
-                                                    :class:
-                                                      - textArea
-                                                  :children:
-                                                    - :name: 'p'
-                                                      :attributes:
-                                                        :class:
-                                                          - head1
-                                                    - :name: 'p'
-                                                      :attributes:
-                                                        :class:
-                                                          - headSub1
-                        - :name: 'div'
-                          :attributes:
-                            :class:
-                              - mobile
-                          :children:
-                            - :name: 'section'
-                              :children:
-                                - :name: 'div'
-                                  :attributes:
-                                    :class:
-                                      - txtArea
-                                  :children:
-                                    - :name: 'h2'
-                                      :attributes:
-                                        :class:
-                                          - title
-                                    - :name: 'p'
-                                      :attributes:
-                                        :class:
-                                          - lead
-                                - :name: 'div'
-                                  :attributes:
-                                    :class:
-                                      - qr
-                                  :children:
-                                    - :name: 'img'
-                                      :attributes:
-                                        :alt: 'バーコード：スマートフォン版Yahoo!不動産にアクセス！'
-                                        :height: '78'
-                                        :src: 'https://s.yimg.jp/images/realestate/tmpl2014/img/common/qr78_78.gif'
-                                        :width: '78'
-                                - :name: 'p'
-                                  :attributes:
-                                    :class:
-                                      - notice
-                        - :name: 'div'
-                          :attributes:
-                            :class:
-                              - ult_tracked_mods
-                            :id: 'out_srch'
-                          :children:
-                            - :name: 'div'
-                              :attributes:
-                                :class:
-                                  - introductionArea
-                              :children:
-                                - :name: 'ul'
-                                  :attributes:
-                                    :class:
-                                      - introBtmLnk
-                                  :children:
-                                    - :name: 'li'
-                                      :attributes:
-                                        :class:
-                                          - realestTop
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: 'http://realestate.yahoo.co.jp/'
-                                          :children:
-                                            - :name: 'strong'
-                                        - :name: 'p'
-                                          :attributes:
-                                            :class:
-                                              - introTxt
-                                          :children:
-                                            - :name: 'br'
-                                            - :name: 'br'
-                                    - :name: 'li'
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: 'http://realestate.yahoo.co.jp/rent/'
-                                    - :name: 'li'
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: 'https://realestate.yahoo.co.jp/new/mansion/'
-                                    - :name: 'li'
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: 'http://realestate.yahoo.co.jp/used/mansion/'
-                                    - :name: 'li'
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: 'http://realestate.yahoo.co.jp/new/house/'
-                                    - :name: 'li'
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: 'http://realestate.yahoo.co.jp/used/house/'
-                                    - :name: 'li'
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: 'http://realestate.yahoo.co.jp/housing/'
-                                    - :name: 'li'
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: 'http://realestate.yahoo.co.jp/land/'
-                                    - :name: 'li'
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: 'http://realestate.yahoo.co.jp/magazine/'
-                                    - :name: 'li'
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: 'http://sell.realestate.yahoo.co.jp/'
-                        - :name: 'div'
-                          :attributes:
-                            :class:
-                              - ult_tracked_mods
-                            :id: 'ad-sqb'
-                          :children:
-                            - :name: 'div'
-                              :attributes:
-                                :id: 'pos-sqb'
-                              :children:
-                                - :name: 'script'
-                                  :attributes:
-                                    :language: 'JavaScript'
-                                    :type: 'text/javascript'
-                                - :name: 'script'
-                                  :attributes:
-                                    :language: 'JavaScript'
-                                    :src: '//yads.c.yimg.jp/js/yads.js'
-                                    :type: 'text/javascript'
-                                - :name: 'script'
-                                  :attributes:
-                                    :language: 'javascript'
-                                - :name: 'noscript'
-                                  :children:
-                                    - :name: 'div'
-                                      :attributes:
-                                        :style: 'position:absolute;'
-                                      :children:
-                                        - :name: 'img'
-                                          :attributes:
-                                            :alt: ''
-                                            :height: '1'
-                                            :src: 'https://b3.yahoo.co.jp/b?P=ppI0DDE4Mi4M5zsrpWeFzXEjMTYwLgAAAAAPCBKa&T=153vr2bd8%2fX%3d1476034483%2fE%3d2080441773%2fR%3djp_real%2fK%3d5%2fV%3d2.1%2fW%3dH%2fY%3djp%2fF%3d3826565463%2fH%3dc2VjdXJlPXRydWUgYWRjdmVyPTYuOC4w%2fQ%3d-1%2fS%3d1%2fJ%3d57FA7FB3&U=13j91qrh6%2fN%3dOmmkBmRADiQ-%2fC%3d300844728.301697434.303429661.314940993%2fD%3dSQB%2fB%3d302125242'
-                                            :width: '1'
-                        - :name: 'p'
-                          :attributes:
-                            :class:
-                              - toRealestateTop
-                          :children:
-                            - :name: 'a'
-                              :attributes:
-                                :href: '#top'
-                - :name: 'div'
+                  - :name: p
+                    :count: 1
+                    :attributes:
+                      :class: txt
+                    :children:
+                    - :name: a
+                      :count: 1
+                - :name: script
+                  :count: 1
                   :attributes:
-                    :class:
-                      - subcolumn
+                    :language: javascript
+                - :name: noscript
+                  :count: 1
                   :children:
-                    - :name: 'div'
+                  - :name: div
+                    :count: 1
+                    :attributes:
+                      :style: position:absolute;
+                    :children:
+                    - :name: img
+                      :count: 1
                       :attributes:
-                        :class:
-                          - ult_tracked_mods
-                        :id: 'ad-lrec'
-                      :children:
-                        - :name: 'div'
-                          :attributes:
-                            :class:
-                              - pos-sprec
-                            :id: 'pos-lrec'
-                          :children:
-                            - :name: 'dl'
-                              :children:
-                                - :name: 'dd'
-                                  :children:
-                                    - :name: 'script'
-                                      :attributes:
-                                        :language: 'JavaScript'
-                                    - :name: 'script'
-                                      :attributes:
-                                        :language: 'JavaScript'
-                                        :src: 'https://s.yimg.jp/bdv/yahoo/javascript/yfa_visual5_yad.js'
-                                    - :name: 'noscript'
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: 'https://ard.yahoo.co.jp/SIG=158pg62pn/M=300907622.301765827.303431594.316886173/D=jp_real/S=2080441773:LREC2/Y=jp/EXP=1476041683/L=ppI0DDE4Mi4M5zsrpWeFzXEjMTYwLgAAAAAPCBKa/B=QGmkBmRADiQ-/J=1476034483113161/SIG=12cfgcf2h/A=302127544/R=2/*http://shopping.yahoo.co.jp/ranking/?sc_e=yjsk_msc_ranking'
-                                            :target: '_top'
-                                          :children:
-                                            - :name: 'img'
-                                              :attributes:
-                                                :border: '0'
-                                                :height: '250'
-                                                :src: 'https://s.yimg.jp/bdv/adtest/jaby/21722/20160727/0705shop_ranking_1_10_pd.gif'
-                                                :width: '300'
-                                    - :name: 'script'
-                                      :attributes:
-                                        :language: 'javascript'
-                                    - :name: 'noscript'
-                                      :children:
-                                        - :name: 'div'
-                                          :attributes:
-                                            :style: 'position:absolute;'
-                                          :children:
-                                            - :name: 'img'
-                                              :attributes:
-                                                :alt: ''
-                                                :height: '1'
-                                                :src: 'https://b3.yahoo.co.jp/b?P=ppI0DDE4Mi4M5zsrpWeFzXEjMTYwLgAAAAAPCBKa&T=1527p4vtb%2fX%3d1476034483%2fE%3d2080441773%2fR%3djp_real%2fK%3d5%2fV%3d2.1%2fW%3dH%2fY%3djp%2fF%3d944410536%2fH%3dc2VjdXJlPXRydWUgYWRjdmVyPTYuOC4w%2fQ%3d-1%2fS%3d1%2fJ%3d57FA7FB3&U=13l39jgun%2fN%3dQGmkBmRADiQ-%2fC%3d300907622.301765827.303431594.316886173%2fD%3dLREC2%2fB%3d302127544'
-                                                :width: '1'
-                                    - :name: 'script'
-                                      :attributes:
-                                        :language: 'javascript'
-                                    - :name: 'noscript'
-                                      :children:
-                                        - :name: 'div'
-                                          :attributes:
-                                            :style: 'position:absolute;'
-                                          :children:
-                                            - :name: 'img'
-                                              :attributes:
-                                                :alt: ''
-                                                :height: '1'
-                                                :src: 'https://b3.yahoo.co.jp/b?P=ppI0DDE4Mi4M5zsrpWeFzXEjMTYwLgAAAAAPCBKa&T=1530iep9c%2fX%3d1476034483%2fE%3d2080441773%2fR%3djp_real%2fK%3d5%2fV%3d2.1%2fW%3dH%2fY%3djp%2fF%3d3683086111%2fH%3dc2VjdXJlPXRydWUgYWRjdmVyPTYuOC4w%2fQ%3d-1%2fS%3d1%2fJ%3d57FA7FB3&U=13k0bt0fs%2fN%3dOGmkBmRADiQ-%2fC%3d300830562.301681958.303261802.301291789%2fD%3dLREC%2fB%3d301868614'
-                                                :width: '1'
-                    - :name: 'div'
-                      :attributes:
-                        :class:
-                          - ult_tracked_mods
-                        :id: 'newsrest'
-                      :children:
-                        - :name: 'div'
-                          :attributes:
-                            :class:
-                              - newsRest
-                          :children:
-                            - :name: 'section'
-                              :children:
-                                - :name: 'h2'
-                                - :name: 'p'
-                                  :children:
-                                    - :name: 'a'
-                                      :attributes:
-                                        :href: 'https://realestate.yahoo.co.jp/new/mansion/sakidori/'
-                                      :children:
-                                        - :name: 'img'
-                                          :attributes:
-                                            :alt: 'もうすぐ売り出し! 販売前さきどり新築マンション特集'
-                                            :height: '120'
-                                            :src: 'https://s.yimg.jp/images/realestate/tmpl/images/new/banner/banner_sakidori_300.png'
-                                            :width: '300'
-                    - :name: 'div'
-                      :attributes:
-                        :id: 'ydn-mr'
-                        :style: 'margin-bottom:15px;'
-                      :children:
-                        - :name: 'script'
-                          :attributes:
-                            :language: 'JavaScript'
-                            :type: 'text/javascript'
-                        - :name: 'script'
-                          :attributes:
-                            :language: 'JavaScript'
-                            :src: 'https://yads.c.yimg.jp/js/yads.js'
-                            :type: 'text/javascript'
-                    - :name: 'div'
-                      :attributes:
-                        :class:
-                          - ult_tracked_mods
-                        :id: 'ad-rp'
-                      :children:
-                        - :name: 'div'
-                          :attributes:
-                            :id: 'RP'
-                          :children:
-                            - :name: 'script'
-                              :attributes:
-                                :language: 'javascript'
-                            - :name: 'noscript'
-                              :children:
-                                - :name: 'div'
-                                  :attributes:
-                                    :style: 'position:absolute;'
-                                  :children:
-                                    - :name: 'img'
-                                      :attributes:
-                                        :alt: ''
-                                        :height: '1'
-                                        :src: 'https://b3.yahoo.co.jp/b?P=ppI0DDE4Mi4M5zsrpWeFzXEjMTYwLgAAAAAPCBKa&T=153i6mh1a%2fX%3d1476034483%2fE%3d2080441773%2fR%3djp_real%2fK%3d5%2fV%3d2.1%2fW%3dH%2fY%3djp%2fF%3d2343747548%2fH%3dc2VjdXJlPXRydWUgYWRjdmVyPTYuOC4w%2fQ%3d-1%2fS%3d1%2fJ%3d57FA7FB3&U=126emrsng%2fN%3dOWmkBmRADiQ-%2fC%3d-1%2fD%3dRP%2fB%3d-1'
-                                        :width: '1'
-            - :name: 'div'
+                        :height: '1'
+                        :width: '1'
+            - :name: div
+              :count: 3
               :attributes:
-                :class:
-                  - mdContentsFooter
+                :class: logo
               :children:
-                - :name: 'div'
+              - :name: a
+                :count: 1
+                :attributes:
+                  :data-ylk: slk:h_srvtop;pos:0
+                  :id: msthdLogo
+                :children:
+                - :name: img
+                  :count: 1
                   :attributes:
-                    :class:
-                      - footerInner
+                    :height: '34'
+                    :width: '196'
+        - :name: script
+          :count: 3
+          :attributes:
+            :type: text/javascript
+        - :name: script
+          :count: 1
+          :attributes:
+            :type: text/javascript
+        - :name: div
+          :count: 1
+          :attributes:
+            :class: popupAlert
+            :id: popupAlertId
+            :style: display:none;
+    - :name: div
+      :count: 2
+      :attributes:
+        :class: contents
+      :children:
+      - :name: div
+        :count: 1
+        :attributes:
+          :class: main
+          :role: main
+        :children:
+        - :name: section
+          :count: 1
+          :children:
+          - :name: noscript
+            :count: 1
+            :children:
+            - :name: p
+              :count: 1
+              :attributes:
+                :class: alert
+              :children:
+              - :name: br
+                :count: 1
+              - :name: a
+                :count: 1
+                :attributes:
+                  :target: help
+          - :name: div
+            :count: 3
+            :attributes:
+              :class: mainTtl cf
+            :children:
+            - :name: h1
+              :count: 1
+              :attributes:
+                :class: ttl
+            - :name: p
+              :count: 1
+              :attributes:
+                :class: num
+          - :name: div
+            :count: 7
+            :attributes:
+              :class: ult_tracked_mods
+              :id: area
+            :children:
+            - :name: div
+              :count: 1
+              :attributes:
+                :class: preSelect cf
+              :children:
+              - :name: div
+                :count: 2
+                :attributes:
+                  :class: mapArea jp
+                :children:
+                - :name: h2
+                  :count: 1
+                - :name: ul
+                  :count: 1
+                  :attributes:
+                    :class: mapBtn
                   :children:
-                    - :name: 'img'
+                  - :name: li
+                    :count: 9
+                    :attributes:
+                      :class: i1
+                    :children:
+                    - :name: a
+                      :count: 1
+          - :name: p
+            :count: 1
+            :attributes:
+              :class: toRealestateTop
+            :children:
+            - :name: a
+              :count: 1
+      - :name: div
+        :count: 1
+        :attributes:
+          :class: subcolumn
+        :children:
+        - :name: div
+          :count: 3
+          :attributes:
+            :class: ult_tracked_mods
+            :id: ad-lrec
+          :children:
+          - :name: div
+            :count: 1
+            :attributes:
+              :class: pos-sprec
+              :id: pos-lrec
+            :children:
+            - :name: dl
+              :count: 1
+              :children:
+              - :name: dd
+                :count: 1
+                :children:
+                - :name: script
+                  :count: 3
+                  :attributes:
+                    :language: JavaScript
+                - :name: script
+                  :count: 1
+                  :attributes:
+                    :language: JavaScript
+                - :name: noscript
+                  :count: 3
+                  :children:
+                  - :name: a
+                    :count: 1
+                    :attributes:
+                      :target: _top
+                    :children:
+                    - :name: img
+                      :count: 1
                       :attributes:
-                        :alt: 'Yahoo!不動産アプリをダウンロード'
+                        :border: '0'
                         :height: '250'
-                        :src: 'https://s.yimg.jp/images/realestate/tmpl2014/img/app/footer_banner.png'
-                        :width: '950'
-                    - :name: 'a'
-                      :attributes:
-                        :class:
-                          - footerLinkIos
-                        :href: 'https://app-adforce.jp/ad/p/r?_site=30824&_article=202353&_link=5200222&_image=4793366'
-                    - :name: 'a'
-                      :attributes:
-                        :class:
-                          - footerLinkAndroid
-                        :href: 'https://app-adforce.jp/ad/p/r?_site=30824&_article=202355&_link=5200227&_image=4793370'
-            - :name: 'div'
+                        :width: '300'
+        - :name: div
+          :count: 1
+          :attributes:
+            :id: ydn-mr
+            :style: margin-bottom:15px;
+          :children:
+          - :name: script
+            :count: 1
+            :attributes:
+              :language: JavaScript
+              :type: text/javascript
+          - :name: script
+            :count: 1
+            :attributes:
+              :language: JavaScript
+              :type: text/javascript
+    - :name: div
+      :count: 1
+      :attributes:
+        :id: uft
+      :children:
+      - :name: div
+        :count: 1
+        :attributes:
+          :class: tracked_mods
+          :id: sf_sch
+        :children:
+        - :name: div
+          :count: 1
+          :attributes:
+            :id: pos-s
+          :children:
+          - :name: style
+            :count: 1
+            :attributes:
+              :type: text/css
+          - :name: div
+            :count: 1
+            :attributes:
+              :id: uftMain
+              :style: width:100%;text-align:center;height:34px;padding:3px 0 0 0;
+            :children:
+            - :name: div
+              :count: 1
               :attributes:
-                :id: 'uft'
+                :style: position:relative;margin:0 auto;width:728px;height:28px;
               :children:
-                - :name: 'div'
+              - :name: form
+                :count: 1
+                :attributes:
+                  :action: https://search.yahoo.co.jp/search
+                  :name: p
+                  :target: uhd
+                :children:
+                - :name: p
+                  :count: 1
                   :attributes:
-                    :class:
-                      - tracked_mods
-                    :id: 'sf_sch'
+                    :style: position:absolute;top:0;left:54px;
                   :children:
-                    - :name: 'div'
-                      :attributes:
-                        :id: 'pos-s'
-                      :children:
-                        - :name: 'style'
-                          :attributes:
-                            :type: 'text/css'
-                        - :name: 'div'
-                          :attributes:
-                            :id: 'uftMain'
-                            :style: 'width:100%;text-align:center;height:34px;padding:3px 0 0 0;'
-                          :children:
-                            - :name: 'div'
-                              :attributes:
-                                :style: 'position:relative;margin:0 auto;width:728px;height:28px;'
-                              :children:
-                                - :name: 'form'
-                                  :attributes:
-                                    :action: 'https://search.yahoo.co.jp/search'
-                                    :name: 'p'
-                                    :target: 'uhd'
-                                  :children:
-                                    - :name: 'p'
-                                      :attributes:
-                                        :style: 'position:absolute;top:0;left:54px;'
-                                      :children:
-                                        - :name: 'a'
-                                          :attributes:
-                                            :href: 'http://rdsig.yahoo.co.jp/search/uft/ytop/RV=1/RU=aHR0cDovL3d3dy55YWhvby5jby5qcC8-'
-                                            :style: 'display:block;width:43px;height:28px;text-indent:-9999px;'
-                                            :title: 'Yahoo! JAPAN'
-                                    - :name: 'input'
-                                      :attributes:
-                                        :id: 'uftSBox'
-                                        :name: 'p'
-                                        :style: 'position:absolute;top:6px;left:112px;width:385px;height:18px;background-color:#fff;font-size:13px;line-height:17px;vertical-align:bottom;outline:none;'
-                                        :type: 'text'
-                                        :value: ''
-                                    - :name: 'button'
-                                      :attributes:
-                                        :style: 'position:absolute;top:0;left:506px;width:110px;height:28px;background-color:transparent;text-indent:-9999px;cursor:pointer;'
-                                        :title: 'ウェブ検索'
-                                        :type: 'submit'
-                                    - :name: 'input'
-                                      :attributes:
-                                        :name: 'ei'
-                                        :type: 'hidden'
-                                        :value: 'UTF-8'
-                                    - :name: 'input'
-                                      :attributes:
-                                        :name: 'fr'
-                                        :type: 'hidden'
-                                        :value: 'usf'
-                                - :name: 'p'
-                                  :attributes:
-                                    :style: 'position:absolute;top:0;left:622px;'
-                                  :children:
-                                    - :name: 'a'
-                                      :attributes:
-                                        :href: 'http://rdsig.yahoo.co.jp/search/uft/krank/RV=1/RU=aHR0cDovL3NlYXJjaHJhbmtpbmcueWFob28uY28uanAvcnRfYnVyc3Qv'
-                                        :style: 'display:block;width:106px;height:28px;text-indent:-9999px;'
-                                        :title: 'Yahoo!検索データ 急上昇ワード'
-                        - :name: 'script'
-                          :attributes:
-                            :language: 'javascript'
-                        - :name: 'noscript'
-                          :children:
-                            - :name: 'div'
-                              :attributes:
-                                :style: 'position:absolute;'
-                              :children:
-                                - :name: 'img'
-                                  :attributes:
-                                    :alt: ''
-                                    :height: '1'
-                                    :src: 'https://b3.yahoo.co.jp/b?P=ppI0DDE4Mi4M5zsrpWeFzXEjMTYwLgAAAAAPCBKa&T=1535r76lp%2fX%3d1476034483%2fE%3d2080441773%2fR%3djp_real%2fK%3d5%2fV%3d2.1%2fW%3dH%2fY%3djp%2fF%3d2183430076%2fH%3dc2VjdXJlPXRydWUgYWRjdmVyPTYuOC4w%2fQ%3d-1%2fS%3d1%2fJ%3d57FA7FB3&U=13i2fd622%2fN%3dO2mkBmRADiQ-%2fC%3d300951180.301818803.303441908.302953375%2fD%3dS8%2fB%3d302141184'
-                                    :width: '1'
-            - :name: 'footer'
+                  - :name: a
+                    :count: 1
+                    :attributes:
+                      :style: display:block;width:43px;height:28px;text-indent:-9999px;
+                      :title: Yahoo! JAPAN
+                - :name: input
+                  :count: 1
+                  :attributes:
+                    :id: uftSBox
+                    :name: p
+                    :style: position:absolute;top:6px;left:112px;width:385px;height:18px;background-color:#fff;font-size:13px;line-height:17px;vertical-align:bottom;outline:none;
+                    :type: text
+                    :value: ''
+                - :name: button
+                  :count: 1
+                  :attributes:
+                    :style: position:absolute;top:0;left:506px;width:110px;height:28px;background-color:transparent;text-indent:-9999px;cursor:pointer;
+                    :title: "ウェブ検索"
+                    :type: submit
+                - :name: input
+                  :count: 2
+                  :attributes:
+                    :name: ei
+                    :type: hidden
+                    :value: UTF-8
+              - :name: p
+                :count: 1
+                :attributes:
+                  :style: position:absolute;top:0;left:622px;
+                :children:
+                - :name: a
+                  :count: 1
+                  :attributes:
+                    :style: display:block;width:106px;height:28px;text-indent:-9999px;
+                    :title: Yahoo!検索データ 急上昇ワード
+          - :name: script
+            :count: 1
+            :attributes:
+              :language: javascript
+          - :name: noscript
+            :count: 1
+            :children:
+            - :name: div
+              :count: 1
+              :attributes:
+                :style: position:absolute;
               :children:
-                - :name: 'div'
-                  :attributes:
-                    :class:
-                      - tracked_mods
-                    :id: 'sf_link'
-                  :children:
-                    - :name: 'div'
-                      :attributes:
-                        :class:
-                          - footer
-                      :children:
-                        - :name: 'ul'
-                          :attributes:
-                            :class:
-                              - ftrNav
-                          :children:
-                            - :name: 'li'
-                              :children:
-                                - :name: 'a'
-                                  :attributes:
-                                    :href: 'http://docs.yahoo.co.jp/docs/info/terms/chapter1.html#cf2nd'
-                            - :name: 'li'
-                              :children:
-                                - :name: 'a'
-                                  :attributes:
-                                    :href: 'http://docs.yahoo.co.jp/docs/info/terms/'
-                            - :name: 'li'
-                              :children:
-                                - :name: 'a'
-                                  :attributes:
-                                    :href: 'http://contents.realestate.yahoo.co.jp/common/bizc/index.html'
-                            - :name: 'li'
-                              :children:
-                                - :name: 'a'
-                                  :attributes:
-                                    :href: 'http://realestate.yahoo.co.jp/disclaimer.html'
-                            - :name: 'li'
-                              :children:
-                                - :name: 'a'
-                                  :attributes:
-                                    :href: 'http://www.yahoo-help.jp/app/home/p/589/'
-                            - :name: 'li'
-                              :children:
-                                - :name: 'a'
-                                  :attributes:
-                                    :href: 'https://realestate.yahoo.co.jp/new/mansion/sitemap.html'
-                        - :name: 'script'
-                          :attributes:
-                            :src: 'https://realestate.yahoo.co.jp/new/mansion/js/common/libs/jquery.min.js'
-                            :type: 'text/javascript'
-                        - :name: 'script'
-                          :attributes:
-                            :src: 'https://s.yimg.jp/images/realestate/tmpl/js/common/musthead/1.0.2/GlobalNavigation.js'
-                            :type: 'text/javascript'
-                        - :name: 'script'
-                          :attributes:
-                            :src: 'https://s.yimg.jp/images/realestate/tmpl/js/common/musthead/1.0.2/MyMenuUtil.js'
-                            :type: 'text/javascript'
-                        - :name: 'script'
-                          :attributes:
-                            :data-uri-path: '/new/mansion/'
-                            :id: 'script'
-                            :src: 'https://s.yimg.jp/images/realestate/tmpl/js/common/musthead/1.0.2/MyMenuProxyApi.js'
-                            :type: 'text/javascript'
-                        - :name: 'script'
-                          :attributes:
-                            :src: 'https://s.yimg.jp/images/realestate/tmpl/js/common/musthead/1.0.2/MyMenuDisplayHelper.js'
-                            :type: 'text/javascript'
-                        - :name: 'script'
-                          :attributes:
-                            :src: 'https://s.yimg.jp/images/realestate/tmpl/js/common/musthead/1.0.2/MyMenuPageTopBar.js'
-                            :type: 'text/javascript'
-                        - :name: 'script'
-                          :attributes:
-                            :src: 'https://s.yimg.jp/images/realestate/tmpl/js/common/musthead/1.0.2/MyMenuMailSetting.js'
-                            :type: 'text/javascript'
-                        - :name: 'script'
-                          :attributes:
-                            :src: 'https://s.yimg.jp/images/realestate/tmpl/js/common/musthead/1.0.2/MyMenuFavoriteBuilding.js'
-                            :type: 'text/javascript'
-                        - :name: 'script'
-                          :attributes:
-                            :src: 'https://s.yimg.jp/images/realestate/tmpl/js/common/musthead/1.0.2/MyMenuSearchCondition.js'
-                            :type: 'text/javascript'
-                        - :name: 'script'
-                          :attributes:
-                            :src: 'https://s.yimg.jp/images/realestate/tmpl/js/common/musthead/1.0.2/MyMenuHistoryBuilding.js'
-                            :type: 'text/javascript'
-                        - :name: 'script'
-                          :attributes:
-                            :type: 'text/javascript'
-                        - :name: 'script'
-                          :attributes:
-                            :type: 'text/javascript'
-                        - :name: 'script'
-                          :attributes:
-                            :src: 'https://realestate.yahoo.co.jp/new/mansion/js/pc/new_rest_sub_menubar.js'
-                            :type: 'text/javascript'
-                        - :name: 'script'
-                          :attributes:
-                            :type: 'text/javascript'
-                        - :name: 'script'
-                          :attributes:
-                            :src: 'https://realestate.yahoo.co.jp/new/mansion/js/pc/new_rest_nm_musthead.js'
-                            :type: 'text/javascript'
-                        - :name: 'script'
-                          :attributes:
-                            :src: 'https://s.yimg.jp/images/ds/ult/realestate/rapidjp-1.0.0.js'
-                            :type: 'text/javascript'
-                        - :name: 'script'
-                          :attributes:
-                            :type: 'text/javascript'
-                        - :name: 'script'
-                          :attributes:
-                            :language: 'JavaScript'
-                            :src: 'https://realestate.yahoo.co.jp/new/mansion/js/common/s_code_prd.js'
-                        - :name: 'script'
-                          :attributes:
-                            :language: 'JavaScript'
-                        - :name: 'script'
-                          :attributes:
-                            :type: 'text/javascript'
-                        - :name: 'noscript'
-                          :children:
-                            - :name: 'iframe'
-                              :attributes:
-                                :frameborder: '0'
-                                :height: '1'
-                                :marginheight: '0'
-                                :marginwidth: '0'
-                                :scrolling: 'no'
-                                :src: '//s.thebrighttag.com/iframe?c=rNtzdB7'
-                                :width: '1'
-        - :name: 'script'
+              - :name: img
+                :count: 1
+                :attributes:
+                  :height: '1'
+                  :width: '1'
+    - :name: footer
+      :count: 1
+      :children:
+      - :name: div
+        :count: 1
+        :attributes:
+          :class: tracked_mods
+          :id: sf_link
+        :children:
+        - :name: div
+          :count: 1
           :attributes:
-            :src: 'https://realestate.yahoo.co.jp/new/mansion/js/common/config/require-config.js'
-        - :name: 'script'
-          :attributes:
-            :data-main: 'https://realestate.yahoo.co.jp/new/mansion/js/pc/AreaTop/app.js'
-            :src: 'https://realestate.yahoo.co.jp/new/mansion/js/common/libs/require.js'
-        - :name: 'script'
-          :attributes:
-            :type: 'text/javascript'
-        - :name: 'script'
-          :attributes:
-            :src: 'https://realestate.yahoo.co.jp/new/mansion/js/pc/new_rest_suggest_nmtop.js'
-        - :name: 'script'
-          :attributes:
-            :src: 'https://realestate.yahoo.co.jp/new/mansion/js/pc/new_rest_util.js'
-        - :name: 'script'
-          :attributes:
-            :type: 'text/javascript'
-        - :name: 'script'
-          :attributes:
-            :type: 'text/javascript'
+            :class: footer
+          :children:
+          - :name: ul
+            :count: 1
+            :attributes:
+              :class: ftrNav
+            :children:
+            - :name: li
+              :count: 6
+              :children:
+              - :name: a
+                :count: 1
+          - :name: script
+            :count: 11
+            :attributes:
+              :type: text/javascript
+          - :name: script
+            :count: 1
+            :attributes:
+              :data-uri-path: "/new/mansion/"
+              :id: script
+              :type: text/javascript
+          - :name: script
+            :count: 5
+            :attributes:
+              :type: text/javascript
+          - :name: script
+            :count: 1
+            :attributes:
+              :type: text/javascript
+          - :name: script
+            :count: 1
+            :attributes:
+              :language: JavaScript
+          - :name: script
+            :count: 1
+            :attributes:
+              :language: JavaScript
+          - :name: noscript
+            :count: 1
+            :children:
+            - :name: iframe
+              :count: 1
+              :attributes:
+                :frameborder: '0'
+                :height: '1'
+                :marginheight: '0'
+                :marginwidth: '0'
+                :scrolling: 'no'
+                :width: '1'
+  - :name: script
+    :count: 3
+  - :name: script
+    :count: 1
+    :attributes:
+      :data-main: https://realestate.yahoo.co.jp/new/mansion/js/pc/AreaTop/app.js
+  - :name: script
+    :count: 3
+    :attributes:
+      :type: text/javascript
