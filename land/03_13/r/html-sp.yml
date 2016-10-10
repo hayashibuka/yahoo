@@ -329,45 +329,19 @@
                   :attributes:
                     :media: all
                     :rel: stylesheet
+                    :type: text/css
                 - :name: div
                   :count: 1
                   :attributes:
-                    :id: yjcb-1405rent
+                    :id: yjcbSkdr
                   :children:
-                  - :name: p
-                    :count: 1
+                  - :name: div
+                    :count: 2
                     :attributes:
-                      :class: cb-title
+                      :class: skdrMain
                     :children:
                     - :name: a
                       :count: 1
-                  - :name: div
-                    :count: 1
-                    :attributes:
-                      :class: cb-element
-                    :children:
-                    - :name: div
-                      :count: 2
-                      :attributes:
-                        :class: cb-left
-                      :children:
-                      - :name: div
-                        :count: 2
-                        :attributes:
-                          :class: cb-kodawari
-                        :children:
-                        - :name: p
-                          :count: 1
-                        - :name: ul
-                          :count: 1
-                          :children:
-                          - :name: li
-                            :count: 4
-                            :children:
-                            - :name: a
-                              :count: 1
-                              :attributes:
-                                :class: widelink
             - :name: p
               :count: 1
               :attributes:
@@ -432,7 +406,7 @@
                     - :name: a
                       :count: 1
                       :attributes:
-                        :onclick: this.href='http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1476197035/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL3JlYWxlc3RhdGUueWFob28uY28uanAvdXNlZC9mZWF0dXJlLzIwMTZfam91aG91a2Fu/RS=^ADArA5nXIwsFpPriggKYX7lu7WVSx4-'
+                        :onclick: this.href='http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1476226401/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL3JlYWxlc3RhdGUueWFob28uY28uanAvdXNlZC9mZWF0dXJlLzIwMTZfam91aG91a2Fu/RS=^ADA.Y7mNJYixrBFnt2pIvIzoIPfIs0-'
                       :children:
                       - :name: img
                         :count: 1

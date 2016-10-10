@@ -525,31 +525,24 @@
                 :attributes:
                   :id: centerbox
                 :children:
-                - :name: p
-                  :count: 1
-                  :children:
-                  - :name: img
-                    :count: 1
-                    :attributes:
-                      :border: '0'
-                      :height: '200'
-                      :name: bnr
-                      :usemap: "#bnrMap"
-                      :width: '624'
-                - :name: map
+                - :name: link
                   :count: 1
                   :attributes:
-                    :name: bnrMap
-                  :children:
-                  - :name: area
-                    :count: 5
-                    :attributes:
-                      :coords: 0,0,624,159
-                      :shape: rect
-                - :name: br
-                  :count: 1
+                    :media: all
+                    :rel: stylesheet
+                    :type: text/css
                 - :name: div
                   :count: 1
+                  :attributes:
+                    :id: yjcbSkdr
+                  :children:
+                  - :name: div
+                    :count: 2
+                    :attributes:
+                      :class: skdrMain
+                    :children:
+                    - :name: a
+                      :count: 1
             - :name: p
               :count: 1
               :attributes:
@@ -597,7 +590,7 @@
                     - :name: a
                       :count: 1
                       :attributes:
-                        :onclick: this.href='http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1476197041/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL3JlYWxlc3RhdGUueWFob28uY28uanAvdXNlZC9mZWF0dXJlLzIwMTZfam91aG91a2Fu/RS=^ADAwdlmrvJ0BotQftjnjMwkr7sIvmg-'
+                        :onclick: this.href='http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1476226406/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL3JlYWxlc3RhdGUueWFob28uY28uanAvdXNlZC9mZWF0dXJlLzIwMTZfam91aG91a2Fu/RS=^ADAEYVy7eJZh5rqXrU6o3.HfU1s1iY-'
                       :children:
                       - :name: img
                         :count: 1

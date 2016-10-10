@@ -534,10 +534,10 @@
                 - :name: div
                   :count: 1
                   :attributes:
-                    :class: yjcb2016jouhoukan
+                    :class: yjcb1604daikibo
                   :children:
                   - :name: div
-                    :count: 1
+                    :count: 2
                     :attributes:
                       :class: headArea
                     :children:
@@ -547,9 +547,9 @@
                         :class: titleArea
                       :children:
                       - :name: div
-                        :count: 2
+                        :count: 3
                         :attributes:
-                          :class: cbTitle
+                          :class: logo
             - :name: p
               :count: 1
               :attributes:
@@ -597,7 +597,7 @@
                     - :name: a
                       :count: 1
                       :attributes:
-                        :onclick: this.href='http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1476196955/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL3JlYWxlc3RhdGUueWFob28uY28uanAvdXNlZC9mZWF0dXJlLzIwMTZfam91aG91a2Fu/RS=^ADAhxMb.vXZmjOKPhn0uHzOxdt3K8w-'
+                        :onclick: this.href='http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1476226308/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL3JlYWxlc3RhdGUueWFob28uY28uanAvdXNlZC9mZWF0dXJlLzIwMTZfam91aG91a2Fu/RS=^ADAcbn4RkQ8_aj24z.qrtv6Mv7TOQ0-'
                       :children:
                       - :name: img
                         :count: 1

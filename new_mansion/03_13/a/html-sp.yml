@@ -230,28 +230,34 @@
               - :name: dd
                 :count: 1
                 :children:
-                - :name: script
-                  :count: 3
+                - :name: a
+                  :count: 1
                   :attributes:
-                    :language: JavaScript
+                    :target: _top
+                  :children:
+                  - :name: img
+                    :count: 1
+                    :attributes:
+                      :border: '0'
+                      :height: '600'
+                      :width: '300'
                 - :name: script
                   :count: 1
                   :attributes:
-                    :language: JavaScript
+                    :language: javascript
                 - :name: noscript
-                  :count: 3
+                  :count: 1
                   :children:
-                  - :name: a
+                  - :name: div
                     :count: 1
                     :attributes:
-                      :target: _top
+                      :style: position:absolute;
                     :children:
                     - :name: img
                       :count: 1
                       :attributes:
-                        :border: '0'
-                        :height: '250'
-                        :width: '300'
+                        :height: '1'
+                        :width: '1'
         - :name: div
           :count: 1
           :attributes:
