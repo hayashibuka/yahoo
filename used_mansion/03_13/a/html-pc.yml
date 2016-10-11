@@ -525,27 +525,31 @@
                 :attributes:
                   :id: centerbox
                 :children:
-                - :name: p
-                  :count: 1
-                  :children:
-                  - :name: img
-                    :count: 1
-                    :attributes:
-                      :border: '0'
-                      :height: '200'
-                      :name: bnr
-                      :usemap: "#bnrMap"
-                      :width: '624'
-                - :name: map
+                - :name: link
                   :count: 1
                   :attributes:
-                    :name: bnrMap
+                    :media: all
+                    :rel: stylesheet
+                    :type: text/css
+                - :name: div
+                  :count: 1
+                  :attributes:
+                    :class: yjcb1604daikibo
                   :children:
-                  - :name: area
-                    :count: 5
+                  - :name: div
+                    :count: 2
                     :attributes:
-                      :coords: '0,0,624,151'
-                      :shape: rect
+                      :class: headArea
+                    :children:
+                    - :name: a
+                      :count: 1
+                      :attributes:
+                        :class: titleArea
+                      :children:
+                      - :name: div
+                        :count: 3
+                        :attributes:
+                          :class: logo
             - :name: p
               :count: 1
               :attributes:
@@ -593,7 +597,7 @@
                     - :name: a
                       :count: 1
                       :attributes:
-                        :onclick: this.href='http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1476226311/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL3JlYWxlc3RhdGUueWFob28uY28uanAvdXNlZC9mZWF0dXJlLzIwMTZfam91aG91a2Fu/RS=^ADAK9Eq_Z_E2y3GlM_GPfI9bIqTf6c-'
+                        :onclick: this.href='http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1476315528/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL3JlYWxlc3RhdGUueWFob28uY28uanAvdXNlZC9mZWF0dXJlLzIwMTZfam91aG91a2Fu/RS=^ADAGq0eA.Mg3rP4j6ZWVCEYs5LWmr8-'
                       :children:
                       - :name: img
                         :count: 1
