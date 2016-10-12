@@ -324,27 +324,41 @@
                 :attributes:
                   :id: centerbox
                 :children:
-                - :name: p
-                  :count: 1
-                  :children:
-                  - :name: img
-                    :count: 1
-                    :attributes:
-                      :border: '0'
-                      :height: '200'
-                      :name: bnr
-                      :usemap: "#bnrMap"
-                      :width: '624'
-                - :name: map
+                - :name: link
                   :count: 1
                   :attributes:
-                    :name: bnrMap
+                    :media: all
+                    :rel: stylesheet
+                    :type: text/css
+                - :name: div
+                  :count: 1
+                  :attributes:
+                    :class: yjcb1610syugo
                   :children:
-                  - :name: area
-                    :count: 5
+                  - :name: div
+                    :count: 2
                     :attributes:
-                      :coords: '0,0,624,151'
-                      :shape: rect
+                      :class: headArea
+                    :children:
+                    - :name: a
+                      :count: 2
+                      :attributes:
+                        :class: titleArea
+                      :children:
+                      - :name: div
+                        :count: 2
+                        :attributes:
+                          :class: logo
+                    - :name: ul
+                      :count: 1
+                      :children:
+                      - :name: li
+                        :count: 8
+                        :attributes:
+                          :class: hokkaido
+                        :children:
+                        - :name: a
+                          :count: 1
             - :name: p
               :count: 1
               :attributes:
@@ -395,12 +409,18 @@
                 - :name: h2
                   :count: 1
                 - :name: dl
-                  :count: 2
+                  :count: 3
                   :children:
                   - :name: dt
                     :count: 1
                     :attributes:
                       :class: left
+                    :children:
+                    - :name: img
+                      :count: 1
+                      :attributes:
+                        :height: '11'
+                        :width: '28'
                   - :name: dd
                     :count: 2
                     :attributes:
@@ -409,7 +429,7 @@
                     - :name: a
                       :count: 1
                       :attributes:
-                        :onclick: this.href='http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1476315550/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL3JlYWxlc3RhdGUueWFob28uY28uanAvdXNlZC9mZWF0dXJlLzIwMTZfam91aG91a2Fu/RS=^ADAnG8GLqMy4ld2NDxgn2hNoxs3kUs-'
+                        :onclick: this.href='http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1476379996/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL2ZlYXR1cmUucmVhbGVzdGF0ZS55YWhvby5jby5qcC9waWNrdXAyL2luZGV4Lmh0bWw_bGM9MDMmc2NfaW49bV9waWNrdXAyX3J0b3BfcmlnaHRfdAA-/RS=^ADAoNU1yc7mBVgV3IwqXcXe_Qxztlk-'
                       :children:
                       - :name: img
                         :count: 1
