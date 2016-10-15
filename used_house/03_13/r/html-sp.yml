@@ -50,8 +50,6 @@
         :children:
         - :name: div
           :count: 1
-          :attributes:
-            :id: msthdFifth
           :children:
           - :name: div
             :count: 1
@@ -332,24 +330,31 @@
                     :id: feature
                     :style: 'font-size: 13px;'
                   :children:
-                  - :name: link
+                  - :name: p
+                    :count: 1
+                    :children:
+                    - :name: img
+                      :count: 1
+                      :attributes:
+                        :border: '0'
+                        :height: '200'
+                        :name: bnr
+                        :usemap: "#bnrMap"
+                        :width: '624'
+                  - :name: map
                     :count: 1
                     :attributes:
-                      :media: all
-                      :rel: stylesheet
-                      :type: text/css
+                      :name: bnrMap
+                    :children:
+                    - :name: area
+                      :count: 7
+                      :attributes:
+                        :coords: '0,0,624,147'
+                        :shape: rect
+                  - :name: br
+                    :count: 1
                   - :name: div
                     :count: 1
-                    :attributes:
-                      :id: yjcbSkdr
-                    :children:
-                    - :name: div
-                      :count: 2
-                      :attributes:
-                        :class: skdrMain
-                      :children:
-                      - :name: a
-                        :count: 1
             - :name: p
               :count: 1
               :attributes:
@@ -420,7 +425,7 @@
                     - :name: a
                       :count: 1
                       :attributes:
-                        :onclick: this.href='http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1476552823/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL2ZlYXR1cmUucmVhbGVzdGF0ZS55YWhvby5jby5qcC9waWNrdXAyL2luZGV4Lmh0bWw_bGM9MDMmc2NfaW49bV9waWNrdXAyX3J0b3BfcmlnaHRfdAA-/RS=^ADAhkkXk5ZUJWbjuBbTn7XHkqEFLA0-'
+                        :onclick: this.href='http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1476639222/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL2ZlYXR1cmUucmVhbGVzdGF0ZS55YWhvby5jby5qcC9waWNrdXAyL2luZGV4Lmh0bWw_bGM9MDMmc2NfaW49bV9waWNrdXAyX3J0b3BfcmlnaHRfdAA-/RS=^ADAQotzfT1YGfthZn4RmN1ometSgT8-'
                       :children:
                       - :name: img
                         :count: 1
