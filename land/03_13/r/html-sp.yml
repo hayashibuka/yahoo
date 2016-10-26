@@ -324,50 +324,30 @@
                 :attributes:
                   :id: centerbox
                 :children:
-                - :name: link
-                  :count: 1
-                  :attributes:
-                    :media: all
-                    :rel: stylesheet
                 - :name: div
                   :count: 1
                   :attributes:
-                    :id: yjcb-1405rent
+                    :id: feature
+                    :style: 'font-size: 13px;'
                   :children:
-                  - :name: p
+                  - :name: link
                     :count: 1
                     :attributes:
-                      :class: cb-title
-                    :children:
-                    - :name: a
-                      :count: 1
+                      :media: all
+                      :rel: stylesheet
+                      :type: text/css
                   - :name: div
                     :count: 1
                     :attributes:
-                      :class: cb-element
+                      :id: yjcbSkdr
                     :children:
                     - :name: div
                       :count: 2
                       :attributes:
-                        :class: cb-left
+                        :class: skdrMain
                       :children:
-                      - :name: div
-                        :count: 2
-                        :attributes:
-                          :class: cb-kodawari
-                        :children:
-                        - :name: p
-                          :count: 1
-                        - :name: ul
-                          :count: 1
-                          :children:
-                          - :name: li
-                            :count: 4
-                            :children:
-                            - :name: a
-                              :count: 1
-                              :attributes:
-                                :class: widelink
+                      - :name: a
+                        :count: 1
             - :name: p
               :count: 1
               :attributes:
@@ -438,7 +418,7 @@
                     - :name: a
                       :count: 1
                       :attributes:
-                        :onclick: this.href='http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1477503250/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL2ZlYXR1cmUucmVhbGVzdGF0ZS55YWhvby5jby5qcC9waWNrdXAyL2luZGV4Lmh0bWw_bGM9MDMmc2NfaW49bV9waWNrdXAyX3J0b3BfcmlnaHRfdAA-/RS=^ADAVI2L9SEALCJPvRl7KUVehh37kuo-'
+                        :onclick: this.href='http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1477589648/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL2ZlYXR1cmUucmVhbGVzdGF0ZS55YWhvby5jby5qcC9waWNrdXAyL2luZGV4Lmh0bWw_bGM9MDMmc2NfaW49bV9waWNrdXAyX3J0b3BfcmlnaHRfdAA-/RS=^ADAddANXW79B9kPC9XOPPPHEfjzL5w-'
                       :children:
                       - :name: img
                         :count: 1
