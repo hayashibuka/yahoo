@@ -525,37 +525,50 @@
                 :attributes:
                   :id: centerbox
                 :children:
+                - :name: link
+                  :count: 1
+                  :attributes:
+                    :media: all
+                    :rel: stylesheet
                 - :name: div
                   :count: 1
                   :attributes:
-                    :id: feature
-                    :style: 'font-size: 13px;'
+                    :id: yjcb-1405rent
                   :children:
                   - :name: p
                     :count: 1
-                    :children:
-                    - :name: img
-                      :count: 1
-                      :attributes:
-                        :border: '0'
-                        :height: '200'
-                        :name: bnr
-                        :usemap: "#bnrMap"
-                        :width: '624'
-                  - :name: map
-                    :count: 1
                     :attributes:
-                      :name: bnrMap
+                      :class: cb-title
                     :children:
-                    - :name: area
-                      :count: 7
-                      :attributes:
-                        :coords: '0,0,624,147'
-                        :shape: rect
-                  - :name: br
-                    :count: 1
+                    - :name: a
+                      :count: 1
                   - :name: div
                     :count: 1
+                    :attributes:
+                      :class: cb-element
+                    :children:
+                    - :name: div
+                      :count: 2
+                      :attributes:
+                        :class: cb-left
+                      :children:
+                      - :name: div
+                        :count: 2
+                        :attributes:
+                          :class: cb-kodawari
+                        :children:
+                        - :name: p
+                          :count: 1
+                        - :name: ul
+                          :count: 1
+                          :children:
+                          - :name: li
+                            :count: 4
+                            :children:
+                            - :name: a
+                              :count: 1
+                              :attributes:
+                                :class: widelink
             - :name: p
               :count: 1
               :attributes:
@@ -609,7 +622,7 @@
                     - :name: a
                       :count: 1
                       :attributes:
-                        :onclick: this.href='http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1477589405/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL2ZlYXR1cmUucmVhbGVzdGF0ZS55YWhvby5jby5qcC9waWNrdXAyL2luZGV4Lmh0bWw_bGM9MDMmc2NfaW49bV9waWNrdXAyX3J0b3BfcmlnaHRfdAA-/RS=^ADA7fx5sts5PjWx96uaieIso8Q35ok-'
+                        :onclick: this.href='http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1477675806/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL2ZlYXR1cmUucmVhbGVzdGF0ZS55YWhvby5jby5qcC9waWNrdXAyL2luZGV4Lmh0bWw_bGM9MDMmc2NfaW49bV9waWNrdXAyX3J0b3BfcmlnaHRfdAA-/RS=^ADANSGHR5TZ.2unnQNtXWNgs.AoGZ0-'
                       :children:
                       - :name: img
                         :count: 1
