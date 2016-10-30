@@ -329,36 +329,45 @@
                   :attributes:
                     :media: all
                     :rel: stylesheet
-                    :type: text/css
                 - :name: div
                   :count: 1
                   :attributes:
-                    :class: yjcb1610syugo
+                    :id: yjcb-1405rent
                   :children:
-                  - :name: div
-                    :count: 2
+                  - :name: p
+                    :count: 1
                     :attributes:
-                      :class: headArea
+                      :class: cb-title
                     :children:
                     - :name: a
+                      :count: 1
+                  - :name: div
+                    :count: 1
+                    :attributes:
+                      :class: cb-element
+                    :children:
+                    - :name: div
                       :count: 2
                       :attributes:
-                        :class: titleArea
+                        :class: cb-left
                       :children:
                       - :name: div
                         :count: 2
                         :attributes:
-                          :class: logo
-                    - :name: ul
-                      :count: 1
-                      :children:
-                      - :name: li
-                        :count: 8
-                        :attributes:
-                          :class: hokkaido
+                          :class: cb-kodawari
                         :children:
-                        - :name: a
+                        - :name: p
                           :count: 1
+                        - :name: ul
+                          :count: 1
+                          :children:
+                          - :name: li
+                            :count: 4
+                            :children:
+                            - :name: a
+                              :count: 1
+                              :attributes:
+                                :class: widelink
             - :name: p
               :count: 1
               :attributes:
@@ -409,7 +418,7 @@
                 - :name: h2
                   :count: 1
                 - :name: dl
-                  :count: 3
+                  :count: 2
                   :children:
                   - :name: dt
                     :count: 1
@@ -429,7 +438,7 @@
                     - :name: a
                       :count: 1
                       :attributes:
-                        :onclick: this.href='http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1477848824/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL2ZlYXR1cmUucmVhbGVzdGF0ZS55YWhvby5jby5qcC9waWNrdXAyL2luZGV4Lmh0bWw_bGM9MDMmc2NfaW49bV9waWNrdXAyX3J0b3BfcmlnaHRfdAA-/RS=^ADAscsAUb1h7ny1eVQzpAVuaYpc7UE-'
+                        :onclick: this.href='http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1477935226/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL2ZlYXR1cmUucmVhbGVzdGF0ZS55YWhvby5jby5qcC9waWNrdXAyL2luZGV4Lmh0bWw_bGM9MDMmc2NfaW49bV9waWNrdXAyX3J0b3BfcmlnaHRfdAA-/RS=^ADA7MpiU9ZY9_iRCEb8Wb4H.VpE7qc-'
                       :children:
                       - :name: img
                         :count: 1

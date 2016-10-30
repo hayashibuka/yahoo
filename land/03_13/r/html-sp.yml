@@ -327,47 +327,34 @@
                 - :name: link
                   :count: 1
                   :attributes:
-                    :media: all
                     :rel: stylesheet
+                    :type: text/css
                 - :name: div
                   :count: 1
                   :attributes:
-                    :id: yjcb-1405rent
+                    :id: yjcb_newhouse161024_cb_wrap
                   :children:
                   - :name: p
                     :count: 1
                     :attributes:
-                      :class: cb-title
-                    :children:
-                    - :name: a
-                      :count: 1
+                      :id: yjcb_newhouse161024_ttl
                   - :name: div
                     :count: 1
                     :attributes:
-                      :class: cb-element
+                      :id: yjcb_newhouse161024_cb
                     :children:
-                    - :name: div
+                    - :name: dl
                       :count: 2
                       :attributes:
-                        :class: cb-left
+                        :class: yjcb_newhouse161024_menu
                       :children:
-                      - :name: div
-                        :count: 2
-                        :attributes:
-                          :class: cb-kodawari
+                      - :name: dt
+                        :count: 3
+                      - :name: dd
+                        :count: 3
                         :children:
-                        - :name: p
-                          :count: 1
-                        - :name: ul
-                          :count: 1
-                          :children:
-                          - :name: li
-                            :count: 4
-                            :children:
-                            - :name: a
-                              :count: 1
-                              :attributes:
-                                :class: widelink
+                        - :name: a
+                          :count: 7
             - :name: p
               :count: 1
               :attributes:
@@ -418,7 +405,7 @@
                 - :name: h2
                   :count: 1
                 - :name: dl
-                  :count: 3
+                  :count: 2
                   :children:
                   - :name: dt
                     :count: 1
@@ -438,7 +425,7 @@
                     - :name: a
                       :count: 1
                       :attributes:
-                        :onclick: this.href='http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1477848851/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL2ZlYXR1cmUucmVhbGVzdGF0ZS55YWhvby5jby5qcC9waWNrdXAyL2luZGV4Lmh0bWw_bGM9MDMmc2NfaW49bV9waWNrdXAyX3J0b3BfcmlnaHRfdAA-/RS=^ADAr6vhXryfZnzkH6qDZRkJZfmxdGo-'
+                        :onclick: this.href='http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1477935254/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL2ZlYXR1cmUucmVhbGVzdGF0ZS55YWhvby5jby5qcC9waWNrdXAyL2luZGV4Lmh0bWw_bGM9MDMmc2NfaW49bV9waWNrdXAyX3J0b3BfcmlnaHRfdAA-/RS=^ADAaEUEYrgFlDKP_b4d4RP2gMfd2mw-'
                       :children:
                       - :name: img
                         :count: 1
