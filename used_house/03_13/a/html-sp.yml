@@ -318,6 +318,43 @@
               :attributes:
                 :id: feature
                 :style: 'font-size: 13px;'
+              :children:
+              - :name: div
+                :count: 1
+                :attributes:
+                  :id: centerbox
+                :children:
+                - :name: div
+                  :count: 1
+                  :attributes:
+                    :id: feature
+                    :style: 'font-size: 13px;'
+                  :children:
+                  - :name: p
+                    :count: 1
+                    :children:
+                    - :name: img
+                      :count: 1
+                      :attributes:
+                        :border: '0'
+                        :height: '200'
+                        :name: bnr
+                        :usemap: "#bnrMap"
+                        :width: '624'
+                  - :name: map
+                    :count: 1
+                    :attributes:
+                      :name: bnrMap
+                    :children:
+                    - :name: area
+                      :count: 7
+                      :attributes:
+                        :coords: '0,0,624,147'
+                        :shape: rect
+                  - :name: br
+                    :count: 1
+                  - :name: div
+                    :count: 1
             - :name: p
               :count: 1
               :attributes:
@@ -388,7 +425,7 @@
                     - :name: a
                       :count: 1
                       :attributes:
-                        :onclick: this.href='http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1477935234/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL2ZlYXR1cmUucmVhbGVzdGF0ZS55YWhvby5jby5qcC9waWNrdXAyL2luZGV4Lmh0bWw_bGM9MDMmc2NfaW49bV9waWNrdXAyX3J0b3BfcmlnaHRfdAA-/RS=^ADAZSQPFmQAxDxzgg.qZ.WdSPfbixA-'
+                        :onclick: this.href='http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1478021636/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL2ZlYXR1cmUucmVhbGVzdGF0ZS55YWhvby5jby5qcC9waWNrdXAyL2luZGV4Lmh0bWw_bGM9MDMmc2NfaW49bV9waWNrdXAyX3J0b3BfcmlnaHRfdAA-/RS=^ADA38c_3rClk01klhZvAlZlldAYa6U-'
                       :children:
                       - :name: img
                         :count: 1
