@@ -333,22 +333,32 @@
                 - :name: div
                   :count: 1
                   :attributes:
-                    :class: yjcb1608urawa
+                    :class: yjcb1610syugo
                   :children:
                   - :name: div
-                    :count: 1
+                    :count: 2
                     :attributes:
                       :class: headArea
                     :children:
                     - :name: a
-                      :count: 1
+                      :count: 2
                       :attributes:
                         :class: titleArea
                       :children:
                       - :name: div
                         :count: 2
                         :attributes:
-                          :class: cbTitle
+                          :class: logo
+                    - :name: ul
+                      :count: 1
+                      :children:
+                      - :name: li
+                        :count: 8
+                        :attributes:
+                          :class: hokkaido
+                        :children:
+                        - :name: a
+                          :count: 1
             - :name: p
               :count: 1
               :attributes:
@@ -399,7 +409,7 @@
                 - :name: h2
                   :count: 1
                 - :name: dl
-                  :count: 2
+                  :count: 3
                   :children:
                   - :name: dt
                     :count: 1
@@ -419,7 +429,7 @@
                     - :name: a
                       :count: 1
                       :attributes:
-                        :onclick: this.href='http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1478021656/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL2ZlYXR1cmUucmVhbGVzdGF0ZS55YWhvby5jby5qcC9waWNrdXAyL2luZGV4Lmh0bWw_bGM9MDMmc2NfaW49bV9waWNrdXAyX3J0b3BfcmlnaHRfdAA-/RS=^ADAkjcbWT1Qy195Mm39MVIO_ipD9Rc-'
+                        :onclick: this.href='http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1478108058/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL2ZlYXR1cmUucmVhbGVzdGF0ZS55YWhvby5jby5qcC9kYWlraWJvMi9tYWluL2luZGV4Lmh0bWw_bGM9MDMmc2NfaW49bV9kYWlraWJvX3J0b3BfdAA-/RS=^ADAxYuui3if3XyzxJvl0zkNPadsios-'
                       :children:
                       - :name: img
                         :count: 1
