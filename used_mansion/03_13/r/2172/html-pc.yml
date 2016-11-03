@@ -525,31 +525,35 @@
                 :attributes:
                   :id: centerbox
                 :children:
-                - :name: link
-                  :count: 1
-                  :attributes:
-                    :media: all
-                    :rel: stylesheet
-                    :type: text/css
                 - :name: div
                   :count: 1
                   :attributes:
-                    :class: yjcb1608urawa
+                    :id: feature
+                    :style: 'font-size: 13px;'
                   :children:
-                  - :name: div
+                  - :name: p
                     :count: 1
-                    :attributes:
-                      :class: headArea
                     :children:
-                    - :name: a
+                    - :name: img
                       :count: 1
                       :attributes:
-                        :class: titleArea
-                      :children:
-                      - :name: div
-                        :count: 2
-                        :attributes:
-                          :class: cbTitle
+                        :border: '0'
+                        :height: '200'
+                        :name: bnr
+                        :usemap: "#bnrMap"
+                        :width: '624'
+                  - :name: map
+                    :count: 1
+                    :attributes:
+                      :name: bnrMap
+                    :children:
+                    - :name: area
+                      :count: 7
+                      :attributes:
+                        :coords: '0,0,624,151'
+                        :shape: rect
+                - :name: br
+                  :count: 1
             - :name: p
               :count: 1
               :attributes:
@@ -603,7 +607,7 @@
                     - :name: a
                       :count: 1
                       :attributes:
-                        :onclick: this.href='http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1478194377/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL2ZlYXR1cmUucmVhbGVzdGF0ZS55YWhvby5jby5qcC9kYWlraWJvMi9tYWluL2luZGV4Lmh0bWw_bGM9MDMmc2NfaW49bV9kYWlraWJvX3J0b3BfdAA-/RS=^ADAicqAZc8ZicQmHK9eYSDhj7y4hcM-'
+                        :onclick: this.href='http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1478280770/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL2ZlYXR1cmUucmVhbGVzdGF0ZS55YWhvby5jby5qcC9kYWlraWJvMi9tYWluL2luZGV4Lmh0bWw_bGM9MDMmc2NfaW49bV9kYWlraWJvX3J0b3BfdAA-/RS=^ADA.M3PBKZ4CWGP2djO99hIPclKdwo-'
                       :children:
                       - :name: img
                         :count: 1
