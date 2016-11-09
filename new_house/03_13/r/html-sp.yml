@@ -335,7 +335,7 @@
                 - :name: div
                   :count: 1
                   :attributes:
-                    :class: yjcb1604daikibo
+                    :class: yjcb1610syugo
                   :children:
                   - :name: div
                     :count: 2
@@ -343,14 +343,24 @@
                       :class: headArea
                     :children:
                     - :name: a
-                      :count: 1
+                      :count: 2
                       :attributes:
                         :class: titleArea
                       :children:
                       - :name: div
-                        :count: 3
+                        :count: 2
                         :attributes:
                           :class: logo
+                    - :name: ul
+                      :count: 1
+                      :children:
+                      - :name: li
+                        :count: 8
+                        :attributes:
+                          :class: hokkaido
+                        :children:
+                        - :name: a
+                          :count: 1
             - :name: p
               :count: 1
               :attributes:
@@ -421,7 +431,7 @@
                     - :name: a
                       :count: 1
                       :attributes:
-                        :onclick: this.href='http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1478712794/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL2ZlYXR1cmUucmVhbGVzdGF0ZS55YWhvby5jby5qcC9kYWlraWJvMi9tYWluL2luZGV4Lmh0bWw_bGM9MDMmc2NfaW49bV9kYWlraWJvX3J0b3BfdAA-/RS=^ADAtHDDLCAu1NtGGnLIH_Eh.91qUQk-'
+                        :onclick: this.href='http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1478799196/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL2ZlYXR1cmUucmVhbGVzdGF0ZS55YWhvby5jby5qcC9kYWlraWJvMi9tYWluL2luZGV4Lmh0bWw_bGM9MDMmc2NfaW49bV9kYWlraWJvX3J0b3BfdAA-/RS=^ADA2w.iRu3e4a3bF55UDZJidAemzLo-'
                       :children:
                       - :name: img
                         :count: 1
