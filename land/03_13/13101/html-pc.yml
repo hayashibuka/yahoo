@@ -705,7 +705,7 @@
                       :id: usedListBox
                     :children:
                     - :name: li
-                      :count: 5
+                      :count: 6
                       :attributes:
                         :class: usedListBoxWrap yjrclearfix
                       :children:
@@ -812,9 +812,9 @@
                             - :name: input
                               :count: 1
                               :attributes:
-                                :id: 5mNz3mF3gHgDiVkMWuZcTd_info
+                                :id: 1akpGPbrBtFCk4HWv9vOVe_info
                                 :type: hidden
-                                :value: '[{"bid":"0006673783","agid":"00002138950","pf":"13","geo":"13101","group":35,"cid":"00018523","frk_div":"9"},{"bid":"0006714547","agid":"00002138950","pf":"13","geo":"13101","group":35,"cid":"00018938","frk_div":"9"}]'
+                                :value: '[{"bid":"0006722283","agid":"00002150645","pf":"13","geo":"13101","group":35,"cid":"00000988","frk_div":"9"}]'
             - :name: input
               :count: 1
               :attributes:
