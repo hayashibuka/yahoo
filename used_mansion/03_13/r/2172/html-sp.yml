@@ -327,34 +327,38 @@
                 - :name: link
                   :count: 1
                   :attributes:
+                    :media: all
                     :rel: stylesheet
                     :type: text/css
                 - :name: div
                   :count: 1
                   :attributes:
-                    :id: yjcb_newhouse161024_cb_wrap
+                    :class: yjcb1610syugo
                   :children:
-                  - :name: p
-                    :count: 1
-                    :attributes:
-                      :id: yjcb_newhouse161024_ttl
                   - :name: div
-                    :count: 1
+                    :count: 2
                     :attributes:
-                      :id: yjcb_newhouse161024_cb
+                      :class: headArea
                     :children:
-                    - :name: dl
+                    - :name: a
                       :count: 2
                       :attributes:
-                        :class: yjcb_newhouse161024_menu
+                        :class: titleArea
                       :children:
-                      - :name: dt
-                        :count: 3
-                      - :name: dd
-                        :count: 3
+                      - :name: div
+                        :count: 2
+                        :attributes:
+                          :class: logo
+                    - :name: ul
+                      :count: 1
+                      :children:
+                      - :name: li
+                        :count: 8
+                        :attributes:
+                          :class: hokkaido
                         :children:
                         - :name: a
-                          :count: 7
+                          :count: 1
             - :name: p
               :count: 1
               :attributes:
@@ -425,7 +429,7 @@
                     - :name: a
                       :count: 1
                       :attributes:
-                        :onclick: this.href='http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1479058372/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cHM6Ly9yZWFsZXN0YXRlLnlhaG9vLmNvLmpwL2RpcmVjdC9pbnRlcnZpZXcvMDE-/RS=^ADA9o4ZS8LKS3PMO0.1vIx7KBhC4mo-'
+                        :onclick: this.href='http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1479144768/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cHM6Ly9yZWFsZXN0YXRlLnlhaG9vLmNvLmpwL2RpcmVjdC9pbnRlcnZpZXcvMDE-/RS=^ADAL1exF9ykn9jyyP3326MdyX1AF2s-'
                       :children:
                       - :name: img
                         :count: 1

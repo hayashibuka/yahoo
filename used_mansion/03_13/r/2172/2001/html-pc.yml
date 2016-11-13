@@ -871,7 +871,7 @@
                           - :name: caption
                             :count: 1
                           - :name: tr
-                            :count: 4
+                            :count: 2
                             :children:
                             - :name: th
                               :count: 9
@@ -879,16 +879,16 @@
                                 :class: check
                                 :scope: col
                           - :name: tr
-                            :count: 3
+                            :count: 1
                             :attributes:
                               :class: log_info
                             :children:
                             - :name: input
                               :count: 1
                               :attributes:
-                                :id: 55FkcW97r1m21c7crZdECM_info
+                                :id: 5J4guI60xePkPstHAdqg4O_info
                                 :type: hidden
-                                :value: '[{"bid":"0006715886","agid":"00000143701","pf":"19","geo":"19425","group":36,"cid":"00013154","frk_div":"9"}]'
+                                :value: '[{"bid":"0006726954","agid":"00002151959","pf":"40","geo":"40106","group":36,"cid":"00018362","frk_div":"9"}]'
             - :name: input
               :count: 1
               :attributes:
