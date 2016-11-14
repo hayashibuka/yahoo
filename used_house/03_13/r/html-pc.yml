@@ -525,37 +525,30 @@
                 :attributes:
                   :id: centerbox
                 :children:
-                - :name: link
-                  :count: 1
-                  :attributes:
-                    :rel: stylesheet
-                    :type: text/css
                 - :name: div
                   :count: 1
                   :attributes:
-                    :id: yjcb_newhouse161024_cb_wrap
+                    :id: feature
+                    :style: 'font-size: 13px;'
                   :children:
-                  - :name: p
+                  - :name: link
                     :count: 1
                     :attributes:
-                      :id: yjcb_newhouse161024_ttl
+                      :media: all
+                      :rel: stylesheet
+                      :type: text/css
                   - :name: div
                     :count: 1
                     :attributes:
-                      :id: yjcb_newhouse161024_cb
+                      :id: yjcbSkdr
                     :children:
-                    - :name: dl
+                    - :name: div
                       :count: 2
                       :attributes:
-                        :class: yjcb_newhouse161024_menu
+                        :class: skdrMain
                       :children:
-                      - :name: dt
-                        :count: 3
-                      - :name: dd
-                        :count: 3
-                        :children:
-                        - :name: a
-                          :count: 7
+                      - :name: a
+                        :count: 1
             - :name: p
               :count: 1
               :attributes:
@@ -609,7 +602,7 @@
                     - :name: a
                       :count: 1
                       :attributes:
-                        :onclick: this.href='http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1479144818/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cHM6Ly9yZWFsZXN0YXRlLnlhaG9vLmNvLmpwL2RpcmVjdC9pbnRlcnZpZXcvMDE-/RS=^ADACM3DHu2v5xXpXm6QzKERfy_6GJk-'
+                        :onclick: this.href='http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1479231216/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cHM6Ly9yZWFsZXN0YXRlLnlhaG9vLmNvLmpwL2RpcmVjdC9pbnRlcnZpZXcvMDE-/RS=^ADAaDMY64vRjX8s44cs9sbwdBSqrXs-'
                       :children:
                       - :name: img
                         :count: 1

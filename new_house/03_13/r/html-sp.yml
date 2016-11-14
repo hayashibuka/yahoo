@@ -50,6 +50,8 @@
         :children:
         - :name: div
           :count: 1
+          :attributes:
+            :id: msthdFifth
           :children:
           - :name: div
             :count: 1
@@ -324,50 +326,30 @@
                 :attributes:
                   :id: centerbox
                 :children:
-                - :name: link
-                  :count: 1
-                  :attributes:
-                    :media: all
-                    :rel: stylesheet
                 - :name: div
                   :count: 1
                   :attributes:
-                    :id: yjcb-1405rent
+                    :id: feature
+                    :style: 'font-size: 13px;'
                   :children:
-                  - :name: p
+                  - :name: link
                     :count: 1
                     :attributes:
-                      :class: cb-title
-                    :children:
-                    - :name: a
-                      :count: 1
+                      :media: all
+                      :rel: stylesheet
+                      :type: text/css
                   - :name: div
                     :count: 1
                     :attributes:
-                      :class: cb-element
+                      :id: yjcbSkdr
                     :children:
                     - :name: div
                       :count: 2
                       :attributes:
-                        :class: cb-left
+                        :class: skdrMain
                       :children:
-                      - :name: div
-                        :count: 2
-                        :attributes:
-                          :class: cb-kodawari
-                        :children:
-                        - :name: p
-                          :count: 1
-                        - :name: ul
-                          :count: 1
-                          :children:
-                          - :name: li
-                            :count: 4
-                            :children:
-                            - :name: a
-                              :count: 1
-                              :attributes:
-                                :class: widelink
+                      - :name: a
+                        :count: 1
             - :name: p
               :count: 1
               :attributes:
@@ -438,7 +420,7 @@
                     - :name: a
                       :count: 1
                       :attributes:
-                        :onclick: this.href='http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1479144792/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cHM6Ly9yZWFsZXN0YXRlLnlhaG9vLmNvLmpwL2RpcmVjdC9pbnRlcnZpZXcvMDE-/RS=^ADAYUhbJWuc2qhld5Y4cl5pL5pX7ow-'
+                        :onclick: this.href='http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1479231190/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cHM6Ly9yZWFsZXN0YXRlLnlhaG9vLmNvLmpwL2RpcmVjdC9pbnRlcnZpZXcvMDE-/RS=^ADAvhB9I8rQh8leuCOat9TSt5Q.Jv8-'
                       :children:
                       - :name: img
                         :count: 1

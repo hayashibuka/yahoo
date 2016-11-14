@@ -716,7 +716,7 @@
                             :count: 1
                             :attributes:
                               :data-ylk: slk:link;pos:1
-                              :target: 3YNMFZWDEyO7LlEUG9JFnD
+                              :target: 1ppwwyC5qXRiPD6XPVIxM0
                             :children:
                             - :name: p
                               :count: 2
@@ -728,9 +728,9 @@
                           - :name: input
                             :count: 1
                             :attributes:
-                              :id: featured_buy_3YNMFZWDEyO7LlEUG9JFnD
+                              :id: featured_buy_1ppwwyC5qXRiPD6XPVIxM0
                               :type: hidden
-                              :value: '[{"cid":"00015773","bid":"0006337823","agid":"00000301450","type":"2220300"}]'
+                              :value: '[{"cid":"00015773","bid":"0006337829","agid":"00000067426","type":"2277449"}]'
                 - :name: em
                   :count: 2
                   :attributes:
@@ -935,41 +935,27 @@
                             - :name: input
                               :count: 1
                               :attributes:
-                                :id: 4cbyj4eJwoy0PkZkx6qEUT_info
+                                :id: 35UnKqkCxcAchICdyfcdFp_info
                                 :type: hidden
-                                :value: '[{"bid":"0006728077","agid":"00002038907","pf":"13","geo":"13101","group":36,"cid":"00014991","frk_div":"9"}]'
-            - :name: div
-              :count: 3
-              :attributes:
-                :class: odRecommendBox
-              :children:
-              - :name: div
-                :count: 2
-                :attributes:
-                  :class: odRecommendBoxTit
-                :children:
-                - :name: p
-                  :count: 1
-                  :attributes:
-                    :class: titRecommend
-                  :children:
-                  - :name: span
-                    :count: 1
-                - :name: a
-                  :count: 1
-                  :attributes:
-                    :class: linkDirect
-                  :children:
-                  - :name: span
-                    :count: 1
-                    :attributes:
-                      :class: iconAngleTriangleRight
+                                :value: '[{"bid":"0006733673","agid":"00002153407","pf":"13","geo":"13101","group":36,"cid":"00017253","frk_div":"9"}]'
             - :name: input
               :count: 1
               :attributes:
                 :id: search_type
                 :type: hidden
                 :value: area
+            - :name: div
+              :count: 2
+              :attributes:
+                :class: popularAreaWrap
+              :children:
+              - :name: div
+                :count: 2
+                :attributes:
+                  :class: tit3 yjrclearfix
+                :children:
+                - :name: h2
+                  :count: 1
           - :name: div
             :count: 1
             :attributes:
