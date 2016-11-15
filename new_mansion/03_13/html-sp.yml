@@ -71,8 +71,6 @@
         :children:
         - :name: div
           :count: 1
-          :attributes:
-            :id: msthdFifth
           :children:
           - :name: div
             :count: 1
@@ -134,7 +132,7 @@
         :attributes:
           :type: text/javascript
       - :name: script
-        :count: 1
+        :count: 2
         :attributes:
           :type: text/javascript
     - :name: hr

@@ -525,30 +525,31 @@
                 :attributes:
                   :id: centerbox
                 :children:
+                - :name: link
+                  :count: 1
+                  :attributes:
+                    :media: all
+                    :rel: stylesheet
+                    :type: text/css
                 - :name: div
                   :count: 1
                   :attributes:
-                    :id: feature
-                    :style: 'font-size: 13px;'
+                    :class: yjcb1604daikibo
                   :children:
-                  - :name: link
-                    :count: 1
-                    :attributes:
-                      :media: all
-                      :rel: stylesheet
-                      :type: text/css
                   - :name: div
-                    :count: 1
+                    :count: 2
                     :attributes:
-                      :id: yjcbSkdr
+                      :class: headArea
                     :children:
-                    - :name: div
-                      :count: 2
+                    - :name: a
+                      :count: 1
                       :attributes:
-                        :class: skdrMain
+                        :class: titleArea
                       :children:
-                      - :name: a
-                        :count: 1
+                      - :name: div
+                        :count: 3
+                        :attributes:
+                          :class: logo
             - :name: p
               :count: 1
               :attributes:
@@ -602,7 +603,7 @@
                     - :name: a
                       :count: 1
                       :attributes:
-                        :onclick: this.href='http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1479231164/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cHM6Ly9yZWFsZXN0YXRlLnlhaG9vLmNvLmpwL2RpcmVjdC9pbnRlcnZpZXcvMDE-/RS=^ADAC53tqkL9potGaXjSMQ.5wy3HwQk-'
+                        :onclick: this.href='http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1479317566/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cHM6Ly9yZWFsZXN0YXRlLnlhaG9vLmNvLmpwL2RpcmVjdC9pbnRlcnZpZXcvMDE-/RS=^ADA8V.NtiIKUZoLUAqtUkcSohMf8gY-'
                       :children:
                       - :name: img
                         :count: 1

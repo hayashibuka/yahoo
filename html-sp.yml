@@ -50,8 +50,6 @@
         :children:
         - :name: div
           :count: 1
-          :attributes:
-            :id: msthdFifth
           :children:
           - :name: div
             :count: 1
@@ -113,7 +111,7 @@
         :attributes:
           :type: text/javascript
       - :name: script
-        :count: 1
+        :count: 2
         :attributes:
           :type: text/javascript
       - :name: h1
@@ -329,34 +327,28 @@
                 - :name: link
                   :count: 1
                   :attributes:
+                    :media: all
                     :rel: stylesheet
                     :type: text/css
                 - :name: div
                   :count: 1
                   :attributes:
-                    :id: yjcb_newhouse161024_cb_wrap
+                    :class: yjcb1608urawa
                   :children:
-                  - :name: p
-                    :count: 1
-                    :attributes:
-                      :id: yjcb_newhouse161024_ttl
                   - :name: div
                     :count: 1
                     :attributes:
-                      :id: yjcb_newhouse161024_cb
+                      :class: headArea
                     :children:
-                    - :name: dl
-                      :count: 2
+                    - :name: a
+                      :count: 1
                       :attributes:
-                        :class: yjcb_newhouse161024_menu
+                        :class: titleArea
                       :children:
-                      - :name: dt
-                        :count: 3
-                      - :name: dd
-                        :count: 3
-                        :children:
-                        - :name: a
-                          :count: 7
+                      - :name: div
+                        :count: 2
+                        :attributes:
+                          :class: cbTitle
             - :name: p
               :count: 1
               :attributes:
@@ -427,7 +419,7 @@
                     - :name: a
                       :count: 1
                       :attributes:
-                        :onclick: this.href='http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1479231007/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cHM6Ly9yZWFsZXN0YXRlLnlhaG9vLmNvLmpwL2RpcmVjdC9pbnRlcnZpZXcvMDE-/RS=^ADAYCN1cZhcsKrXNm2iSA7nfRQ7ais-'
+                        :onclick: this.href='http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1479317407/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cHM6Ly9yZWFsZXN0YXRlLnlhaG9vLmNvLmpwL2RpcmVjdC9pbnRlcnZpZXcvMDE-/RS=^ADAK5ed3uZ7yAIgyLAvGS_vl7jhCx0-'
                       :children:
                       - :name: img
                         :count: 1
