@@ -349,12 +349,10 @@
                     - :name: area
                       :count: 7
                       :attributes:
-                        :coords: '0,0,624,147'
+                        :coords: '0,0,624,151'
                         :shape: rect
-                  - :name: br
-                    :count: 1
-                  - :name: div
-                    :count: 1
+                - :name: br
+                  :count: 1
             - :name: p
               :count: 1
               :attributes:
@@ -425,7 +423,7 @@
                     - :name: a
                       :count: 1
                       :attributes:
-                        :onclick: this.href='http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1479317644/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cHM6Ly9yZWFsZXN0YXRlLnlhaG9vLmNvLmpwL2RpcmVjdC9pbnRlcnZpZXcvMDE-/RS=^ADAmzxjvBFHavwbL02zDfy79JVgXy0-'
+                        :onclick: this.href='http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1479404045/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cHM6Ly9yZWFsZXN0YXRlLnlhaG9vLmNvLmpwL2RpcmVjdC9pbnRlcnZpZXcvMDE-/RS=^ADAsiZ_seTg2zY7SkEijVrzwNzN6y4-'
                       :children:
                       - :name: img
                         :count: 1

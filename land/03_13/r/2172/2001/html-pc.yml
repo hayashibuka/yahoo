@@ -774,49 +774,6 @@
                                   :count: 1
                                   :attributes:
                                     :class: usedListBoxThum
-                            - :name: span
-                              :count: 1
-                              :attributes:
-                                :class: iconZoom
-                              :children:
-                              - :name: img
-                                :count: 1
-                                :attributes:
-                                  :height: '19'
-                                  :id: iconZoom
-                                  :width: '19'
-                          - :name: span
-                            :count: 1
-                            :attributes:
-                              :class: imgPopWrap
-                              :style: display:none;
-                            :children:
-                            - :name: dl
-                              :count: 1
-                              :attributes:
-                                :class: imgPopWrapBox
-                              :children:
-                              - :name: dt
-                                :count: 1
-                                :children:
-                                - :name: a
-                                  :count: 1
-                                  :attributes:
-                                    :class: close
-                              - :name: dd
-                                :count: 1
-                                :children:
-                                - :name: img
-                                  :count: 1
-                                  :attributes:
-                                    :class: ''
-                              - :name: dd
-                                :count: 1
-                                :attributes:
-                                  :class: txt yjrclearfix
-                                :children:
-                                - :name: span
-                                  :count: 1
                         - :name: dl
                           :count: 1
                           :attributes:
@@ -855,9 +812,9 @@
                             - :name: input
                               :count: 1
                               :attributes:
-                                :id: 6G3vqQgqTTgUICqsb6PYyG_info
+                                :id: 31XwI2lxoUi4mIXNwAT8B0_info
                                 :type: hidden
-                                :value: '[{"bid":"0006740280","agid":"00002155169","pf":"06","geo":"06203","group":35,"cid":"00013980","frk_div":"9"}]'
+                                :value: '[{"bid":"0006751381","agid":"00002157888","pf":"01","geo":"01214","group":35,"cid":"00018655","frk_div":"9"}]'
             - :name: input
               :count: 1
               :attributes:

@@ -132,7 +132,7 @@
       :attributes:
         :id: jsquery
         :type: hidden
-        :value: '{"lc":["03"],"pf":["13"],"ln":["2172"],"st":["2001"],"urltheme":["st"]}'
+        :value: '{"lc":["03"],"pf":["13"],"ln":["2172"],"st":["2001"],"urltheme":["st"],"normalize":["on"]}'
     - :name: p
       :count: 1
       :attributes:
