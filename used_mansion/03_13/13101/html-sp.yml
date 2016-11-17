@@ -758,52 +758,94 @@
                 - :name: div
                   :count: 1
                   :attributes:
-                    :class: usedRecoWrap ult_tracked_mods
-                    :id: upper
+                    :class: usedRecoWrap2 ult_tracked_mods
+                    :id: op_Top
                   :children:
-                  - :name: dl
+                  - :name: div
                     :count: 1
                     :attributes:
-                      :class: usedRecoStd
-                      :id: usedRecoStdBuy
+                      :class: recomTtl
                     :children:
-                    - :name: dt
+                    - :name: span
                       :count: 1
                       :attributes:
-                        :id: usedRecoTitle
-                    - :name: dd
+                        :id: usedRecoTitleTop
+                    - :name: i
                       :count: 1
+                      :attributes:
+                        :class: prIcon
                       :children:
-                      - :name: ul
+                      - :name: img
                         :count: 1
                         :attributes:
-                          :class: usedRecoStdBox yjrclearfix
-                          :id: usedRecoStdBoxBuy
+                          :height: '20'
+                          :width: '64'
+                  - :name: ul
+                    :count: 1
+                    :attributes:
+                      :id: usedRecoStdBoxBuyTop
+                    :children:
+                    - :name: li
+                      :count: 2
+                      :attributes:
+                        :class: recomListBox
+                      :children:
+                      - :name: a
+                        :count: 1
+                        :attributes:
+                          :data-ylk: slk:click_detail;pos:1
+                          :target: 3YNMFZWDEyO7LlEUG9JFnD
                         :children:
-                        - :name: li
-                          :count: 4
+                        - :name: div
+                          :count: 1
                           :attributes:
-                            :class: featuredBuyDetail
+                            :class: recomTbl margBtm20
                           :children:
-                          - :name: a
+                          - :name: table
                             :count: 1
                             :attributes:
-                              :data-ylk: slk:link;pos:1
-                              :target: 23RaSBLHGughz050G55yg3
+                              :cellpadding: '0'
+                              :cellspacing: '0'
                             :children:
-                            - :name: p
+                            - :name: tr
                               :count: 2
-                              :attributes:
-                                :class: recoImage
                               :children:
-                              - :name: img
+                              - :name: td
                                 :count: 1
-                          - :name: input
-                            :count: 1
-                            :attributes:
-                              :id: featured_buy_23RaSBLHGughz050G55yg3
-                              :type: hidden
-                              :value: '[{"cid":"00015599","bid":"0006297024","agid":"00002047457","type":"2386612"}]'
+                                :attributes:
+                                  :class: recomImgBox
+                                  :rowspan: '2'
+                                :children:
+                                - :name: div
+                                  :count: 1
+                                  :attributes:
+                                    :class: recomImg
+                                  :children:
+                                  - :name: img
+                                    :count: 1
+                              - :name: th
+                                :count: 1
+                                :attributes:
+                                  :class: recomBukkenName
+                                  :colspan: '4'
+                                :children:
+                                - :name: div
+                                  :count: 1
+                                  :attributes:
+                                    :class: recomBukkenNameTxt
+                                  :children:
+                                  - :name: br
+                                    :count: 1
+                                  - :name: span
+                                    :count: 1
+                                    :attributes:
+                                      :class: recomBukkenAccess
+                      - :name: input
+                        :count: 1
+                        :attributes:
+                          :id: featured_buy_3YNMFZWDEyO7LlEUG9JFnD
+                          :type: hidden
+                          :value: '[{"cid":"00015773","bid":"0006337823","agid":"00000301450","type":"2447137"}]'
                 - :name: em
                   :count: 2
                   :attributes:
@@ -993,7 +1035,7 @@
                           - :name: caption
                             :count: 1
                           - :name: tr
-                            :count: 2
+                            :count: 6
                             :children:
                             - :name: th
                               :count: 9
@@ -1001,22 +1043,113 @@
                                 :class: check
                                 :scope: col
                           - :name: tr
-                            :count: 1
+                            :count: 5
                             :attributes:
                               :class: log_info
                             :children:
                             - :name: input
                               :count: 1
                               :attributes:
-                                :id: 1sdDjPhATDfwMyGkKMj1g2_info
+                                :id: 4LW08XzhEg1vXiiWJxboHT_info
                                 :type: hidden
-                                :value: '[{"bid":"0006715445","agid":"00000296372","pf":"13","geo":"13101","group":36,"cid":"00011228","frk_div":"9"}]'
+                                :value: '[{"bid":"0006391926","agid":"00000094513","pf":"13","geo":"13101","group":36,"cid":"00013934","frk_div":"9"}]'
             - :name: input
               :count: 1
               :attributes:
                 :id: search_type
                 :type: hidden
                 :value: area
+            - :name: div
+              :count: 1
+              :attributes:
+                :class: usedRecoWrap2 ult_tracked_mods
+                :id: op_Btm
+              :children:
+              - :name: div
+                :count: 1
+                :attributes:
+                  :class: recomTtl
+                :children:
+                - :name: span
+                  :count: 1
+                  :attributes:
+                    :id: usedRecoTitleBtm
+                - :name: i
+                  :count: 1
+                  :attributes:
+                    :class: prIcon
+                  :children:
+                  - :name: img
+                    :count: 1
+                    :attributes:
+                      :height: '20'
+                      :width: '64'
+              - :name: ul
+                :count: 1
+                :attributes:
+                  :id: usedRecoStdBoxBuyBtm
+                :children:
+                - :name: li
+                  :count: 2
+                  :attributes:
+                    :class: recomListBox
+                  :children:
+                  - :name: a
+                    :count: 1
+                    :attributes:
+                      :data-ylk: slk:click_detail;pos:3
+                      :target: 23RaSBLHGughz050G55yg3
+                    :children:
+                    - :name: div
+                      :count: 1
+                      :attributes:
+                        :class: recomTbl margBtm20
+                      :children:
+                      - :name: table
+                        :count: 1
+                        :attributes:
+                          :cellpadding: '0'
+                          :cellspacing: '0'
+                        :children:
+                        - :name: tr
+                          :count: 2
+                          :children:
+                          - :name: td
+                            :count: 1
+                            :attributes:
+                              :class: recomImgBox
+                              :rowspan: '2'
+                            :children:
+                            - :name: div
+                              :count: 1
+                              :attributes:
+                                :class: recomImg
+                              :children:
+                              - :name: img
+                                :count: 1
+                          - :name: th
+                            :count: 1
+                            :attributes:
+                              :class: recomBukkenName
+                              :colspan: '4'
+                            :children:
+                            - :name: div
+                              :count: 1
+                              :attributes:
+                                :class: recomBukkenNameTxt
+                              :children:
+                              - :name: br
+                                :count: 1
+                              - :name: span
+                                :count: 1
+                                :attributes:
+                                  :class: recomBukkenAccess
+                  - :name: input
+                    :count: 1
+                    :attributes:
+                      :id: featured_buy_23RaSBLHGughz050G55yg3
+                      :type: hidden
+                      :value: '[{"cid":"00015599","bid":"0006297024","agid":"00002047457","type":"2444300"}]'
             - :name: div
               :count: 2
               :attributes:
@@ -1055,7 +1188,7 @@
           - :name: div
             :count: 1
             :attributes:
-              :class: magazineArea
+              :class: magazineArea ult_tracked_mods
               :id: mag_pkup
             :children:
             - :name: div
@@ -1090,7 +1223,7 @@
                   - :name: a
                     :count: 1
                     :attributes:
-                      :onclick: this.href='http://rdsig.yahoo.co.jp/realestate/magazine/pickup/mansion/RV=1/RE=1479456539/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL3JlYWxlc3RhdGUueWFob28uY28uanAvbWFnYXppbmUvc3VtYWl3ZWIvMjAxNjEwMzEtMDAwMDI0ODk-/RS=^ADABt2JOb4112_TIjd0T31jyQanws8-'
+                      :onclick: this.href='http://rdsig.yahoo.co.jp/realestate/magazine/pickup/mansion/RV=1/RE=1480580765/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL3JlYWxlc3RhdGUueWFob28uY28uanAvbWFnYXppbmUva2hpcmFnYS8yMDE2MTExMS0wMDAwMDAwMQ--/RS=^ADAgm0eSOZOgmIL8GDWSy_ZcXhK_wc-'
                     :children:
                     - :name: span
                       :count: 1
@@ -1101,7 +1234,7 @@
                         :count: 1
                         :attributes:
                           :class: imgLst2
-                          :style: 'display: block; background-image: url(https://lpt.c.yimg.jp/im_siggQ.kDkS_wJ5SNEMTPe10LCw---x450-y298-q90/amd/20161031-00002489-yj_realestate_article-000-view.jpg);'
+                          :style: 'display: block; background-image: url(https://lpt.c.yimg.jp/im_siggatZ6f0tLJ_072R4YMwhgOQ---x450-y450-q90/amd/20161111-00000001-khiraga-000-view.jpg);'
                     - :name: div
                       :count: 1
                       :attributes:

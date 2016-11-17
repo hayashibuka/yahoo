@@ -755,10 +755,6 @@
               - :name: fieldset
                 :count: 1
                 :children:
-                - :name: script
-                  :count: 1
-                  :attributes:
-                    :type: text/javascript
                 - :name: em
                   :count: 2
                   :attributes:
@@ -1018,7 +1014,7 @@
           - :name: div
             :count: 1
             :attributes:
-              :class: magazineArea
+              :class: magazineArea ult_tracked_mods
               :id: mag_pkup
             :children:
             - :name: div
@@ -1053,7 +1049,7 @@
                   - :name: a
                     :count: 1
                     :attributes:
-                      :onclick: this.href='http://rdsig.yahoo.co.jp/realestate/magazine/pickup/house/RV=1/RE=1480310874/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL3JlYWxlc3RhdGUueWFob28uY28uanAvbWFnYXppbmUvY29ycF9sZWZ0aGFuZHMvMjAxNjExMDktMDAwMDAwMDE-/RS=^ADAZztpiz0LmtHZKDltq0O.fT.YYOs-'
+                      :onclick: this.href='http://rdsig.yahoo.co.jp/realestate/magazine/pickup/house/RV=1/RE=1480580831/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL3JlYWxlc3RhdGUueWFob28uY28uanAvbWFnYXppbmUvY29ycF9sZWZ0aGFuZHMvMjAxNjExMDktMDAwMDAwMDE-/RS=^ADAuEl9T6gVCQqEJj4upirG88tu2Yw-'
                     :children:
                     - :name: span
                       :count: 1

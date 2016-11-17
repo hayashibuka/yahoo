@@ -751,10 +751,6 @@
               - :name: fieldset
                 :count: 1
                 :children:
-                - :name: script
-                  :count: 1
-                  :attributes:
-                    :type: text/javascript
                 - :name: em
                   :count: 2
                   :attributes:
@@ -944,7 +940,7 @@
                           - :name: caption
                             :count: 1
                           - :name: tr
-                            :count: 4
+                            :count: 3
                             :children:
                             - :name: th
                               :count: 9
@@ -952,16 +948,16 @@
                                 :class: check
                                 :scope: col
                           - :name: tr
-                            :count: 3
+                            :count: 2
                             :attributes:
                               :class: log_info
                             :children:
                             - :name: input
                               :count: 1
                               :attributes:
-                                :id: 5z6aA6TorHJDSKOJXrf0kz_info
+                                :id: 7TUgbwGvom6kV1zZr0wJk7_info
                                 :type: hidden
-                                :value: '[{"bid":"0006747539","agid":"00000150600","pf":"10","geo":"10426","group":36,"cid":"00013149","frk_div":"9"}]'
+                                :value: '[{"bid":"0005368059","agid":"00000008193","pf":"29","geo":"29205","group":36,"cid":"00000523","frk_div":"9"}]'
             - :name: input
               :count: 1
               :attributes:
@@ -994,7 +990,7 @@
           - :name: div
             :count: 1
             :attributes:
-              :class: magazineArea
+              :class: magazineArea ult_tracked_mods
               :id: mag_pkup
             :children:
             - :name: div
@@ -1029,7 +1025,7 @@
                   - :name: a
                     :count: 1
                     :attributes:
-                      :onclick: this.href='http://rdsig.yahoo.co.jp/realestate/magazine/pickup/mansion/RV=1/RE=1479456539/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL3JlYWxlc3RhdGUueWFob28uY28uanAvbWFnYXppbmUvc3VtYWl3ZWIvMjAxNjEwMzEtMDAwMDI0ODk-/RS=^ADABt2JOb4112_TIjd0T31jyQanws8-'
+                      :onclick: this.href='http://rdsig.yahoo.co.jp/realestate/magazine/pickup/mansion/RV=1/RE=1480580765/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL3JlYWxlc3RhdGUueWFob28uY28uanAvbWFnYXppbmUva2hpcmFnYS8yMDE2MTExMS0wMDAwMDAwMQ--/RS=^ADAgm0eSOZOgmIL8GDWSy_ZcXhK_wc-'
                     :children:
                     - :name: span
                       :count: 1
@@ -1040,7 +1036,7 @@
                         :count: 1
                         :attributes:
                           :class: imgLst2
-                          :style: 'display: block; background-image: url(https://lpt.c.yimg.jp/im_siggQ.kDkS_wJ5SNEMTPe10LCw---x450-y298-q90/amd/20161031-00002489-yj_realestate_article-000-view.jpg);'
+                          :style: 'display: block; background-image: url(https://lpt.c.yimg.jp/im_siggatZ6f0tLJ_072R4YMwhgOQ---x450-y450-q90/amd/20161111-00000001-khiraga-000-view.jpg);'
                     - :name: div
                       :count: 1
                       :attributes:

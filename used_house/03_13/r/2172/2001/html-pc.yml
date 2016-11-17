@@ -681,10 +681,6 @@
               - :name: fieldset
                 :count: 1
                 :children:
-                - :name: script
-                  :count: 1
-                  :attributes:
-                    :type: text/javascript
                 - :name: em
                   :count: 2
                   :attributes:
@@ -897,9 +893,9 @@
                             - :name: input
                               :count: 1
                               :attributes:
-                                :id: 2Gn0lK9t42xtIJQ6BslJo4_info
+                                :id: 6EcLQREJ3BXDczSch4wsSJ_info
                                 :type: hidden
-                                :value: '[{"bid":"0006747793","agid":"00002157062","pf":"15","geo":"15222","group":37,"cid":"00016057","frk_div":"9"}]'
+                                :value: '[{"bid":"0006755685","agid":"00001030228","pf":"22","geo":"22225","group":37,"cid":"00001003","frk_div":"9"}]'
             - :name: input
               :count: 1
               :attributes:
@@ -932,7 +928,7 @@
           - :name: div
             :count: 1
             :attributes:
-              :class: magazineArea
+              :class: magazineArea ult_tracked_mods
               :id: mag_pkup
             :children:
             - :name: div
@@ -967,7 +963,7 @@
                   - :name: a
                     :count: 1
                     :attributes:
-                      :onclick: this.href='http://rdsig.yahoo.co.jp/realestate/magazine/pickup/house/RV=1/RE=1480310874/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL3JlYWxlc3RhdGUueWFob28uY28uanAvbWFnYXppbmUvY29ycF9sZWZ0aGFuZHMvMjAxNjExMDktMDAwMDAwMDE-/RS=^ADAZztpiz0LmtHZKDltq0O.fT.YYOs-'
+                      :onclick: this.href='http://rdsig.yahoo.co.jp/realestate/magazine/pickup/house/RV=1/RE=1480580831/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL3JlYWxlc3RhdGUueWFob28uY28uanAvbWFnYXppbmUvY29ycF9sZWZ0aGFuZHMvMjAxNjExMDktMDAwMDAwMDE-/RS=^ADAuEl9T6gVCQqEJj4upirG88tu2Yw-'
                     :children:
                     - :name: span
                       :count: 1
