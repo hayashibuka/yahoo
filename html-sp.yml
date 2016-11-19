@@ -324,37 +324,35 @@
                 :attributes:
                   :id: centerbox
                 :children:
-                - :name: link
-                  :count: 1
-                  :attributes:
-                    :rel: stylesheet
-                    :type: text/css
                 - :name: div
                   :count: 1
                   :attributes:
-                    :id: yjcb_newhouse161024_cb_wrap
+                    :id: feature
+                    :style: 'font-size: 13px;'
                   :children:
                   - :name: p
                     :count: 1
-                    :attributes:
-                      :id: yjcb_newhouse161024_ttl
-                  - :name: div
+                    :children:
+                    - :name: img
+                      :count: 1
+                      :attributes:
+                        :border: '0'
+                        :height: '200'
+                        :name: bnr
+                        :usemap: "#bnrMap"
+                        :width: '624'
+                  - :name: map
                     :count: 1
                     :attributes:
-                      :id: yjcb_newhouse161024_cb
+                      :name: bnrMap
                     :children:
-                    - :name: dl
-                      :count: 2
+                    - :name: area
+                      :count: 7
                       :attributes:
-                        :class: yjcb_newhouse161024_menu
-                      :children:
-                      - :name: dt
-                        :count: 3
-                      - :name: dd
-                        :count: 3
-                        :children:
-                        - :name: a
-                          :count: 7
+                        :coords: '0,0,624,151'
+                        :shape: rect
+                - :name: br
+                  :count: 1
             - :name: p
               :count: 1
               :attributes:
@@ -425,7 +423,7 @@
                     - :name: a
                       :count: 1
                       :attributes:
-                        :onclick: this.href='http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1479576608/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cHM6Ly9yZWFsZXN0YXRlLnlhaG9vLmNvLmpwL2RpcmVjdC9pbnRlcnZpZXcvMDE-/RS=^ADA3ZHdtt6FYs7NoyBYEIwiOF2C58s-'
+                        :onclick: this.href='http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1479663007/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cHM6Ly9yZWFsZXN0YXRlLnlhaG9vLmNvLmpwL2RpcmVjdC9pbnRlcnZpZXcvMDE-/RS=^ADAkZ4Kg5CfV1UAg5H708ypkjGNlF8-'
                       :children:
                       - :name: img
                         :count: 1

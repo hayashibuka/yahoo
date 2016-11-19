@@ -329,26 +329,45 @@
                   :attributes:
                     :media: all
                     :rel: stylesheet
-                    :type: text/css
                 - :name: div
                   :count: 1
                   :attributes:
-                    :class: yjcb1604daikibo
+                    :id: yjcb-1405rent
                   :children:
-                  - :name: div
-                    :count: 2
+                  - :name: p
+                    :count: 1
                     :attributes:
-                      :class: headArea
+                      :class: cb-title
                     :children:
                     - :name: a
                       :count: 1
+                  - :name: div
+                    :count: 1
+                    :attributes:
+                      :class: cb-element
+                    :children:
+                    - :name: div
+                      :count: 2
                       :attributes:
-                        :class: titleArea
+                        :class: cb-left
                       :children:
                       - :name: div
-                        :count: 3
+                        :count: 2
                         :attributes:
-                          :class: logo
+                          :class: cb-kodawari
+                        :children:
+                        - :name: p
+                          :count: 1
+                        - :name: ul
+                          :count: 1
+                          :children:
+                          - :name: li
+                            :count: 4
+                            :children:
+                            - :name: a
+                              :count: 1
+                              :attributes:
+                                :class: widelink
             - :name: p
               :count: 1
               :attributes:
@@ -419,7 +438,7 @@
                     - :name: a
                       :count: 1
                       :attributes:
-                        :onclick: this.href='http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1479576773/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cHM6Ly9yZWFsZXN0YXRlLnlhaG9vLmNvLmpwL2RpcmVjdC9pbnRlcnZpZXcvMDE-/RS=^ADAk_Z6hVMCB78ZOt7QibyAckrc7FI-'
+                        :onclick: this.href='http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1479663171/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cHM6Ly9yZWFsZXN0YXRlLnlhaG9vLmNvLmpwL2RpcmVjdC9pbnRlcnZpZXcvMDE-/RS=^ADAZpQpe4YHdxD5RoKYsh5E9KkLLdA-'
                       :children:
                       - :name: img
                         :count: 1
