@@ -794,7 +794,7 @@
                         :count: 1
                         :attributes:
                           :data-ylk: slk:click_detail;pos:1
-                          :target: 23RaSBLHGughz050G55yg3
+                          :target: 3YNMFZWDEyO7LlEUG9JFnD
                         :children:
                         - :name: div
                           :count: 1
@@ -843,9 +843,9 @@
                       - :name: input
                         :count: 1
                         :attributes:
-                          :id: featured_buy_23RaSBLHGughz050G55yg3
+                          :id: featured_buy_3YNMFZWDEyO7LlEUG9JFnD
                           :type: hidden
-                          :value: '[{"cid":"00015599","bid":"0006297024","agid":"00002047457","type":"2625721"}]'
+                          :value: '[{"cid":"00015773","bid":"0006337823","agid":"00000301450","type":"2689380"}]'
                 - :name: em
                   :count: 2
                   :attributes:
@@ -1035,7 +1035,7 @@
                           - :name: caption
                             :count: 1
                           - :name: tr
-                            :count: 2
+                            :count: 3
                             :children:
                             - :name: th
                               :count: 9
@@ -1043,26 +1043,20 @@
                                 :class: check
                                 :scope: col
                           - :name: tr
-                            :count: 1
+                            :count: 2
                             :attributes:
                               :class: log_info
                             :children:
                             - :name: input
                               :count: 1
                               :attributes:
-                                :id: 2fNgunK8sXvr7sfTG1971u_info
+                                :id: 2OrYYD8VBS8vF9kStshmBF_info
                                 :type: hidden
-                                :value: '[{"bid":"0006774679","agid":"00002163796","pf":"13","geo":"13101","group":36,"cid":"00016526","frk_div":"9"}]'
-            - :name: input
-              :count: 1
-              :attributes:
-                :id: search_type
-                :type: hidden
-                :value: area
+                                :value: '[{"bid":"0006782543","agid":"00000191311","pf":"13","geo":"13101","group":36,"cid":"00012696","frk_div":"9"}]'
             - :name: div
               :count: 1
               :attributes:
-                :class: usedRecoWrap2 ult_tracked_mods
+                :class: usedRecoWrap2 ult_tracked_mods margBtm20
                 :id: op_Btm
               :children:
               - :name: div
@@ -1098,7 +1092,7 @@
                     :count: 1
                     :attributes:
                       :data-ylk: slk:click_detail;pos:3
-                      :target: 3YNMFZWDEyO7LlEUG9JFnD
+                      :target: 7VtKSmrtOf3AcfBpiONgMH
                     :children:
                     - :name: div
                       :count: 1
@@ -1147,9 +1141,15 @@
                   - :name: input
                     :count: 1
                     :attributes:
-                      :id: featured_buy_3YNMFZWDEyO7LlEUG9JFnD
+                      :id: featured_buy_7VtKSmrtOf3AcfBpiONgMH
                       :type: hidden
-                      :value: '[{"cid":"00015773","bid":"0006337823","agid":"00000301450","type":"2629497"}]'
+                      :value: '[{"cid":"00015773","bid":"0006171339","agid":"00000012771","type":"2694119"}]'
+            - :name: input
+              :count: 1
+              :attributes:
+                :id: search_type
+                :type: hidden
+                :value: area
             - :name: div
               :count: 2
               :attributes:
@@ -1223,7 +1223,7 @@
                   - :name: a
                     :count: 1
                     :attributes:
-                      :onclick: this.href='http://rdsig.yahoo.co.jp/realestate/magazine/pickup/mansion/RV=1/RE=1480580765/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL3JlYWxlc3RhdGUueWFob28uY28uanAvbWFnYXppbmUva2hpcmFnYS8yMDE2MTExMS0wMDAwMDAwMQ--/RS=^ADAgm0eSOZOgmIL8GDWSy_ZcXhK_wc-'
+                      :onclick: this.href='http://rdsig.yahoo.co.jp/realestate/magazine/pickup/mansion/RV=1/RE=1480938302/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cDovL3JlYWxlc3RhdGUueWFob28uY28uanAvbWFnYXppbmUva2hpcmFnYS8yMDE2MTExOC0wMDAwMDAwMQ--/RS=^ADAUa8yAbPgwIQJ58AUhG6hCotF4rM-'
                     :children:
                     - :name: span
                       :count: 1
@@ -1234,7 +1234,7 @@
                         :count: 1
                         :attributes:
                           :class: imgLst2
-                          :style: 'display: block; background-image: url(https://lpt.c.yimg.jp/im_siggatZ6f0tLJ_072R4YMwhgOQ---x450-y450-q90/amd/20161111-00000001-khiraga-000-view.jpg);'
+                          :style: 'display: block; background-image: url(https://lpt.c.yimg.jp/im_siggBh6UDCW215PBXVnZV.clqQ---x450-y300-q90/amd/20161118-00000001-khiraga-000-view.jpg);'
                     - :name: div
                       :count: 1
                       :attributes:

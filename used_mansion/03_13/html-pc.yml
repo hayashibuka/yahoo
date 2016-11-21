@@ -441,7 +441,7 @@
             :id: yjMain
           :children:
           - :name: div
-            :count: 3
+            :count: 2
             :attributes:
               :class: usedPretitle mgnBtm00
             :children:
@@ -471,6 +471,7 @@
           - :name: div
             :count: 2
             :attributes:
+              :class: ult_tracked_mods
               :id: buzz
           - :name: input
             :count: 1
@@ -492,6 +493,7 @@
               - :name: div
                 :count: 2
                 :attributes:
+                  :class: ult_tracked_mods
                   :id: areasrch
                 :children:
                 - :name: div
@@ -530,15 +532,37 @@
                       - :name: input
                         :count: 1
                         :attributes:
+                          :class: ult_tracked_chkbx
+                          :data-ylk: slk:chkbx; pos:13101
                           :name: geo
+                          :pos: '13101'
+                          :sec: areasrch
+                          :slk: chkbx
                           :type: checkbox
                           :value: '13101'
                       - :name: a
                         :count: 1
+                        :attributes:
+                          :data-ylk: slk:area; pos:13101
                       - :name: span
                         :count: 1
                         :attributes:
                           :class: number
+          - :name: div
+            :count: 1
+            :attributes:
+              :class: usedNe ult_tracked_mods
+              :id: neararea
+            :children:
+            - :name: dl
+              :count: 1
+              :children:
+              - :name: dt
+                :count: 1
+              - :name: a
+                :count: 4
+                :attributes:
+                  :data-ylk: slk:pref; pos:14
           - :name: p
             :count: 1
             :attributes:

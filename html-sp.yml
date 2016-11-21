@@ -333,7 +333,7 @@
                 - :name: div
                   :count: 1
                   :attributes:
-                    :class: yjcb1604daikibo
+                    :class: yjcb1610syugo
                   :children:
                   - :name: div
                     :count: 2
@@ -341,14 +341,24 @@
                       :class: headArea
                     :children:
                     - :name: a
-                      :count: 1
+                      :count: 2
                       :attributes:
                         :class: titleArea
                       :children:
                       - :name: div
-                        :count: 3
+                        :count: 2
                         :attributes:
                           :class: logo
+                    - :name: ul
+                      :count: 1
+                      :children:
+                      - :name: li
+                        :count: 8
+                        :attributes:
+                          :class: hokkaido
+                        :children:
+                        - :name: a
+                          :count: 1
             - :name: p
               :count: 1
               :attributes:
@@ -419,7 +429,7 @@
                     - :name: a
                       :count: 1
                       :attributes:
-                        :onclick: this.href='http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1479749408/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cHM6Ly9yZWFsZXN0YXRlLnlhaG9vLmNvLmpwL2RpcmVjdC9pbnRlcnZpZXcvMDE-/RS=^ADAnCZIRwXP6E.xCp3PjoxdjiJVsr8-'
+                        :onclick: this.href='http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1479835809/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cHM6Ly9yZWFsZXN0YXRlLnlhaG9vLmNvLmpwL2RpcmVjdC9pbnRlcnZpZXcvMDE-/RS=^ADAI7F41OUOjCfIE7Yw63JtygqYpsY-'
                       :children:
                       - :name: img
                         :count: 1
