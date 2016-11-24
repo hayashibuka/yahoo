@@ -742,7 +742,7 @@
                       :id: usedListBox
                     :children:
                     - :name: li
-                      :count: 4
+                      :count: 2
                       :attributes:
                         :class: usedListBoxWrap yjrclearfix
                       :children:
