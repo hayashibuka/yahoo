@@ -50,8 +50,6 @@
         :children:
         - :name: div
           :count: 1
-          :attributes:
-            :id: msthdFifth
           :children:
           - :name: div
             :count: 1
@@ -326,37 +324,31 @@
                 :attributes:
                   :id: centerbox
                 :children:
+                - :name: link
+                  :count: 1
+                  :attributes:
+                    :media: all
+                    :rel: stylesheet
+                    :type: text/css
                 - :name: div
                   :count: 1
                   :attributes:
-                    :id: feature
-                    :style: 'font-size: 13px;'
+                    :class: yjcb1604daikibo
                   :children:
-                  - :name: p
-                    :count: 1
+                  - :name: div
+                    :count: 2
+                    :attributes:
+                      :class: headArea
                     :children:
-                    - :name: img
+                    - :name: a
                       :count: 1
                       :attributes:
-                        :border: '0'
-                        :height: '200'
-                        :name: bnr
-                        :usemap: "#bnrMap"
-                        :width: '624'
-                  - :name: map
-                    :count: 1
-                    :attributes:
-                      :name: bnrMap
-                    :children:
-                    - :name: area
-                      :count: 7
-                      :attributes:
-                        :coords: '0,0,624,147'
-                        :shape: rect
-                  - :name: br
-                    :count: 1
-                  - :name: div
-                    :count: 1
+                        :class: titleArea
+                      :children:
+                      - :name: div
+                        :count: 3
+                        :attributes:
+                          :class: logo
             - :name: p
               :count: 1
               :attributes:
@@ -407,7 +399,7 @@
                 - :name: h2
                   :count: 1
                 - :name: dl
-                  :count: 3
+                  :count: 2
                   :children:
                   - :name: dt
                     :count: 1
@@ -427,7 +419,7 @@
                     - :name: a
                       :count: 1
                       :attributes:
-                        :onclick: this.href='http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1480095009/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cHM6Ly9yZWFsZXN0YXRlLnlhaG9vLmNvLmpwL2RpcmVjdC9pbnRlcnZpZXcvMDE-/RS=^ADAvWRNeAk3NrQTQF1mBDh_x5YPHlE-'
+                        :onclick: this.href='http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1480181409/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cHM6Ly9yZWFsZXN0YXRlLnlhaG9vLmNvLmpwL2RpcmVjdC9pbnRlcnZpZXcvMDE-/RS=^ADAuBC_KfDaSD0Jg3P2YD.eNUB6jWA-'
                       :children:
                       - :name: img
                         :count: 1

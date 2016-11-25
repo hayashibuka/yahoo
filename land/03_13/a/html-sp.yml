@@ -50,8 +50,6 @@
         :children:
         - :name: div
           :count: 1
-          :attributes:
-            :id: msthdFifth
           :children:
           - :name: div
             :count: 1
@@ -320,47 +318,6 @@
               :attributes:
                 :id: feature
                 :style: 'font-size: 13px;'
-              :children:
-              - :name: div
-                :count: 1
-                :attributes:
-                  :id: centerbox
-                :children:
-                - :name: link
-                  :count: 1
-                  :attributes:
-                    :media: all
-                    :rel: stylesheet
-                    :type: text/css
-                - :name: div
-                  :count: 1
-                  :attributes:
-                    :class: yjcb1610syugo
-                  :children:
-                  - :name: div
-                    :count: 2
-                    :attributes:
-                      :class: headArea
-                    :children:
-                    - :name: a
-                      :count: 2
-                      :attributes:
-                        :class: titleArea
-                      :children:
-                      - :name: div
-                        :count: 2
-                        :attributes:
-                          :class: logo
-                    - :name: ul
-                      :count: 1
-                      :children:
-                      - :name: li
-                        :count: 8
-                        :attributes:
-                          :class: hokkaido
-                        :children:
-                        - :name: a
-                          :count: 1
             - :name: p
               :count: 1
               :attributes:
@@ -411,7 +368,7 @@
                 - :name: h2
                   :count: 1
                 - :name: dl
-                  :count: 3
+                  :count: 2
                   :children:
                   - :name: dt
                     :count: 1
@@ -431,7 +388,7 @@
                     - :name: a
                       :count: 1
                       :attributes:
-                        :onclick: this.href='http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1480095261/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cHM6Ly9yZWFsZXN0YXRlLnlhaG9vLmNvLmpwL2RpcmVjdC9pbnRlcnZpZXcvMDE-/RS=^ADA1CRtFQSmGMzrMqHlWIcf.fo2jQk-'
+                        :onclick: this.href='http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1480181659/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cHM6Ly9yZWFsZXN0YXRlLnlhaG9vLmNvLmpwL2RpcmVjdC9pbnRlcnZpZXcvMDE-/RS=^ADAHCZ.W3UWpPxwekQr8.3AfkyDCQY-'
                       :children:
                       - :name: img
                         :count: 1
