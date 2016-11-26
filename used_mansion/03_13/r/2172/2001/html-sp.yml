@@ -940,7 +940,7 @@
                           - :name: caption
                             :count: 1
                           - :name: tr
-                            :count: 7
+                            :count: 2
                             :children:
                             - :name: th
                               :count: 9
@@ -948,16 +948,16 @@
                                 :class: check
                                 :scope: col
                           - :name: tr
-                            :count: 6
+                            :count: 1
                             :attributes:
                               :class: log_info
                             :children:
                             - :name: input
                               :count: 1
                               :attributes:
-                                :id: 59Dl2HENFxenLxhWajp0E3_info
+                                :id: 1mhf2nEOm0TOdL9aFuM5yD_info
                                 :type: hidden
-                                :value: '[{"bid":"0006468491","agid":"00000170829","pf":"20","geo":"20562","group":36,"cid":"00000481","frk_div":"9"}]'
+                                :value: '[{"bid":"0006817994","agid":"00000426348","pf":"21","geo":"21212","group":36,"cid":"00014862","frk_div":"9"}]'
             - :name: input
               :count: 1
               :attributes:

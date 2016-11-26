@@ -772,7 +772,7 @@
                         :attributes:
                           :id: featured_buy_7VtKSmrtOf3AcfBpiONgMH
                           :type: hidden
-                          :value: '[{"cid":"00015773","bid":"0006171339","agid":"00000012771","type":"2933399"}]'
+                          :value: '[{"cid":"00015773","bid":"0006171339","agid":"00000012771","type":"2992465"}]'
                 - :name: em
                   :count: 2
                   :attributes:
@@ -977,9 +977,9 @@
                             - :name: input
                               :count: 1
                               :attributes:
-                                :id: 3WJXaRF393eGauyVGmfM0k_info
+                                :id: 7EY4JTecKC1BGjYjHuJzHo_info
                                 :type: hidden
-                                :value: '[{"bid":"0006815178","agid":"00000544982","pf":"13","geo":"13101","group":36,"cid":"00016134","frk_div":"9"}]'
+                                :value: '[{"bid":"0006820538","agid":"00002174843","pf":"13","geo":"13101","group":36,"cid":"00010641","frk_div":"9"}]'
             - :name: div
               :count: 1
               :attributes:
@@ -1019,7 +1019,7 @@
                     :count: 1
                     :attributes:
                       :data-ylk: slk:click_detail;pos:3
-                      :target: 3YNMFZWDEyO7LlEUG9JFnD
+                      :target: 23RaSBLHGughz050G55yg3
                     :children:
                     - :name: div
                       :count: 1
@@ -1068,9 +1068,9 @@
                   - :name: input
                     :count: 1
                     :attributes:
-                      :id: featured_buy_3YNMFZWDEyO7LlEUG9JFnD
+                      :id: featured_buy_23RaSBLHGughz050G55yg3
                       :type: hidden
-                      :value: '[{"cid":"00015773","bid":"0006337823","agid":"00000301450","type":"2926478"}]'
+                      :value: '[{"cid":"00015599","bid":"0006297024","agid":"00002047457","type":"2981825"}]'
             - :name: input
               :count: 1
               :attributes:
