@@ -318,56 +318,6 @@
               :attributes:
                 :id: feature
                 :style: 'font-size: 13px;'
-              :children:
-              - :name: div
-                :count: 1
-                :attributes:
-                  :id: centerbox
-                :children:
-                - :name: link
-                  :count: 1
-                  :attributes:
-                    :media: all
-                    :rel: stylesheet
-                - :name: div
-                  :count: 1
-                  :attributes:
-                    :id: yjcb-1405rent
-                  :children:
-                  - :name: p
-                    :count: 1
-                    :attributes:
-                      :class: cb-title
-                    :children:
-                    - :name: a
-                      :count: 1
-                  - :name: div
-                    :count: 1
-                    :attributes:
-                      :class: cb-element
-                    :children:
-                    - :name: div
-                      :count: 2
-                      :attributes:
-                        :class: cb-left
-                      :children:
-                      - :name: div
-                        :count: 2
-                        :attributes:
-                          :class: cb-kodawari
-                        :children:
-                        - :name: p
-                          :count: 1
-                        - :name: ul
-                          :count: 1
-                          :children:
-                          - :name: li
-                            :count: 4
-                            :children:
-                            - :name: a
-                              :count: 1
-                              :attributes:
-                                :class: widelink
             - :name: p
               :count: 1
               :attributes:
@@ -438,7 +388,7 @@
                     - :name: a
                       :count: 1
                       :attributes:
-                        :onclick: this.href='http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1480268020/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cHM6Ly9yZWFsZXN0YXRlLnlhaG9vLmNvLmpwL2RpcmVjdC9pbnRlcnZpZXcvMDE-/RS=^ADAjTGzFpitXbzpNoF.M4sFID7Yk7U-'
+                        :onclick: this.href='http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1480354423/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cHM6Ly9yZWFsZXN0YXRlLnlhaG9vLmNvLmpwL2RpcmVjdC9pbnRlcnZpZXcvMDE-/RS=^ADAhWSMQ_GcImZoRUG6_tEyUwynd4I-'
                       :children:
                       - :name: img
                         :count: 1
