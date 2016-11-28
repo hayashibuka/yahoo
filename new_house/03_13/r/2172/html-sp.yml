@@ -318,6 +318,36 @@
               :attributes:
                 :id: feature
                 :style: 'font-size: 13px;'
+              :children:
+              - :name: div
+                :count: 1
+                :attributes:
+                  :id: centerbox
+                :children:
+                - :name: div
+                  :count: 1
+                  :attributes:
+                    :id: feature
+                    :style: 'font-size: 13px;'
+                  :children:
+                  - :name: link
+                    :count: 1
+                    :attributes:
+                      :media: all
+                      :rel: stylesheet
+                      :type: text/css
+                  - :name: div
+                    :count: 1
+                    :attributes:
+                      :id: yjcbSkdr
+                    :children:
+                    - :name: div
+                      :count: 2
+                      :attributes:
+                        :class: skdrMain
+                      :children:
+                      - :name: a
+                        :count: 1
             - :name: p
               :count: 1
               :attributes:
@@ -388,7 +418,7 @@
                     - :name: a
                       :count: 1
                       :attributes:
-                        :onclick: this.href='http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1480354399/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cHM6Ly9yZWFsZXN0YXRlLnlhaG9vLmNvLmpwL2RpcmVjdC9pbnRlcnZpZXcvMDE-/RS=^ADA14PH8GGu8RNRq4IVSw9WXdp4YyE-'
+                        :onclick: this.href='http://rdsig.yahoo.co.jp/realestate/top/infoTop/RV=1/RE=1480440802/RH=cmRzaWcueWFob28uY28uanA-/RB=/RU=aHR0cHM6Ly9yZWFsZXN0YXRlLnlhaG9vLmNvLmpwL2RpcmVjdC9pbnRlcnZpZXcvMDE-/RS=^ADAlfFZojQaSfefyLrCEjYnGdDiOqQ-'
                       :children:
                       - :name: img
                         :count: 1
