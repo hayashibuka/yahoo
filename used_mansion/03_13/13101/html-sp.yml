@@ -794,7 +794,7 @@
                         :count: 1
                         :attributes:
                           :data-ylk: slk:click_detail;pos:1
-                          :target: 1ppwwyC5qXRiPD6XPVIxM0
+                          :target: 3YNMFZWDEyO7LlEUG9JFnD
                         :children:
                         - :name: div
                           :count: 1
@@ -843,9 +843,9 @@
                       - :name: input
                         :count: 1
                         :attributes:
-                          :id: featured_buy_1ppwwyC5qXRiPD6XPVIxM0
+                          :id: featured_buy_3YNMFZWDEyO7LlEUG9JFnD
                           :type: hidden
-                          :value: '[{"cid":"00015773","bid":"0006337829","agid":"00000067426","type":"3105229"}]'
+                          :value: '[{"cid":"00015773","bid":"0006337823","agid":"00000301450","type":"3163725"}]'
                 - :name: em
                   :count: 2
                   :attributes:
@@ -1035,7 +1035,7 @@
                           - :name: caption
                             :count: 1
                           - :name: tr
-                            :count: 2
+                            :count: 3
                             :children:
                             - :name: th
                               :count: 9
@@ -1043,16 +1043,16 @@
                                 :class: check
                                 :scope: col
                           - :name: tr
-                            :count: 1
+                            :count: 2
                             :attributes:
                               :class: log_info
                             :children:
                             - :name: input
                               :count: 1
                               :attributes:
-                                :id: EEbqNJ73eXscTi0YHrrJq_info
+                                :id: 4XQHtpoChrMOn5WxclooJg_info
                                 :type: hidden
-                                :value: '[{"bid":"0006825257","agid":"00001271106","pf":"13","geo":"13101","group":36,"cid":"00014849","frk_div":"9"}]'
+                                :value: '[{"bid":"0006842301","agid":"00000296372","pf":"13","geo":"13101","group":36,"cid":"00013508","frk_div":"9"}]'
             - :name: div
               :count: 1
               :attributes:
@@ -1092,7 +1092,7 @@
                     :count: 1
                     :attributes:
                       :data-ylk: slk:click_detail;pos:3
-                      :target: 23RaSBLHGughz050G55yg3
+                      :target: 1DHeux9xKOtJ1d9m5kYbAQ
                     :children:
                     - :name: div
                       :count: 1
@@ -1141,9 +1141,9 @@
                   - :name: input
                     :count: 1
                     :attributes:
-                      :id: featured_buy_23RaSBLHGughz050G55yg3
+                      :id: featured_buy_1DHeux9xKOtJ1d9m5kYbAQ
                       :type: hidden
-                      :value: '[{"cid":"00015599","bid":"0006297024","agid":"00002047457","type":"3101775"}]'
+                      :value: '[{"cid":"00015599","bid":"0005803014","agid":"00001924836","type":"3171554"}]'
             - :name: input
               :count: 1
               :attributes:
